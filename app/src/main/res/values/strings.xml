@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">The Movies Library</string>
+    <string name="movie_text">Movies</string>
+    <string name="tv_show_text">TV Show</string>
+    <string name="user_score">User Score</string>
+    <string name="watch">Watch</string>
+    <string name="Greeting">Hello,</string>
+    <string name="reviewer">Reviewer</string>
+    <string name="movie_title_and_years">%s %s</string>
+    <string name="movie_score">%1$d\%%</string>
+    <string name="overview">Overview</string>
+    <string name="back_button">back button</string>
+    <string name="companies">Production Companies</string>
+    <string name="network">Network</string>
+    <string name="tagline">\" %s \"</string>
+    <string name="fab_content_desc">button favorite</string>
+    <string name="empty_state">empty state</string>
+    <string name="empty_title">NOTHING??</string>
+    <string name="msg_error_default">Oppss…Something Error, Try Again</string>
+
+</resources>
