@@ -5,8 +5,8 @@ import kotlinx.coroutines.flow.Flow
 import made.dicoding.moviecatalogueapps.core.data.remote.local.entity.FavoriteEntity
 import made.dicoding.moviecatalogueapps.core.data.service.favorite.IFavoriteService
 import made.dicoding.moviecatalogueapps.core.domain.repository.IFavoriteRepository
+import made.dicoding.moviecatalogueapps.core.model.Movies
 import javax.inject.Inject
-import javax.inject.Singleton
 
 class FavoriteRepositoryImpl @Inject constructor(
     private val service: IFavoriteService
@@ -18,9 +18,9 @@ class FavoriteRepositoryImpl @Inject constructor(
     override fun isMovieAlreadyInFavorite(id: Int): Flow<Result<Boolean>>  = service
         .isMovieAlreadyInFavorite(id)
 
-    override suspend fun insertMovie(movie: FavoriteEntity): Flow<Result<String>> = service
-        .insertMovie(movie)
+    override suspend fun insertMovie(movie: Movies): Flow<Result<String>> = service
+        .insertMovie(movie.toFavoriteEntity())
 
-    override suspend fun deleteMovie(movie: FavoriteEntity): Flow<Result<String>> = service
-        .deleteMovie(movie)
+    override suspend fun deleteMovie(movie: Movies): Flow<Result<String>> = service
+        .deleteMovie(movie.toFavoriteEntity())
 }

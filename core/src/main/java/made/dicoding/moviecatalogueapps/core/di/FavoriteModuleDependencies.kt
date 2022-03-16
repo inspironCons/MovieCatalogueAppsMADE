@@ -1,4 +1,4 @@
-package made.dicoding.moviecatalogueapps.di
+package made.dicoding.moviecatalogueapps.core.di
 
 import dagger.hilt.EntryPoint
 import dagger.hilt.InstallIn
@@ -9,8 +9,4 @@ import made.dicoding.moviecatalogueapps.core.domain.use_case.movies.IMoviesUseCa
 
 @EntryPoint
 @InstallIn(SingletonComponent::class)
-interface FavoriteModuleDepedencies {
-    fun favoriteUseCase():IFavoriteUseCase
-    fun moviesUseCase():IMoviesUseCase
-    fun movieUseCase():IMovieUseCase
-}
+interface FavoriteModuleDependencies

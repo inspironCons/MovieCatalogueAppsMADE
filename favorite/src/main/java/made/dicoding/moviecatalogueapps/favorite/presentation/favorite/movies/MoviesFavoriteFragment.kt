@@ -16,7 +16,6 @@ import made.dicoding.moviecatalogueapps.databinding.FragmentMoviesBinding
 import made.dicoding.moviecatalogueapps.presentation.detail.DetailMovieActivity
 import made.dicoding.moviecatalogueapps.favorite.presentation.favorite.FavoriteViewModel
 
-@AndroidEntryPoint
 class MoviesFavoriteFragment:Fragment() {
     private var _binding: FragmentMoviesBinding? = null
     private val binding get()=_binding

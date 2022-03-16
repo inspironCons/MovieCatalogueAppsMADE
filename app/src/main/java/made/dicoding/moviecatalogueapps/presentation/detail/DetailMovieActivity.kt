@@ -2,6 +2,7 @@ package made.dicoding.moviecatalogueapps.presentation.detail
 
 import android.annotation.SuppressLint
 import android.content.Intent
+import android.content.res.ColorStateList
 import android.graphics.Bitmap
 import android.graphics.drawable.Drawable
 import android.graphics.text.LineBreaker
@@ -9,6 +10,7 @@ import android.net.Uri
 import android.os.Build
 import android.os.Bundle
 import android.view.WindowManager
+import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
@@ -62,7 +64,7 @@ class DetailMovieActivity:AppCompatActivity() {
             viewModel.detailMovie(id,type,local).observe(this){ data->
                 val movie = data.getOrNull()
                 viewModel.setDetailMovie(movie,type)
-//                viewModel.checkFavorite()
+                viewModel.checkFavorite()
                 checkIsFavorite()
 
                 with(binding){
@@ -110,28 +112,28 @@ class DetailMovieActivity:AppCompatActivity() {
     }
 
     private fun checkIsFavorite(){
-//        viewModel.getFavorite().observe(this){state->
-//            if(state){
-//                binding.fabFavorite.imageTintList = ColorStateList.valueOf(
-//                    ContextCompat.getColor(this,
-//                        R.color.pink))
-//            }else{
-//                binding.fabFavorite.imageTintList = ColorStateList.valueOf(
-//                    ContextCompat.getColor(this,
-//                        R.color.white))
-//            }
-//        }
+        viewModel.getFavorite().observe(this){state->
+            if(state){
+                binding.fabFavorite.imageTintList = ColorStateList.valueOf(
+                    ContextCompat.getColor(this,
+                        R.color.pink))
+            }else{
+                binding.fabFavorite.imageTintList = ColorStateList.valueOf(
+                    ContextCompat.getColor(this,
+                        R.color.white))
+            }
+        }
     }
 
     private fun clickFavorite(){
         binding.fabFavorite.setOnClickListener {
-//            viewModel.saveToFavorite().observe(this){ msg->
-//                var toast: Toast? = null
-//                toast?.cancel()
-//                toast = Toast.makeText(this@DetailMovieActivity, msg.getOrDefault(""),Toast.LENGTH_SHORT)
-//                toast?.show()
-//                viewModel.checkFavorite()
-//            }
+            viewModel.saveToFavorite().observe(this){ msg->
+                var toast: Toast? = null
+                toast?.cancel()
+                toast = Toast.makeText(this@DetailMovieActivity, msg.getOrDefault(""),Toast.LENGTH_SHORT)
+                toast?.show()
+                viewModel.checkFavorite()
+            }
         }
     }
 

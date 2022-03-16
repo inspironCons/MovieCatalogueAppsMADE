@@ -11,7 +11,7 @@ import javax.inject.Inject
 class DetailMovieServiceImpl @Inject constructor(
     private val detailMoviesApi: DetailMoviesApi
 ): IDetailMovieService {
-    override suspend fun fetchDetailMovies(id:Int): Flow<Result<Movies>> {
+    override fun fetchDetailMovies(id:Int): Flow<Result<Movies>> {
         return flow {
             val detail = detailMoviesApi.getDetailMovie(
                 id,
@@ -24,7 +24,7 @@ class DetailMovieServiceImpl @Inject constructor(
         }
     }
 
-    override suspend fun fetchDetailTV(id:Int): Flow<Result<Movies>> {
+    override fun fetchDetailTV(id:Int): Flow<Result<Movies>> {
         return flow {
             val detail = detailMoviesApi.getDetailTv(
                 id,

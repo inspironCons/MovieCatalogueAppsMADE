@@ -1,5 +1,7 @@
 package made.dicoding.moviecatalogueapps.core.model
 
+import made.dicoding.moviecatalogueapps.core.data.remote.local.entity.FavoriteEntity
+
 data class Movies(
     var movieId:Int? = 0,
     var title:String? = "",
@@ -28,6 +30,24 @@ data class Movies(
 
     fun toDetailMovie(): DetailMovie {
         return DetailMovie(
+            movieId,
+            title,
+            tagline,
+            poster,
+            overview,
+            userScore,
+            releaseDate,
+            category,
+            urlWatch,
+            productionCountry,
+            originLanguage,
+            companies,
+            type
+        )
+    }
+
+    fun toFavoriteEntity():FavoriteEntity{
+        return FavoriteEntity(
             movieId,
             title,
             tagline,

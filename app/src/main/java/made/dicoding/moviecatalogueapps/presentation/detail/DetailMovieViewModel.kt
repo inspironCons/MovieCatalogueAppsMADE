@@ -1,9 +1,9 @@
 package made.dicoding.moviecatalogueapps.presentation.detail
 
-import androidx.lifecycle.ViewModel
-import androidx.lifecycle.asLiveData
-import androidx.lifecycle.liveData
+import androidx.lifecycle.*
 import dagger.hilt.android.lifecycle.HiltViewModel
+import kotlinx.coroutines.flow.collectLatest
+import kotlinx.coroutines.launch
 import made.dicoding.moviecatalogueapps.core.common.ConstanNameHelper.MOVIES_TYPE
 import made.dicoding.moviecatalogueapps.core.domain.use_case.movie.IMovieUseCase
 import made.dicoding.moviecatalogueapps.core.model.DetailMovie
@@ -14,7 +14,7 @@ class DetailMovieViewModel @Inject constructor(
     private val useCase: IMovieUseCase
 ): ViewModel() {
     var movies: DetailMovie = DetailMovie()
-//    var isMovieFavorite = MutableLiveData<Boolean>()
+    var isMovieFavorite = MutableLiveData<Boolean>()
 
     fun setDetailMovie(data: DetailMovie?, type:String){
        if(data != null){
@@ -31,26 +31,28 @@ class DetailMovieViewModel @Inject constructor(
         }
     }
 
-//    fun checkFavorite() = viewModelScope.launch {
-//        favoriteRepo.isMoviesInTheFavoriteSegment(movies.movieId).collectLatest {
-//            isMovieFavorite.postValue(
-//                if (it.isSuccess) {
-//                    val state = it.getOrDefault(false)
-//                    state
-//                } else {
-//                    false
-//                }
-//            )
-//        }
-//    }
+    fun checkFavorite() = viewModelScope.launch {
+        movies.movieId?.let { id->
+            useCase.isMovieAlreadyInFavorite(id).collectLatest {
+                isMovieFavorite.postValue(
+                    if (it.isSuccess) {
+                        val state = it.getOrDefault(false)
+                        state
+                    } else {
+                        false
+                    }
+                )
+            }
+        }
+    }
 
-//    fun getFavorite():LiveData<Boolean> = isMovieFavorite
+    fun getFavorite():LiveData<Boolean> = isMovieFavorite
 
-//    fun saveToFavorite() = liveData {
-//        if(isMovieFavorite.value == false){
-//            emitSource(favoriteRepo.insertMoviesFavorite(movies).asLiveData())
-//        }else {
-//            emitSource(favoriteRepo.deleteMovieFavorite(movies).asLiveData())
-//        }
-//    }
+    fun saveToFavorite() = liveData {
+        if(isMovieFavorite.value == false){
+            emitSource(useCase.insertMovieToFavorite(movies).asLiveData())
+        }else {
+            emitSource(useCase.deleteMovieFromFavorite(movies).asLiveData())
+        }
+    }
 }

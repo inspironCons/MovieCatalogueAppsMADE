@@ -14,4 +14,22 @@ data class DetailMovie(
     var originLanguage:String? = "",
     var companies:List<Companies>? = arrayListOf(),
     var type:String? = ""
-)
+){
+    fun toMovie():Movies{
+        return Movies(
+            movieId,
+            title,
+            tagline,
+            poster,
+            overview,
+            userScore,
+            releaseDate,
+            category,
+            urlWatch,
+            productionCountry,
+            originLanguage,
+            companies,
+            type
+        )
+    }
+}

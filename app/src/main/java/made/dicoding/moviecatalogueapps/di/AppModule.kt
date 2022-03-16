@@ -4,6 +4,7 @@ import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
+import made.dicoding.moviecatalogueapps.core.di.RepositoryModule
 import made.dicoding.moviecatalogueapps.core.domain.use_case.favorite.FavoriteUseCaseImpl
 import made.dicoding.moviecatalogueapps.core.domain.use_case.favorite.IFavoriteUseCase
 import made.dicoding.moviecatalogueapps.core.domain.use_case.movie.IMovieUseCase
@@ -12,7 +13,9 @@ import made.dicoding.moviecatalogueapps.core.domain.use_case.movies.IMoviesUseCa
 import made.dicoding.moviecatalogueapps.core.domain.use_case.movies.MoviesUseCaseImpl
 import javax.inject.Singleton
 
-@Module
+@Module(includes = [
+    RepositoryModule::class
+])
 @InstallIn(SingletonComponent::class)
 abstract class AppModule {
     @Binds

@@ -30,7 +30,7 @@ class MovieRepositoryImpl @Inject constructor(
             }
         }
 
-    override suspend fun detailMovie(id:Int): Flow<Result<Movies>> =
+    override fun detailMovie(id:Int): Flow<Result<Movies>> =
         detailService.fetchDetailMovies(id).map {
             if(it.isSuccess){
                 Result.success(it.getOrNull() as Movies)
@@ -39,7 +39,7 @@ class MovieRepositoryImpl @Inject constructor(
             }
         }
 
-    override suspend fun detailTvShows(id:Int): Flow<Result<Movies>> =
+    override fun detailTvShows(id:Int): Flow<Result<Movies>> =
         detailService.fetchDetailTV(id).map {
             if(it.isSuccess){
                 Result.success(it.getOrNull() as Movies)
