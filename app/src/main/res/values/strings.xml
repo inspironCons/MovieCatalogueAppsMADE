@@ -17,5 +17,6 @@
     <string name="empty_state">empty state</string>
     <string name="empty_title">NOTHING??</string>
     <string name="msg_error_default">Oppss…Something Error, Try Again</string>
+    <string name="title_favorite">Favorites</string>
 
 </resources>

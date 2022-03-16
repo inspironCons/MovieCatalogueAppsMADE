@@ -9,7 +9,6 @@ import made.dicoding.moviecatalogueapps.core.domain.repository.IMovieRepository
 import javax.inject.Inject
 import javax.inject.Singleton
 
-@Singleton
 class MovieRepositoryImpl @Inject constructor(
     private val trendingService: ITrendingService,
     private val detailService: IDetailMovieService

@@ -1,4 +1,4 @@
-package made.dicoding.moviecatalogueapps.presentation.favorite.tvshows
+package made.dicoding.moviecatalogueapps.favorite.presentation.favorite.tvshows
 
 import android.content.Intent
 import android.os.Bundle
@@ -10,7 +10,7 @@ import androidx.fragment.app.activityViewModels
 import androidx.recyclerview.widget.LinearLayoutManager
 import made.dicoding.moviecatalogueapps.core.presentation.FavoriteAdapter
 import made.dicoding.moviecatalogueapps.presentation.detail.DetailMovieActivity
-import made.dicoding.moviecatalogueapps.presentation.favorite.FavoriteViewModel
+import made.dicoding.moviecatalogueapps.favorite.presentation.favorite.FavoriteViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import made.dicoding.moviecatalogueapps.core.common.ConstanNameHelper
 import made.dicoding.moviecatalogueapps.core.data.remote.local.entity.FavoriteEntity

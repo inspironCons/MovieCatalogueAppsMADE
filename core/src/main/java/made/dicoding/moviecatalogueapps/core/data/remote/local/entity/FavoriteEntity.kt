@@ -45,7 +45,7 @@ data class FavoriteEntity(
             tagline = tagline,
             poster = ConstanNameHelper.BASE_URL_IMAGE +poster,
             overview = overview,
-            userScore = userScore?.times(10)?.toInt(),
+            userScore = userScore?.times(10),
             releaseDate=releaseDate,
             category = category,
             urlWatch = urlWatch,

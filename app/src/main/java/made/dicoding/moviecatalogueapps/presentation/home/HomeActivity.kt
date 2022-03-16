@@ -1,13 +1,14 @@
 package made.dicoding.moviecatalogueapps.presentation.home
 
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
+import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.tabs.TabLayoutMediator
 import dagger.hilt.android.AndroidEntryPoint
 import made.dicoding.moviecatalogueapps.R
 import made.dicoding.moviecatalogueapps.databinding.ActivityHomeBinding
-import made.dicoding.moviecatalogueapps.presentation.favorite.FavoriteActivity
 
 @AndroidEntryPoint
 class HomeActivity : AppCompatActivity() {
@@ -35,7 +36,13 @@ class HomeActivity : AppCompatActivity() {
 
     private fun navigateToFavorite(){
         binding.btnFavorite.setOnClickListener {
-            startActivity(Intent(this, FavoriteActivity::class.java))
+            try {
+                val uri = Uri.parse("moviecatalogueapps://favorite")
+                startActivity(Intent(Intent.ACTION_VIEW,uri))
+            }catch (e:Exception){
+                Log.d("DASDASDSDAS","${e.message}")
+            }
+
         }
     }
 

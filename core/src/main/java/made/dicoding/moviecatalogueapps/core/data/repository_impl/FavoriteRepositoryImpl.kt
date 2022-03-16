@@ -8,7 +8,6 @@ import made.dicoding.moviecatalogueapps.core.domain.repository.IFavoriteReposito
 import javax.inject.Inject
 import javax.inject.Singleton
 
-@Singleton
 class FavoriteRepositoryImpl @Inject constructor(
     private val service: IFavoriteService
 ): IFavoriteRepository {

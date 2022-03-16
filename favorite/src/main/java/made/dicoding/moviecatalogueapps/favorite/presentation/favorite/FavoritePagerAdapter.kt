@@ -1,11 +1,11 @@
-package made.dicoding.moviecatalogueapps.presentation.favorite
+package made.dicoding.moviecatalogueapps.favorite.presentation.favorite
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.Lifecycle
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import made.dicoding.moviecatalogueapps.presentation.favorite.movies.MoviesFavoriteFragment
-import made.dicoding.moviecatalogueapps.presentation.favorite.tvshows.TvShowsFavoriteFragment
+import made.dicoding.moviecatalogueapps.favorite.presentation.favorite.movies.MoviesFavoriteFragment
+import made.dicoding.moviecatalogueapps.favorite.presentation.favorite.tvshows.TvShowsFavoriteFragment
 
 class FavoritePagerAdapter(
     fm:FragmentManager,

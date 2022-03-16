@@ -1,4 +1,4 @@
-package made.dicoding.moviecatalogueapps.presentation.favorite
+package made.dicoding.moviecatalogueapps.favorite.presentation.favorite
 
 import androidx.lifecycle.ViewModel
 import dagger.hilt.android.lifecycle.HiltViewModel

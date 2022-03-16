@@ -1,4 +1,4 @@
-package made.dicoding.moviecatalogueapps.presentation.favorite.movies
+package made.dicoding.moviecatalogueapps.favorite.presentation.favorite.movies
 
 import android.content.Intent
 import android.os.Bundle
@@ -14,7 +14,7 @@ import made.dicoding.moviecatalogueapps.core.common.ConstanNameHelper
 import made.dicoding.moviecatalogueapps.core.data.remote.local.entity.FavoriteEntity
 import made.dicoding.moviecatalogueapps.databinding.FragmentMoviesBinding
 import made.dicoding.moviecatalogueapps.presentation.detail.DetailMovieActivity
-import made.dicoding.moviecatalogueapps.presentation.favorite.FavoriteViewModel
+import made.dicoding.moviecatalogueapps.favorite.presentation.favorite.FavoriteViewModel
 
 @AndroidEntryPoint
 class MoviesFavoriteFragment:Fragment() {

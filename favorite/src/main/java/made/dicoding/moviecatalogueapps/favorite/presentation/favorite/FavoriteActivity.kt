@@ -1,17 +1,18 @@
-package made.dicoding.moviecatalogueapps.presentation.favorite
+package made.dicoding.moviecatalogueapps.favorite.presentation.favorite
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.tabs.TabLayoutMediator
 import dagger.hilt.android.AndroidEntryPoint
 import made.dicoding.moviecatalogueapps.R
-import made.dicoding.moviecatalogueapps.databinding.ActivityFavoriteBinding
+import made.dicoding.moviecatalogueapps.favorite.databinding.ActivityFavoriteBinding
 
 @AndroidEntryPoint
 class FavoriteActivity:AppCompatActivity() {
     private lateinit var binding: ActivityFavoriteBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         binding = ActivityFavoriteBinding.inflate(layoutInflater)
         setContentView(binding.root)
         supportActionBar?.elevation = 0f

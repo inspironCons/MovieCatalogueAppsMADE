@@ -3,6 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Ramdhon/DICODING/MADE/Submission/MovieCatalogueAppsMADE/app/src/main/res/layout/activity_favorite.xml" value="0.22509057971014493" />
+        <entry key="..\:/Ramdhon/DICODING/MADE/Submission/MovieCatalogueAppsMADE/app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="..\:/Ramdhon/DICODING/MADE/Submission/MovieCatalogueAppsMADE/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Ramdhon/DICODING/MADE/Submission/MovieCatalogueAppsMADE/app/src/main/res/layout/fragment_movies.xml" value="0.1" />
+        <entry key="..\:/Ramdhon/DICODING/MADE/Submission/MovieCatalogueAppsMADE/core/src/main/res/drawable/bg_outline_textview.xml" value="0.1" />
+        <entry key="..\:/Ramdhon/DICODING/MADE/Submission/MovieCatalogueAppsMADE/core/src/main/res/drawable/bg_progress_bar.xml" value="0.1" />
+        <entry key="..\:/Ramdhon/DICODING/MADE/Submission/MovieCatalogueAppsMADE/core/src/main/res/drawable/ic_favorite.xml" value="0.1" />
+        <entry key="..\:/Ramdhon/DICODING/MADE/Submission/MovieCatalogueAppsMADE/core/src/main/res/drawable/ic_image_loader.xml" value="0.1" />
+        <entry key="..\:/Ramdhon/DICODING/MADE/Submission/MovieCatalogueAppsMADE/core/src/main/res/drawable/ic_rotate_right.xml" value="0.1" />
+        <entry key="..\:/Ramdhon/DICODING/MADE/Submission/MovieCatalogueAppsMADE/core/src/main/res/layout/items_companies.xml" value="0.1" />
+        <entry key="..\:/Ramdhon/DICODING/MADE/Submission/MovieCatalogueAppsMADE/core/src/main/res/layout/items_movies.xml" value="0.1" />
+        <entry key="..\:/Ramdhon/DICODING/MADE/Submission/MovieCatalogueAppsMADE/favorite/src/main/res/layout/activity_favorite.xml" value="0.1" />
         <entry key="..\:/Ramdhon/DICODING/MADE/Submition/core/src/main/res/drawable/cast_image_default.xml" value="0.12" />
         <entry key="..\:/Ramdhon/DICODING/MADE/Submition/core/src/main/res/drawable/ic_avatar.xml" value="0.12" />
         <entry key="..\:/Ramdhon/DICODING/MADE/Submition/core/src/main/res/drawable/ic_empty_poster.xml" value="0.119" />
