@@ -16,10 +16,9 @@ import javax.inject.Singleton
 
 @Module
 @InstallIn(SingletonComponent::class)
-object NetworkModule {
+class NetworkModule {
     private val networkFlipperPlugin = NetworkFlipperPlugin()
 
-    @Singleton
     @Provides
     fun networkFlipperPlugin():NetworkFlipperPlugin = networkFlipperPlugin
 

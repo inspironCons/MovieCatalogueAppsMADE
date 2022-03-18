@@ -1,10 +1,12 @@
 package made.dicoding.moviecatalogueapps.di
 
-import dagger.Binds
 import dagger.Module
+import dagger.Provides
+import dagger.hilt.EntryPoint
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
-import made.dicoding.moviecatalogueapps.core.di.RepositoryModule
+import made.dicoding.moviecatalogueapps.core.domain.repository.IFavoriteRepository
+import made.dicoding.moviecatalogueapps.core.domain.repository.IMovieRepository
 import made.dicoding.moviecatalogueapps.core.domain.use_case.favorite.FavoriteUseCaseImpl
 import made.dicoding.moviecatalogueapps.core.domain.use_case.favorite.IFavoriteUseCase
 import made.dicoding.moviecatalogueapps.core.domain.use_case.movie.IMovieUseCase
@@ -13,20 +15,24 @@ import made.dicoding.moviecatalogueapps.core.domain.use_case.movies.IMoviesUseCa
 import made.dicoding.moviecatalogueapps.core.domain.use_case.movies.MoviesUseCaseImpl
 import javax.inject.Singleton
 
-@Module(includes = [
-    RepositoryModule::class
-])
+@EntryPoint
 @InstallIn(SingletonComponent::class)
-abstract class AppModule {
-    @Binds
-    @Singleton
-    abstract fun provideMoviesUsCase(moviesUseCaseImpl: MoviesUseCaseImpl): IMoviesUseCase
+interface AppComponent{
+    val favoriteUseCase:IFavoriteUseCase
+}
 
-    @Binds
+@Module
+@InstallIn(SingletonComponent::class)
+class AppModule{
+    @Provides
     @Singleton
-    abstract fun provideMovieUsCase(movieUseCaseImpl: MovieUseCaseImpl):IMovieUseCase
-
-    @Binds
+    fun provideMoviesUseCase(repo:IMovieRepository):IMoviesUseCase = MoviesUseCaseImpl(repo)
+    @Provides
     @Singleton
-    abstract fun provideFavoriteUsCase(favoriteUseCaseImpl: FavoriteUseCaseImpl):IFavoriteUseCase
+    fun provideMovieUseCase(movieRepo:IMovieRepository,favoRepo:IFavoriteRepository): IMovieUseCase =
+        MovieUseCaseImpl(movieRepo,favoRepo)
+    @Provides
+    @Singleton
+    fun provideFavoriteUseCase(favorRepo: IFavoriteRepository):IFavoriteUseCase =
+        FavoriteUseCaseImpl(favorRepo)
 }

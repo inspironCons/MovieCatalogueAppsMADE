@@ -10,17 +10,14 @@ import dagger.hilt.components.SingletonComponent
 import made.dicoding.moviecatalogueapps.core.common.ConstanNameHelper
 import made.dicoding.moviecatalogueapps.core.data.remote.local.dao.FavoriteDao
 import made.dicoding.moviecatalogueapps.core.database.MovieDatabase
-import javax.inject.Singleton
 
 @Module
 @InstallIn(SingletonComponent::class)
-object DatabaseModule {
-    @Singleton
+class DatabaseModule {
     @Provides
-    fun dbInstance(@ApplicationContext app: Context): MovieDatabase = Room
-        .databaseBuilder(app, MovieDatabase::class.java, ConstanNameHelper.DB_NAME)
+    fun dbInstance(@ApplicationContext app:Context): MovieDatabase = Room
+        .databaseBuilder(app as Context, MovieDatabase::class.java, ConstanNameHelper.DB_NAME)
         .build()
-
     @Provides
     fun favoriteDao(db: MovieDatabase): FavoriteDao = db.favoriteDao()
 }

@@ -40,7 +40,7 @@ class HomeActivity : AppCompatActivity() {
                 val uri = Uri.parse("moviecatalogueapps://favorite")
                 startActivity(Intent(Intent.ACTION_VIEW,uri))
             }catch (e:Exception){
-                Log.d("DASDASDSDAS","${e.message}")
+                Log.d("ERROR EXCEPTION","${e.message}")
             }
 
         }

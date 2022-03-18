@@ -9,6 +9,7 @@ import android.graphics.text.LineBreaker
 import android.net.Uri
 import android.os.Build
 import android.os.Bundle
+import android.util.Log
 import android.view.WindowManager
 import android.widget.Toast
 import androidx.activity.viewModels
@@ -62,50 +63,55 @@ class DetailMovieActivity:AppCompatActivity() {
                 binding.tvLableCompanies.text = getString(R.string.companies)
             }
             viewModel.detailMovie(id,type,local).observe(this){ data->
-                val movie = data.getOrNull()
-                viewModel.setDetailMovie(movie,type)
-                viewModel.checkFavorite()
-                checkIsFavorite()
+                if(data.isSuccess){
+                    val movie = data.getOrNull()
+                    viewModel.setDetailMovie(movie,type)
+                    viewModel.checkFavorite()
+                    checkIsFavorite()
 
-                with(binding){
-                    Glide.with(this@DetailMovieActivity)
-                        .asBitmap()
-                        .load(movie?.poster)
-                        .apply(RequestOptions().error(R.drawable.movie_poster_default))
-                        .into(object : CustomTarget<Bitmap>(1280, 720){
-                            override fun onResourceReady(
-                                resource: Bitmap,
-                                transition: Transition<in Bitmap>?
-                            ) {
-                                moviePosterDetail.setImageBitmap(resource)
+                    with(binding){
+                        Glide.with(this@DetailMovieActivity)
+                            .asBitmap()
+                            .load(movie?.poster)
+                            .apply(RequestOptions().error(R.drawable.movie_poster_default))
+                            .into(object : CustomTarget<Bitmap>(1280, 720){
+                                override fun onResourceReady(
+                                    resource: Bitmap,
+                                    transition: Transition<in Bitmap>?
+                                ) {
+                                    moviePosterDetail.setImageBitmap(resource)
 
-                                Palette.Builder(resource).generate { palette->
-                                    val dominantColor = palette?.getDominantColor(ContextCompat.getColor(this@DetailMovieActivity,R.color.primary_color))
-                                    val window = window
-                                    window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS)
-                                    if(dominantColor != null) window.statusBarColor = dominantColor
+                                    Palette.Builder(resource).generate { palette->
+                                        val dominantColor = palette?.getDominantColor(ContextCompat.getColor(this@DetailMovieActivity,R.color.primary_color))
+                                        val window = window
+                                        window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS)
+                                        if(dominantColor != null) window.statusBarColor = dominantColor
+                                    }
                                 }
-                            }
 
-                            override fun onLoadCleared(placeholder: Drawable?) {
-                            }
-                        })
+                                override fun onLoadCleared(placeholder: Drawable?) {
+                                }
+                            })
 
-                    movieTitleDetail.text = movie?.title
-                    movieTagline.text = getString(R.string.tagline,movie?.tagline)
-                    movieUserScore.text = getString(R.string.movie_score,movie?.userScore)
-                    movieReleaseDate.text = movie?.releaseDate?.toDateFormatRelease()
-                    movieProductionCountry.text = movie?.productionCountry
-                    movieCategory.text = movie?.category?.joinToString(",")
+                        movieTitleDetail.text = movie?.title
+                        movieTagline.text = getString(R.string.tagline,movie?.tagline)
+                        movieUserScore.text = getString(R.string.movie_score,movie?.userScore)
+                        movieReleaseDate.text = movie?.releaseDate?.toDateFormatRelease()
+                        movieProductionCountry.text = movie?.productionCountry
+                        movieCategory.text = movie?.category?.joinToString(",")
 
-                    movieOverview.text = movie?.overview
-                    if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q){
-                        movieOverview.justificationMode = LineBreaker.JUSTIFICATION_MODE_INTER_WORD
+                        movieOverview.text = movie?.overview
+                        if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q){
+                            movieOverview.justificationMode = LineBreaker.JUSTIFICATION_MODE_INTER_WORD
+                        }
+
+                        navigateToWatch(movie?.urlWatch)
+                        generateCast(movie?.companies)
                     }
-
-                    navigateToWatch(movie?.urlWatch)
-                    generateCast(movie?.companies)
+                }else{
+                    Log.d("LOGING DATA ERROR","${data.exceptionOrNull()?.message}")
                 }
+
             }
         }
 

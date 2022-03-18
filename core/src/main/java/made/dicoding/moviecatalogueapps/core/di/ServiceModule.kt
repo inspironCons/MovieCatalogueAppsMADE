@@ -1,6 +1,5 @@
 package made.dicoding.moviecatalogueapps.core.di
 
-import dagger.Binds
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -14,23 +13,22 @@ import made.dicoding.moviecatalogueapps.core.data.service.favorite.FavoriteServi
 import made.dicoding.moviecatalogueapps.core.data.service.favorite.IFavoriteService
 import made.dicoding.moviecatalogueapps.core.data.service.trending.ITrendingService
 import made.dicoding.moviecatalogueapps.core.data.service.trending.TrendingServiceImpl
-import javax.inject.Singleton
 
 @Module
 @InstallIn(SingletonComponent::class)
-abstract class ServiceModule {
-    @Binds
-    abstract fun provideTrendingService(
-        trendingServiceImpl: TrendingServiceImpl
-    ): ITrendingService
+class ServiceModule {
+    @Provides
+    fun provideTrendingService(
+        trendingApi: TrendingApi
+    ): ITrendingService = TrendingServiceImpl(trendingApi)
 
-    @Binds
-    abstract fun provideDetailMovieService(
-        detailMovieServiceImpl: DetailMovieServiceImpl
-    ): IDetailMovieService
+    @Provides
+    fun provideDetailMovieService(
+        detailMoviesApi: DetailMoviesApi
+    ): IDetailMovieService = DetailMovieServiceImpl(detailMoviesApi)
 
-    @Binds
-    abstract fun provideFavoriteService(
-        favoriteServiceImpl: FavoriteServiceImpl
-    ): IFavoriteService
+    @Provides
+    fun provideFavoriteService(
+        favoriteDao: FavoriteDao
+    ): IFavoriteService = FavoriteServiceImpl(favoriteDao)
 }

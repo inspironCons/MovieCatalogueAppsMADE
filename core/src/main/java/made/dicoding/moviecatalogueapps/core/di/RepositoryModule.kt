@@ -8,14 +8,12 @@ import made.dicoding.moviecatalogueapps.core.data.repository_impl.FavoriteReposi
 import made.dicoding.moviecatalogueapps.core.data.repository_impl.MovieRepositoryImpl
 import made.dicoding.moviecatalogueapps.core.domain.repository.IFavoriteRepository
 import made.dicoding.moviecatalogueapps.core.domain.repository.IMovieRepository
-import made.dicoding.moviecatalogueapps.core.domain.use_case.favorite.FavoriteUseCaseImpl
-import made.dicoding.moviecatalogueapps.core.domain.use_case.favorite.IFavoriteUseCase
 import javax.inject.Singleton
 
 @Module(includes = [
+    ServiceModule::class,
     DatabaseModule::class,
-    NetworkModule::class,
-    ServiceModule::class
+    NetworkModule::class
 ])
 @InstallIn(SingletonComponent::class)
 abstract class RepositoryModule {

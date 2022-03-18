@@ -3,6 +3,7 @@ package made.dicoding.moviecatalogueapps.presentation.detail
 import androidx.lifecycle.*
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.collectLatest
+import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.launch
 import made.dicoding.moviecatalogueapps.core.common.ConstanNameHelper.MOVIES_TYPE
 import made.dicoding.moviecatalogueapps.core.domain.use_case.movie.IMovieUseCase
@@ -28,6 +29,12 @@ class DetailMovieViewModel @Inject constructor(
                 MOVIES_TYPE -> emitSource(useCase.getDetailMovie(id).asLiveData())
                 else -> emitSource(useCase.getDetailTvShow(id).asLiveData())
             }
+        }else{
+            useCase.getMovieFromSourceLocal(id).map { result->
+                if(result.isSuccess){
+                    result.map { it.toDetailMovie() }
+                }
+            }.asLiveData()
         }
     }
 

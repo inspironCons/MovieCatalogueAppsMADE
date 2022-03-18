@@ -1,6 +1,8 @@
 package made.dicoding.moviecatalogueapps
 
+import android.app.Activity
 import android.app.Application
+import androidx.fragment.app.Fragment
 import com.facebook.flipper.android.AndroidFlipperClient
 import com.facebook.flipper.android.utils.FlipperUtils
 import com.facebook.flipper.plugins.databases.DatabasesFlipperPlugin
@@ -14,6 +16,8 @@ import javax.inject.Inject
 @HiltAndroidApp
 class BaseApplication:Application(){
     @Inject lateinit var networkFlipperPlugin:NetworkFlipperPlugin
+
+    val appContext = this
     override fun onCreate() {
         super.onCreate()
         SoLoader.init(this, false)
@@ -26,4 +30,5 @@ class BaseApplication:Application(){
             client.start()
         }
     }
+
 }

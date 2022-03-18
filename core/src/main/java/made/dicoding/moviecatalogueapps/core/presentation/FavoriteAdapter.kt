@@ -15,14 +15,15 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 import made.dicoding.moviecatalogueapps.core.R
-import made.dicoding.moviecatalogueapps.core.data.remote.local.entity.FavoriteEntity
 import made.dicoding.moviecatalogueapps.core.databinding.ItemsMoviesBinding
+import made.dicoding.moviecatalogueapps.core.model.ListMovies
+import made.dicoding.moviecatalogueapps.core.model.Movies
 import made.dicoding.moviecatalogueapps.core.utils.General.toGetYear
 
-class FavoriteAdapter: PagingDataAdapter<FavoriteEntity, FavoriteAdapter.ViewHolder>(diffCallback) {
+class FavoriteAdapter: PagingDataAdapter<Movies, FavoriteAdapter.ViewHolder>(diffCallback) {
     private lateinit var itemCallback: ItemsCallback
     inner class ViewHolder(private val binding: ItemsMoviesBinding): RecyclerView.ViewHolder(binding.root){
-        fun bind(movie: FavoriteEntity?){
+        fun bind(movie: ListMovies?){
             with(binding){
 
                 Glide.with(itemView.context)
@@ -46,8 +47,8 @@ class FavoriteAdapter: PagingDataAdapter<FavoriteEntity, FavoriteAdapter.ViewHol
                     movieTitle.text = spanText
                 }
 
-                movieScore.text = itemView.context.getString(R.string.movie_score,movie?.userScore)
-                movieScoreGraph.progress = movie?.userScore ?: 0
+                movieScore.text = itemView.context.getString(R.string.movie_score,movie?.voteAverage)
+                movieScoreGraph.progress = movie?.voteAverage ?: 0
                 movieOriLanguage.text = movie?.originLanguage?.uppercase()
 
                 itemView.setOnClickListener { itemCallback.onClickItem(movie) }
@@ -56,7 +57,7 @@ class FavoriteAdapter: PagingDataAdapter<FavoriteEntity, FavoriteAdapter.ViewHol
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        holder.bind(getItem(position))
+        holder.bind(getItem(position)?.toListMovies())
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
@@ -69,14 +70,14 @@ class FavoriteAdapter: PagingDataAdapter<FavoriteEntity, FavoriteAdapter.ViewHol
     }
 
     interface ItemsCallback{
-        fun onClickItem(movie: FavoriteEntity?)
+        fun onClickItem(movie: ListMovies?)
     }
 
     companion object{
-        val diffCallback =object : DiffUtil.ItemCallback<FavoriteEntity>(){
+        val diffCallback =object : DiffUtil.ItemCallback<Movies>(){
             override fun areItemsTheSame(
-                oldItem: FavoriteEntity,
-                newItem: FavoriteEntity
+                oldItem: Movies,
+                newItem: Movies
             ): Boolean {
                 return oldItem.movieId == newItem.movieId &&
                         oldItem.title == newItem.title &&
@@ -94,8 +95,8 @@ class FavoriteAdapter: PagingDataAdapter<FavoriteEntity, FavoriteAdapter.ViewHol
             }
 
             override fun areContentsTheSame(
-                oldItem: FavoriteEntity,
-                newItem: FavoriteEntity
+                oldItem: Movies,
+                newItem: Movies
             ): Boolean {
                 return oldItem == newItem
             }

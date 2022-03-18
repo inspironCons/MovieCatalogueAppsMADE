@@ -10,4 +10,6 @@ interface IFavoriteRepository {
     fun isMovieAlreadyInFavorite(id:Int): Flow<Result<Boolean>>
     suspend fun insertMovie(movie: Movies): Flow<Result<String>>
     suspend fun deleteMovie(movie: Movies): Flow<Result<String>>
+    fun favoriteMovieById(id:Int):Flow<Result<Movies>>
+
 }

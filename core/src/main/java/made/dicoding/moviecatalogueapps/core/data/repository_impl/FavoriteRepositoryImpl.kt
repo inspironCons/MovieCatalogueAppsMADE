@@ -23,4 +23,7 @@ class FavoriteRepositoryImpl @Inject constructor(
 
     override suspend fun deleteMovie(movie: Movies): Flow<Result<String>> = service
         .deleteMovie(movie.toFavoriteEntity())
+
+    override fun favoriteMovieById(id: Int): Flow<Result<Movies>> = service
+        .getFavoriteMovieById(id)
 }
