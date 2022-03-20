@@ -19,9 +19,6 @@ interface FavoriteDao {
     @Delete
     suspend fun delete(payload: FavoriteEntity)
 
-    @Query("select * from favorite_movie")
-    fun observeAllData():List<FavoriteEntity>
-
     @Query("select * from favorite_movie where id=:id limit 1")
-    fun getDetailById(id:Int): FavoriteEntity
+    suspend fun getDetailById(id:Int):FavoriteEntity
 }

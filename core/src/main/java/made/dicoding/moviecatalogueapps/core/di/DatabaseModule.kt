@@ -16,7 +16,7 @@ import made.dicoding.moviecatalogueapps.core.database.MovieDatabase
 class DatabaseModule {
     @Provides
     fun dbInstance(@ApplicationContext app:Context): MovieDatabase = Room
-        .databaseBuilder(app as Context, MovieDatabase::class.java, ConstanNameHelper.DB_NAME)
+        .databaseBuilder(app, MovieDatabase::class.java, ConstanNameHelper.DB_NAME)
         .build()
     @Provides
     fun favoriteDao(db: MovieDatabase): FavoriteDao = db.favoriteDao()

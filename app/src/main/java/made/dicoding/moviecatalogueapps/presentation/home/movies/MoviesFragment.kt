@@ -8,16 +8,16 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.recyclerview.widget.LinearLayoutManager
-import made.dicoding.moviecatalogueapps.presentation.home.HomeViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import made.dicoding.moviecatalogueapps.R
 import made.dicoding.moviecatalogueapps.core.common.ConstanNameHelper
 import made.dicoding.moviecatalogueapps.core.model.ListMovies
-import made.dicoding.moviecatalogueapps.databinding.FragmentMoviesBinding
 import made.dicoding.moviecatalogueapps.core.presentation.MoviesAdapter
 import made.dicoding.moviecatalogueapps.core.utils.General.isShowComponentProgress
 import made.dicoding.moviecatalogueapps.core.utils.General.showEmptyState
+import made.dicoding.moviecatalogueapps.databinding.FragmentMoviesBinding
 import made.dicoding.moviecatalogueapps.presentation.detail.DetailMovieActivity
+import made.dicoding.moviecatalogueapps.presentation.home.HomeViewModel
 
 @AndroidEntryPoint
 class MoviesFragment : Fragment() {
@@ -26,6 +26,7 @@ class MoviesFragment : Fragment() {
     private val binding get()=_binding
 
     private val viewModel: HomeViewModel by activityViewModels()
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -44,6 +45,7 @@ class MoviesFragment : Fragment() {
         }
     }
 
+
     private fun loaderShowAndHide(){
         viewModel.getLoaderMovie().observe(viewLifecycleOwner){ show->
             isShowComponentProgress(binding?.loadContentMovies,show)
@@ -58,7 +60,7 @@ class MoviesFragment : Fragment() {
 
             viewModel.getMovies().observe(viewLifecycleOwner){ movies->
                 adapter.setMovies(movies)
-                this?.rvMovies?.adapter = adapter
+                binding?.rvMovies?.adapter = adapter
             }
 
             adapter.setOnClickListener(object : MoviesAdapter.ItemsCallback{
@@ -72,6 +74,7 @@ class MoviesFragment : Fragment() {
             })
         }
     }
+
 
     private fun showMessage(){
         viewModel.errorDataMovies().observe(viewLifecycleOwner){ show->

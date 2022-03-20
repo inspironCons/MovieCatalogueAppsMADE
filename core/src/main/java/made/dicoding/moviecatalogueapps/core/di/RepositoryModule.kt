@@ -8,7 +8,6 @@ import made.dicoding.moviecatalogueapps.core.data.repository_impl.FavoriteReposi
 import made.dicoding.moviecatalogueapps.core.data.repository_impl.MovieRepositoryImpl
 import made.dicoding.moviecatalogueapps.core.domain.repository.IFavoriteRepository
 import made.dicoding.moviecatalogueapps.core.domain.repository.IMovieRepository
-import javax.inject.Singleton
 
 @Module(includes = [
     ServiceModule::class,
@@ -18,13 +17,11 @@ import javax.inject.Singleton
 @InstallIn(SingletonComponent::class)
 abstract class RepositoryModule {
     @Binds
-    @Singleton
     abstract fun provideMovieRepository(
         movieRepositoryImpl: MovieRepositoryImpl
     ):IMovieRepository
 
     @Binds
-    @Singleton
     abstract fun provideFavoriteRepository(
         favoriteRepositoryImpl: FavoriteRepositoryImpl
     ):IFavoriteRepository

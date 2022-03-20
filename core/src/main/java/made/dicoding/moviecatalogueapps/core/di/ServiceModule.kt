@@ -13,6 +13,7 @@ import made.dicoding.moviecatalogueapps.core.data.service.favorite.FavoriteServi
 import made.dicoding.moviecatalogueapps.core.data.service.favorite.IFavoriteService
 import made.dicoding.moviecatalogueapps.core.data.service.trending.ITrendingService
 import made.dicoding.moviecatalogueapps.core.data.service.trending.TrendingServiceImpl
+import javax.inject.Singleton
 
 @Module
 @InstallIn(SingletonComponent::class)
@@ -28,6 +29,7 @@ class ServiceModule {
     ): IDetailMovieService = DetailMovieServiceImpl(detailMoviesApi)
 
     @Provides
+    @Singleton
     fun provideFavoriteService(
         favoriteDao: FavoriteDao
     ): IFavoriteService = FavoriteServiceImpl(favoriteDao)

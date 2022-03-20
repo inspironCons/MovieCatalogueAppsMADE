@@ -25,7 +25,6 @@ class FavoriteAdapter: PagingDataAdapter<Movies, FavoriteAdapter.ViewHolder>(dif
     inner class ViewHolder(private val binding: ItemsMoviesBinding): RecyclerView.ViewHolder(binding.root){
         fun bind(movie: ListMovies?){
             with(binding){
-
                 Glide.with(itemView.context)
                     .load(movie?.poster)
                     .apply(RequestOptions.placeholderOf(R.drawable.ic_image_loader).error(R.drawable.ic_empty_poster))

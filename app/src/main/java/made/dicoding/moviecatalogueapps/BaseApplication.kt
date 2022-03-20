@@ -17,7 +17,6 @@ import javax.inject.Inject
 class BaseApplication:Application(){
     @Inject lateinit var networkFlipperPlugin:NetworkFlipperPlugin
 
-    val appContext = this
     override fun onCreate() {
         super.onCreate()
         SoLoader.init(this, false)

@@ -9,5 +9,6 @@ import javax.inject.Inject
 class FavoriteUseCaseImpl @Inject constructor(
     private val iFavoriteRepository: IFavoriteRepository
 ):IFavoriteUseCase {
-    override fun getMovieByType(type: String): PagingSource<Int, FavoriteEntity> = iFavoriteRepository.getFavoriteByType(type)
+    override fun getMovieByType(type: String): PagingSource<Int, FavoriteEntity> = iFavoriteRepository
+        .getFavoriteByType(type)
 }

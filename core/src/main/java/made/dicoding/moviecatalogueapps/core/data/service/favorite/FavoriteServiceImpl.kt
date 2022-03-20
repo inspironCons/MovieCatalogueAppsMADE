@@ -6,7 +6,6 @@ import kotlinx.coroutines.flow.catch
 import kotlinx.coroutines.flow.flow
 import made.dicoding.moviecatalogueapps.core.data.remote.local.dao.FavoriteDao
 import made.dicoding.moviecatalogueapps.core.data.remote.local.entity.FavoriteEntity
-import made.dicoding.moviecatalogueapps.core.model.Movies
 import java.io.IOException
 import javax.inject.Inject
 
@@ -17,13 +16,6 @@ class FavoriteServiceImpl @Inject constructor(
 
     override fun isMovieAlreadyInFavorite(id: Int): Flow<Result<Boolean>> = flow {
         emit(Result.success(favoriteDao.countMoviesById(id) > 0))
-    }.catch {
-        emit(Result.failure(RuntimeException("Terdapat kesalahan, silahkan coba lagi")))
-    }
-
-    override fun getFavoriteMovieById(id: Int): Flow<Result<Movies>> = flow {
-        val detail = favoriteDao.getDetailById(id)
-        emit(Result.success(detail.toMovies()))
     }.catch {
         emit(Result.failure(RuntimeException("Terdapat kesalahan, silahkan coba lagi")))
     }
@@ -51,5 +43,11 @@ class FavoriteServiceImpl @Inject constructor(
             emit(Result.failure(RuntimeException("Terdapat kesalahan, silahkan coba lagi")))
         }
 
+    }
+
+    override fun getMovieById(id: Int): Flow<Result<FavoriteEntity>> = flow {
+        emit(Result.success(favoriteDao.getDetailById(id)))
+    }.catch {
+        emit(Result.failure(RuntimeException("Terdapat kesalahan, silahkan coba lagi")))
     }
 }

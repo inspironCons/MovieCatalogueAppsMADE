@@ -2,6 +2,8 @@ package made.dicoding.moviecatalogueapps.core.data.repository_impl
 
 import androidx.paging.PagingSource
 import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.flow.mapLatest
 import made.dicoding.moviecatalogueapps.core.data.remote.local.entity.FavoriteEntity
 import made.dicoding.moviecatalogueapps.core.data.service.favorite.IFavoriteService
 import made.dicoding.moviecatalogueapps.core.domain.repository.IFavoriteRepository
@@ -25,5 +27,7 @@ class FavoriteRepositoryImpl @Inject constructor(
         .deleteMovie(movie.toFavoriteEntity())
 
     override fun favoriteMovieById(id: Int): Flow<Result<Movies>> = service
-        .getFavoriteMovieById(id)
+        .getMovieById(id).map { result->
+            result.map { it.toMovies() }
+        }
 }

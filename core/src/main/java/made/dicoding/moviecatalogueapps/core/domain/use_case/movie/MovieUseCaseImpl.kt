@@ -1,15 +1,10 @@
 package made.dicoding.moviecatalogueapps.core.domain.use_case.movie
 
-import android.util.Log
 import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.catch
-import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.map
-import made.dicoding.moviecatalogueapps.core.data.remote.local.entity.FavoriteEntity
 import made.dicoding.moviecatalogueapps.core.domain.repository.IFavoriteRepository
 import made.dicoding.moviecatalogueapps.core.domain.repository.IMovieRepository
 import made.dicoding.moviecatalogueapps.core.model.DetailMovie
-import made.dicoding.moviecatalogueapps.core.model.Movies
 import javax.inject.Inject
 
 class MovieUseCaseImpl @Inject constructor(
@@ -26,8 +21,11 @@ class MovieUseCaseImpl @Inject constructor(
         result.map { it.toDetailMovie() }
     }
 
-    override fun getMovieFromSourceLocal(id: Int): Flow<Result<Movies>> = favoriteRepo
-        .favoriteMovieById(id)
+    override fun getMovieFromSourceLocal(id: Int): Flow<Result<DetailMovie>> {
+        return favoriteRepo.favoriteMovieById(id).map { result->
+            result.map { it.toDetailMovie() }
+        }
+    }
 
     override fun isMovieAlreadyInFavorite(id: Int): Flow<Result<Boolean>> = favoriteRepo
         .isMovieAlreadyInFavorite(id)
