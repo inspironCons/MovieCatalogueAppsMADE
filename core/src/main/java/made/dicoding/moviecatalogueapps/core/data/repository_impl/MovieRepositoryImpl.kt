@@ -1,13 +1,12 @@
 package made.dicoding.moviecatalogueapps.core.data.repository_impl
 
-import made.dicoding.moviecatalogueapps.core.model.Movies
-import made.dicoding.moviecatalogueapps.core.data.service.detail_movie.IDetailMovieService
-import made.dicoding.moviecatalogueapps.core.data.service.trending.ITrendingService
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
+import made.dicoding.moviecatalogueapps.core.data.service.detail_movie.IDetailMovieService
+import made.dicoding.moviecatalogueapps.core.data.service.trending.ITrendingService
 import made.dicoding.moviecatalogueapps.core.domain.repository.IMovieRepository
+import made.dicoding.moviecatalogueapps.core.model.Movies
 import javax.inject.Inject
-import javax.inject.Singleton
 
 class MovieRepositoryImpl @Inject constructor(
     private val trendingService: ITrendingService,
@@ -47,13 +46,4 @@ class MovieRepositoryImpl @Inject constructor(
                 Result.failure(it.exceptionOrNull()!!)
             }
         }
-
-//    fun getDetailFromLocal(id:Int):Flow<Result<FavoriteEntity>>{
-//        return flow {
-//            val detail = favoriteDao.getDetailById(id)
-//            emit(Result.success(detail))
-//        }.catch {
-//            emit(Result.failure(RuntimeException(it.localizedMessage)))
-//        }
-//    }
 }
