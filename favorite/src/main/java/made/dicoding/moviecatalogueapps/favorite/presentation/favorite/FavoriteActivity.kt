@@ -3,11 +3,8 @@ package made.dicoding.moviecatalogueapps.favorite.presentation.favorite
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.tabs.TabLayoutMediator
-import dagger.hilt.android.EntryPointAccessors
 import made.dicoding.moviecatalogueapps.R
-import made.dicoding.moviecatalogueapps.di.AppComponent
 import made.dicoding.moviecatalogueapps.favorite.databinding.ActivityFavoriteBinding
-import made.dicoding.moviecatalogueapps.favorite.di.DaggerFavoriteDI
 
 class FavoriteActivity:AppCompatActivity() {
     private lateinit var binding: ActivityFavoriteBinding

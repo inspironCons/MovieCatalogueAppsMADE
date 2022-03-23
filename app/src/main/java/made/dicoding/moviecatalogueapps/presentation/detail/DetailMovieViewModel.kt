@@ -4,7 +4,6 @@ import androidx.lifecycle.*
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.collectLatest
-import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.launch
 import made.dicoding.moviecatalogueapps.core.common.ConstanNameHelper.MOVIES_TYPE
 import made.dicoding.moviecatalogueapps.core.domain.use_case.movie.IMovieUseCase
@@ -16,7 +15,7 @@ class DetailMovieViewModel @Inject constructor(
     private val useCase: IMovieUseCase
 ): ViewModel() {
     var movies: DetailMovie = DetailMovie()
-    var isMovieFavorite = MutableLiveData<Boolean>()
+    private var isMovieFavorite = MutableLiveData<Boolean>()
 
     fun setDetailMovie(data: DetailMovie?, type:String){
        if(data != null){

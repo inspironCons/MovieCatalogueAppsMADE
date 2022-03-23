@@ -6,11 +6,8 @@ import androidx.paging.Pager
 import androidx.paging.PagingConfig
 import androidx.paging.cachedIn
 import androidx.paging.map
-import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.map
-import made.dicoding.moviecatalogueapps.core.domain.repository.IFavoriteRepository
 import made.dicoding.moviecatalogueapps.core.domain.use_case.favorite.IFavoriteUseCase
-import javax.inject.Inject
 
 class FavoriteViewModel(
     private val useCase: IFavoriteUseCase

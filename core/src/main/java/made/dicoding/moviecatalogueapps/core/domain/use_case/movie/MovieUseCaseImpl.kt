@@ -5,7 +5,6 @@ import kotlinx.coroutines.flow.map
 import made.dicoding.moviecatalogueapps.core.domain.repository.IFavoriteRepository
 import made.dicoding.moviecatalogueapps.core.domain.repository.IMovieRepository
 import made.dicoding.moviecatalogueapps.core.model.DetailMovie
-import made.dicoding.moviecatalogueapps.core.model.Movies
 import made.dicoding.moviecatalogueapps.core.utils.mapper.MovieMapper
 import javax.inject.Inject
 

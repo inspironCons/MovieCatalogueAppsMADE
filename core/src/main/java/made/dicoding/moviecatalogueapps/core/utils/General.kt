@@ -9,7 +9,6 @@ import made.dicoding.moviecatalogueapps.core.data.remote.local.entity.FavoriteEn
 import made.dicoding.moviecatalogueapps.core.model.Companies
 import made.dicoding.moviecatalogueapps.core.model.Genres
 import made.dicoding.moviecatalogueapps.core.model.ListMovies
-import made.dicoding.moviecatalogueapps.core.model.Movies
 import java.text.SimpleDateFormat
 import java.util.*
 

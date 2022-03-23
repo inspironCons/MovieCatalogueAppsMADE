@@ -14,40 +14,40 @@ class DetailMovieServiceImpl @Inject constructor(
 ): IDetailMovieService {
     override fun fetchDetailMovies(id:Int): Flow<Result<Movies>> {
         return flow {
-            EspressoIdling.increment()
+//            EspressoIdling.increment()
             val detail = detailMoviesApi.getDetailMovie(
                 id,
                 ConstanNameHelper.API_KEY,
                 ConstanNameHelper.LANGUAGE
             )
-            if(!EspressoIdling.getEspressoIdlingResource.isIdleNow){
-                EspressoIdling.decrement()
-            }
+//            if(!EspressoIdling.getEspressoIdlingResource.isIdleNow){
+//                EspressoIdling.decrement()
+//            }
             emit(Result.success(detail.toMovies()))
         }.catch {
-            if(!EspressoIdling.getEspressoIdlingResource.isIdleNow){
-                EspressoIdling.decrement()
-            }
+//            if(!EspressoIdling.getEspressoIdlingResource.isIdleNow){
+//                EspressoIdling.decrement()
+//            }
             emit(Result.failure(RuntimeException("Something went wrong")))
         }
     }
 
     override fun fetchDetailTV(id:Int): Flow<Result<Movies>> {
         return flow {
-            EspressoIdling.increment()
+//            EspressoIdling.increment()
             val detail = detailMoviesApi.getDetailTv(
                 id,
                 ConstanNameHelper.API_KEY,
                 ConstanNameHelper.LANGUAGE
             )
-            if(!EspressoIdling.getEspressoIdlingResource.isIdleNow){
-                EspressoIdling.decrement()
-            }
+//            if(!EspressoIdling.getEspressoIdlingResource.isIdleNow){
+//                EspressoIdling.decrement()
+//            }
             emit(Result.success(detail.toMovies()))
         }.catch {
-            if(!EspressoIdling.getEspressoIdlingResource.isIdleNow){
-                EspressoIdling.decrement()
-            }
+//            if(!EspressoIdling.getEspressoIdlingResource.isIdleNow){
+//                EspressoIdling.decrement()
+//            }
             emit(Result.failure(RuntimeException("Something went wrong")))
         }
     }

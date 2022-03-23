@@ -14,40 +14,40 @@ class TrendingServiceImpl @Inject constructor(
 ): ITrendingService {
     override suspend fun fetchApiMovieList(): Flow<Result<List<Movies>>> {
         return flow{
-            EspressoIdling.increment()
+//            EspressoIdling.increment()
             val request = trendingApi.getTrendingMovieOnThisWeek(
                 ConstanNameHelper.API_KEY,
                 ConstanNameHelper.LANGUAGE,
                 ConstanNameHelper.REGIONS
             )
-            if(!EspressoIdling.getEspressoIdlingResource.isIdleNow){
-                EspressoIdling.decrement()
-            }
+//            if(!EspressoIdling.getEspressoIdlingResource.isIdleNow){
+//                EspressoIdling.decrement()
+//            }
             emit(Result.success(request.toMovies()))
         }.catch {
-            if(!EspressoIdling.getEspressoIdlingResource.isIdleNow){
-                EspressoIdling.decrement()
-            }
+//            if(!EspressoIdling.getEspressoIdlingResource.isIdleNow){
+//                EspressoIdling.decrement()
+//            }
             emit(Result.failure(RuntimeException("Connection Lost, check your connection")))
         }
     }
 
     override suspend fun fetchApiTvList(): Flow<Result<List<Movies>>> {
         return flow{
-            EspressoIdling.increment()
+//            EspressoIdling.increment()
             val request = trendingApi.getTrendingTvShowsOnThisWeek(
                 ConstanNameHelper.API_KEY,
                 ConstanNameHelper.LANGUAGE,
                 ConstanNameHelper.REGIONS
             )
-            if(!EspressoIdling.getEspressoIdlingResource.isIdleNow){
-                EspressoIdling.decrement()
-            }
+//            if(!EspressoIdling.getEspressoIdlingResource.isIdleNow){
+//                EspressoIdling.decrement()
+//            }
             emit(Result.success(request.toMovies()))
         }.catch {
-            if(!EspressoIdling.getEspressoIdlingResource.isIdleNow){
-                EspressoIdling.decrement()
-            }
+//            if(!EspressoIdling.getEspressoIdlingResource.isIdleNow){
+//                EspressoIdling.decrement()
+//            }
             emit(Result.failure(RuntimeException("Connection Lost, check your connection")))
         }
     }
