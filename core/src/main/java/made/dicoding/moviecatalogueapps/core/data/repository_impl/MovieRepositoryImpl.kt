@@ -2,8 +2,8 @@ package made.dicoding.moviecatalogueapps.core.data.repository_impl
 
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
-import made.dicoding.moviecatalogueapps.core.data.service.detail_movie.IDetailMovieService
-import made.dicoding.moviecatalogueapps.core.data.service.trending.ITrendingService
+import made.dicoding.moviecatalogueapps.core.service.detail_movie.IDetailMovieService
+import made.dicoding.moviecatalogueapps.core.service.trending.ITrendingService
 import made.dicoding.moviecatalogueapps.core.domain.repository.IMovieRepository
 import made.dicoding.moviecatalogueapps.core.model.Movies
 import javax.inject.Inject

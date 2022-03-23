@@ -7,12 +7,12 @@ import dagger.hilt.components.SingletonComponent
 import made.dicoding.moviecatalogueapps.core.data.remote.local.dao.FavoriteDao
 import made.dicoding.moviecatalogueapps.core.data.remote.network.DetailMoviesApi
 import made.dicoding.moviecatalogueapps.core.data.remote.network.TrendingApi
-import made.dicoding.moviecatalogueapps.core.data.service.detail_movie.DetailMovieServiceImpl
-import made.dicoding.moviecatalogueapps.core.data.service.detail_movie.IDetailMovieService
-import made.dicoding.moviecatalogueapps.core.data.service.favorite.FavoriteServiceImpl
-import made.dicoding.moviecatalogueapps.core.data.service.favorite.IFavoriteService
-import made.dicoding.moviecatalogueapps.core.data.service.trending.ITrendingService
-import made.dicoding.moviecatalogueapps.core.data.service.trending.TrendingServiceImpl
+import made.dicoding.moviecatalogueapps.core.service.detail_movie.DetailMovieServiceImpl
+import made.dicoding.moviecatalogueapps.core.service.detail_movie.IDetailMovieService
+import made.dicoding.moviecatalogueapps.core.service.favorite.FavoriteServiceImpl
+import made.dicoding.moviecatalogueapps.core.service.favorite.IFavoriteService
+import made.dicoding.moviecatalogueapps.core.service.trending.ITrendingService
+import made.dicoding.moviecatalogueapps.core.service.trending.TrendingServiceImpl
 import javax.inject.Singleton
 
 @Module

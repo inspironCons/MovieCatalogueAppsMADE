@@ -1,9 +1,8 @@
-package made.dicoding.moviecatalogueapps.core.data.service.favorite
+package made.dicoding.moviecatalogueapps.core.service.favorite
 
 import androidx.paging.PagingSource
 import kotlinx.coroutines.flow.Flow
 import made.dicoding.moviecatalogueapps.core.data.remote.local.entity.FavoriteEntity
-import made.dicoding.moviecatalogueapps.core.model.Movies
 
 interface IFavoriteService {
     fun getFavoriteByType(type:String):PagingSource<Int, FavoriteEntity>

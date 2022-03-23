@@ -1,4 +1,4 @@
-package made.dicoding.moviecatalogueapps.core.data.service
+package made.dicoding.moviecatalogueapps.core.service
 
 import com.nhaarman.mockitokotlin2.mock
 import com.nhaarman.mockitokotlin2.times
@@ -11,7 +11,7 @@ import made.dicoding.moviecatalogueapps.core.common.ConstanNameHelper
 import made.dicoding.moviecatalogueapps.core.data.remote.network.TrendingApi
 import made.dicoding.moviecatalogueapps.core.data.remote.network.dto.TrendingMovieResponse
 import made.dicoding.moviecatalogueapps.core.data.remote.network.dto.TrendingTvResponse
-import made.dicoding.moviecatalogueapps.core.data.service.trending.TrendingServiceImpl
+import made.dicoding.moviecatalogueapps.core.service.trending.TrendingServiceImpl
 import made.dicoding.moviecatalogueapps.core.utils.BaseUnitTest
 import org.junit.Assert.assertEquals
 import org.junit.Test

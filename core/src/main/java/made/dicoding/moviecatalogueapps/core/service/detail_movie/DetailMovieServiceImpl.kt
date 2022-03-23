@@ -1,4 +1,4 @@
-package made.dicoding.moviecatalogueapps.core.data.service.detail_movie
+package made.dicoding.moviecatalogueapps.core.service.detail_movie
 
 import made.dicoding.moviecatalogueapps.core.common.ConstanNameHelper
 import made.dicoding.moviecatalogueapps.core.data.remote.network.DetailMoviesApi

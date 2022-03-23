@@ -8,6 +8,8 @@ import made.dicoding.moviecatalogueapps.core.component.ErrorState
 import made.dicoding.moviecatalogueapps.core.data.remote.local.entity.FavoriteEntity
 import made.dicoding.moviecatalogueapps.core.model.Companies
 import made.dicoding.moviecatalogueapps.core.model.Genres
+import made.dicoding.moviecatalogueapps.core.model.ListMovies
+import made.dicoding.moviecatalogueapps.core.model.Movies
 import java.text.SimpleDateFormat
 import java.util.*
 
@@ -23,6 +25,7 @@ object General {
         val date = SimpleDateFormat("yyyy-MM-dd", Locale("IND","ID")).parse(this)
         return SimpleDateFormat("dd MMM  yyyy").format(date as Date)
     }
+
 
     fun isShowComponentProgress(view:ProgressBar?,show:Boolean){
         if(show){

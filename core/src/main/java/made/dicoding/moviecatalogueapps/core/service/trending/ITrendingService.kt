@@ -1,4 +1,4 @@
-package made.dicoding.moviecatalogueapps.core.data.service.trending
+package made.dicoding.moviecatalogueapps.core.service.trending
 
 import made.dicoding.moviecatalogueapps.core.model.Movies
 import kotlinx.coroutines.flow.Flow

@@ -1,4 +1,4 @@
-package made.dicoding.moviecatalogueapps.core.data.service
+package made.dicoding.moviecatalogueapps.core.service
 
 import androidx.paging.PagingSource
 import com.nhaarman.mockitokotlin2.mock
@@ -12,7 +12,7 @@ import kotlinx.coroutines.test.runBlockingTest
 import made.dicoding.moviecatalogueapps.core.common.ConstanNameHelper.MOVIES_TYPE
 import made.dicoding.moviecatalogueapps.core.data.remote.local.dao.FavoriteDao
 import made.dicoding.moviecatalogueapps.core.data.remote.local.entity.FavoriteEntity
-import made.dicoding.moviecatalogueapps.core.data.service.favorite.FavoriteServiceImpl
+import made.dicoding.moviecatalogueapps.core.service.favorite.FavoriteServiceImpl
 import made.dicoding.moviecatalogueapps.core.utils.BaseUnitTest
 import org.junit.Assert.assertEquals
 import org.junit.Test

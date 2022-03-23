@@ -1,3 +1,15 @@
+android {
+    sourceSets {
+        // non-instrumental test example
+        test {
+            java.srcDir project(":core").file("src/test/java")
+        }
+        // instrumental test example
+        androidTest {
+            java.srcDir project(":core").file("src/androidTest/java")
+        }
+    }
+}
 dependencies {
     //kotlin
     implementation 'androidx.core:core-ktx:1.7.0'
@@ -43,6 +55,8 @@ dependencies {
     testImplementation 'org.jetbrains.kotlinx:kotlinx-coroutines-test:1.5.2'
 
     //instrument testing
+    testImplementation project(':core')
+
     androidTestImplementation 'androidx.test:rules:1.4.0'
     androidTestImplementation 'androidx.test:runner:1.4.0'
     androidTestImplementation 'androidx.test.ext:junit-ktx:1.1.3'

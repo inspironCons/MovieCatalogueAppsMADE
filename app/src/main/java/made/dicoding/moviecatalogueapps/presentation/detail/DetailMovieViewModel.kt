@@ -4,6 +4,7 @@ import androidx.lifecycle.*
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.collectLatest
+import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.launch
 import made.dicoding.moviecatalogueapps.core.common.ConstanNameHelper.MOVIES_TYPE
 import made.dicoding.moviecatalogueapps.core.domain.use_case.movie.IMovieUseCase

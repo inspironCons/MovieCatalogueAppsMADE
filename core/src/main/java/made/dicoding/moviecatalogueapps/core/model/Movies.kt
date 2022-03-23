@@ -28,24 +28,6 @@ data class Movies(
         )
     }
 
-    fun toDetailMovie(): DetailMovie {
-        return DetailMovie(
-            movieId,
-            title,
-            tagline,
-            poster,
-            overview,
-            userScore,
-            releaseDate,
-            category,
-            urlWatch,
-            productionCountry,
-            originLanguage,
-            companies,
-            type
-        )
-    }
-
     fun toFavoriteEntity():FavoriteEntity{
         return FavoriteEntity(
             movieId,

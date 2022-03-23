@@ -19,7 +19,6 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-
     }
 
     buildTypes {
@@ -35,6 +34,7 @@ android {
     kotlinOptions {
         jvmTarget = '11'
     }
+
     buildFeatures.viewBinding true
     dynamicFeatures = [':favorite']
 
@@ -42,5 +42,4 @@ android {
 
 dependencies {
     implementation project(':core')
-    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
 }

@@ -1,4 +1,4 @@
-package made.dicoding.moviecatalogueapps.core.data.service.favorite
+package made.dicoding.moviecatalogueapps.core.service.favorite
 
 import androidx.paging.PagingSource
 import kotlinx.coroutines.flow.Flow

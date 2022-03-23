@@ -1,4 +1,4 @@
-package made.dicoding.moviecatalogueapps.core.data.service
+package made.dicoding.moviecatalogueapps.core.service
 
 import com.nhaarman.mockitokotlin2.mock
 import com.nhaarman.mockitokotlin2.times
@@ -11,7 +11,7 @@ import made.dicoding.moviecatalogueapps.core.common.ConstanNameHelper
 import made.dicoding.moviecatalogueapps.core.data.remote.network.DetailMoviesApi
 import made.dicoding.moviecatalogueapps.core.data.remote.network.dto.DetailMoviesResponse
 import made.dicoding.moviecatalogueapps.core.data.remote.network.dto.DetailTvShowsResponse
-import made.dicoding.moviecatalogueapps.core.data.service.detail_movie.DetailMovieServiceImpl
+import made.dicoding.moviecatalogueapps.core.service.detail_movie.DetailMovieServiceImpl
 import made.dicoding.moviecatalogueapps.core.model.Movies
 import made.dicoding.moviecatalogueapps.core.utils.BaseUnitTest
 import org.junit.Assert.assertEquals

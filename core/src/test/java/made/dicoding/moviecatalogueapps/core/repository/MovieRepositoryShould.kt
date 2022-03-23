@@ -1,4 +1,4 @@
-package made.dicoding.moviecatalogueapps.core.data.repository
+package made.dicoding.moviecatalogueapps.core.repository
 
 import com.nhaarman.mockitokotlin2.mock
 import com.nhaarman.mockitokotlin2.times
@@ -9,8 +9,8 @@ import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.test.runBlockingTest
 import made.dicoding.moviecatalogueapps.core.data.repository_impl.MovieRepositoryImpl
-import made.dicoding.moviecatalogueapps.core.data.service.detail_movie.IDetailMovieService
-import made.dicoding.moviecatalogueapps.core.data.service.trending.ITrendingService
+import made.dicoding.moviecatalogueapps.core.service.detail_movie.IDetailMovieService
+import made.dicoding.moviecatalogueapps.core.service.trending.ITrendingService
 import made.dicoding.moviecatalogueapps.core.model.Movies
 import made.dicoding.moviecatalogueapps.core.utils.BaseUnitTest
 import org.junit.Assert.assertEquals
