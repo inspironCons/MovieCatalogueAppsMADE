@@ -21,4 +21,7 @@ interface FavoriteDao {
 
     @Query("select * from favorite_movie where id=:id limit 1")
     suspend fun getDetailById(id:Int):FavoriteEntity
+
+    @Query("select * from favorite_movie")
+    fun observeAllData():List<FavoriteEntity>
 }

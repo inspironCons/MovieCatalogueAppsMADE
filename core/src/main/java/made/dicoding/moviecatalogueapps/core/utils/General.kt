@@ -35,6 +35,24 @@ object General {
         }
     }
 
+    fun dummyMoviesList() = ListMovies(
+        movieId = 634649,
+        title = "Spider-Man: No Way Home",
+        poster = ConstanNameHelper.BASE_URL_IMAGE+"/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
+        releaseDate = "2021-12-15",
+        voteAverage = (8.2 * 10.0).toInt(),
+        originLanguage = "en"
+    )
+
+    fun dummyTvShowsList() = ListMovies(
+        movieId = 115036,
+        title = "Euphoria",
+        poster = ConstanNameHelper.BASE_URL_IMAGE+"/jtnfNzqZwN4E32FGGxx1YZaBWWf.jpg",
+        releaseDate = "2019-06-16",
+        voteAverage = (8.4 * 10.0).toInt(),
+        originLanguage = "en"
+    )
+
     fun dummyDataMoviesType(): FavoriteEntity {
         return FavoriteEntity(
             movieId = 634649,
@@ -42,7 +60,7 @@ object General {
             tagline = "The Multiverse unleashed.",
             poster = ConstanNameHelper.BASE_URL_IMAGE +"/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
             overview = "Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a super-hero. When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.",
-            userScore = 85,
+            userScore = 82,
             releaseDate="2021-12-15",
             category = listOf(
                 Genres(28,"Action"),
@@ -64,22 +82,22 @@ object General {
     fun dummyDataTvShowsType(): FavoriteEntity {
         return FavoriteEntity(
             movieId = 115036,
-            title = "The Book of Boba Fett",
-            tagline = "Every galaxy has an underworld.",
-            poster = ConstanNameHelper.BASE_URL_IMAGE +"/gNbdjDi1HamTCrfvM9JeA94bNi2.jpg",
-            overview = "Legendary bounty hunter Boba Fett and mercenary Fennec Shand must navigate the galaxy’s underworld when they return to the sands of Tatooine to stake their claim on the territory once ruled by Jabba the Hutt and his crime syndicate.",
-            userScore = 81,
-            releaseDate="2021-12-29",
+            title = "Euphoria",
+            tagline = "Remember this feeling.",
+            poster = ConstanNameHelper.BASE_URL_IMAGE +"/jtnfNzqZwN4E32FGGxx1YZaBWWf.jpg",
+            overview = "A group of high school students navigate love and friendships in a world of drugs, sex, trauma, and social media.",
+            userScore = 84,
+            releaseDate="2019-06-16",
             category = listOf(
-                Genres(10759,"Action & Adventure"),
-                Genres(10765,"Sci-Fi & Fantasy")
+                Genres(18,"Drama")
             ),
-            urlWatch = "https://www.disneyplus.com/series/the-book-of-boba-fett/57TL7zLNu2wf",
+            urlWatch = "https://www.hbo.com/euphoria",
             productionCountry = "US",
             companies = listOf(
-                Companies(ConstanNameHelper.BASE_URL_IMAGE+"/o86DbpburjxrqAzEDhXZcyE8pDb.png", "Lucasfilm"),
-                Companies(ConstanNameHelper.BASE_URL_IMAGE+"/cfyTfcjSd9njenirn3d07xqwrZQ.png", "Golem Creations"),
-                Companies(ConstanNameHelper.BASE_URL_IMAGE+"/rRGi5UkwvdOPSfr5Xf42RZUsYgd.png", "Walt Disney Television"),
+                Companies(ConstanNameHelper.BASE_URL_IMAGE+"/1ZXsGaFPgrgS6ZZGS37AqD5uU12.png", "A24"),
+                Companies(ConstanNameHelper.BASE_URL_IMAGE+"null", "The Reasonable Bunch"),
+                Companies(ConstanNameHelper.BASE_URL_IMAGE+"null", "Little Lamb Productions"),
+                Companies(ConstanNameHelper.BASE_URL_IMAGE+"null", "DreamCrew"),
             ),
             type = ConstanNameHelper.TV_TYPE,
             originLanguage = "EN"

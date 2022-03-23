@@ -1,8 +1,6 @@
 package made.dicoding.moviecatalogueapps
 
-import android.app.Activity
 import android.app.Application
-import androidx.fragment.app.Fragment
 import com.facebook.flipper.android.AndroidFlipperClient
 import com.facebook.flipper.android.utils.FlipperUtils
 import com.facebook.flipper.plugins.databases.DatabasesFlipperPlugin
@@ -19,15 +17,16 @@ class BaseApplication:Application(){
 
     override fun onCreate() {
         super.onCreate()
-        SoLoader.init(this, false)
-
-        if (BuildConfig.DEBUG && FlipperUtils.shouldEnableFlipper(this)) {
-            val client = AndroidFlipperClient.getInstance(this)
-            client.addPlugin(InspectorFlipperPlugin(this, DescriptorMapping.withDefaults()))
-            client.addPlugin(DatabasesFlipperPlugin(this))
-            client.addPlugin(networkFlipperPlugin)
-            client.start()
-        }
+//        #issue flipper ketika menjalankan instrument testing agar di komen
+//        SoLoader.init(this, false)
+//
+//        if (BuildConfig.DEBUG && FlipperUtils.shouldEnableFlipper(this)) {
+//            val client = AndroidFlipperClient.getInstance(this)
+//            client.addPlugin(InspectorFlipperPlugin(this, DescriptorMapping.withDefaults()))
+//            client.addPlugin(DatabasesFlipperPlugin(this))
+//            client.addPlugin(networkFlipperPlugin)
+//            client.start()
+//        }
     }
 
 }
