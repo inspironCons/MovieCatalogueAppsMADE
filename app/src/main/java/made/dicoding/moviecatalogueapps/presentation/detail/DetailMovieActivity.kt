@@ -23,6 +23,7 @@ import com.bumptech.glide.request.target.CustomTarget
 import com.bumptech.glide.request.transition.Transition
 import dagger.hilt.android.AndroidEntryPoint
 import made.dicoding.moviecatalogueapps.R
+import made.dicoding.moviecatalogueapps.core.R as Core
 import made.dicoding.moviecatalogueapps.core.common.ConstanNameHelper
 import made.dicoding.moviecatalogueapps.core.model.Companies
 import made.dicoding.moviecatalogueapps.core.presentation.CompaniesAdapter
@@ -58,9 +59,9 @@ class DetailMovieActivity:AppCompatActivity() {
             val type = extra.getString(type) as String
             val local = extra.getBoolean(local)
             if(type == ConstanNameHelper.TV_TYPE){
-                binding.tvLableCompanies.text = getString(R.string.network)
+                binding.tvLableCompanies.text = getString(Core.string.network)
             }else{
-                binding.tvLableCompanies.text = getString(R.string.companies)
+                binding.tvLableCompanies.text = getString(Core.string.companies)
             }
             viewModel.detailMovie(id,type,local).observe(this){ data->
                 if(data.isSuccess){
@@ -94,8 +95,8 @@ class DetailMovieActivity:AppCompatActivity() {
                             })
 
                         movieTitleDetail.text = movie?.title
-                        movieTagline.text = getString(R.string.tagline,movie?.tagline)
-                        movieUserScore.text = getString(R.string.movie_score,movie?.userScore)
+                        movieTagline.text = getString(Core.string.tagline,movie?.tagline)
+                        movieUserScore.text = getString(Core.string.movie_score,movie?.userScore)
                         movieReleaseDate.text = movie?.releaseDate?.toDateFormatRelease()
                         movieProductionCountry.text = movie?.productionCountry
                         movieCategory.text = movie?.category?.joinToString(",")

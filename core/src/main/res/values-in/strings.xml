@@ -7,7 +7,6 @@
     <string name="Greeting">Halo,</string>
     <string name="reviewer">Peninjau</string>
     <string name="movie_title_and_years">%s %s</string>
-    <string name="movie_score">%1$d\%%</string>
     <string name="overview">Sinopsis</string>
     <string name="back_button">tombol kembali</string>
     <string name="companies">Rumah Produksi</string>
