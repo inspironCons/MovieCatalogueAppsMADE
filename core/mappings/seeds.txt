@@ -1,0 +1,103 @@
+made.dicoding.moviecatalogueapps.core.database.MovieDatabase
+made.dicoding.moviecatalogueapps.core.R$styleable
+made.dicoding.moviecatalogueapps.core.R$id
+made.dicoding.moviecatalogueapps.core.R
+made.dicoding.moviecatalogueapps.core.R$string
+made.dicoding.moviecatalogueapps.core.database.MovieDatabase_Impl
+made.dicoding.moviecatalogueapps.core.R$attr
+made.dicoding.moviecatalogueapps.core.R$layout
+made.dicoding.moviecatalogueapps.core.R$color
+made.dicoding.moviecatalogueapps.core.R$font
+made.dicoding.moviecatalogueapps.core.R$style
+made.dicoding.moviecatalogueapps.core.R$drawable
+made.dicoding.moviecatalogueapps.core.R$color: int colorImage
+made.dicoding.moviecatalogueapps.core.R$string: int user_score
+made.dicoding.moviecatalogueapps.core.R$font: int roboto_medium
+made.dicoding.moviecatalogueapps.core.R$id: int movie_poster
+made.dicoding.moviecatalogueapps.core.R$string: int reviewer
+made.dicoding.moviecatalogueapps.core.R$string: int app_name
+made.dicoding.moviecatalogueapps.core.R$string: int msg_error_default
+made.dicoding.moviecatalogueapps.core.R$style: int fabFavorite
+made.dicoding.moviecatalogueapps.core.R$string: int movie_text
+made.dicoding.moviecatalogueapps.core.R$style: int textColor_Regular
+made.dicoding.moviecatalogueapps.core.R$id: int movie_score_graph
+made.dicoding.moviecatalogueapps.core.R$id: int name_companies
+made.dicoding.moviecatalogueapps.core.R$style: int roundedImageView
+made.dicoding.moviecatalogueapps.core.R$style: int menuBackGlassmorph
+made.dicoding.moviecatalogueapps.core.R$font: int roboto_thin
+made.dicoding.moviecatalogueapps.core.R$styleable: int ErrorState_title
+made.dicoding.moviecatalogueapps.core.R$string: int movie_title_and_years
+made.dicoding.moviecatalogueapps.core.R$font: int roboto_italic
+made.dicoding.moviecatalogueapps.core.R$string: int empty_state
+made.dicoding.moviecatalogueapps.core.R$attr: int title
+made.dicoding.moviecatalogueapps.core.R$drawable: int ic_favorite
+made.dicoding.moviecatalogueapps.core.R$string: int overview
+made.dicoding.moviecatalogueapps.core.R$string: int fab_content_desc
+made.dicoding.moviecatalogueapps.core.R$color: int black
+made.dicoding.moviecatalogueapps.core.R$string: int tagline
+made.dicoding.moviecatalogueapps.core.R$style: int textColor_Thin
+made.dicoding.moviecatalogueapps.core.R$styleable: int[] ErrorState
+made.dicoding.moviecatalogueapps.core.R$layout: int view_error_state
+made.dicoding.moviecatalogueapps.core.R$color: int pink
+made.dicoding.moviecatalogueapps.core.R$string: int empty_title
+made.dicoding.moviecatalogueapps.core.R$font: int roboto_regular
+made.dicoding.moviecatalogueapps.core.R$id: int movie_score
+made.dicoding.moviecatalogueapps.core.R$attr: int ErrorStateLayout
+made.dicoding.moviecatalogueapps.core.R$style: int textColor_Bold
+made.dicoding.moviecatalogueapps.core.R$drawable: int ic_avatar
+made.dicoding.moviecatalogueapps.core.R$style: int textColor
+made.dicoding.moviecatalogueapps.core.R$font: int roboto_bold
+made.dicoding.moviecatalogueapps.core.R$style: int textColor_Light
+made.dicoding.moviecatalogueapps.core.R$id: int movie_ori_language
+made.dicoding.moviecatalogueapps.core.R$string: int network
+made.dicoding.moviecatalogueapps.core.R$string: int companies
+made.dicoding.moviecatalogueapps.core.R$color: int bg_color
+made.dicoding.moviecatalogueapps.core.R$string: int movie_score
+made.dicoding.moviecatalogueapps.core.R$id: int tv_desc
+made.dicoding.moviecatalogueapps.core.R$style: int textColor_Medium
+made.dicoding.moviecatalogueapps.core.R$string: int watch
+made.dicoding.moviecatalogueapps.core.R$color: int text_color
+made.dicoding.moviecatalogueapps.core.R$drawable: int ic_rotate_right
+made.dicoding.moviecatalogueapps.core.R$id: int iv_empty
+made.dicoding.moviecatalogueapps.core.R$drawable: int ic_empty_poster
+made.dicoding.moviecatalogueapps.core.R$drawable: int bg_glassmorph_primary_color
+made.dicoding.moviecatalogueapps.core.R$style: int TabsLayoutTransparent
+made.dicoding.moviecatalogueapps.core.R$drawable: int bg_outline_textview
+made.dicoding.moviecatalogueapps.core.R$color: int grey_color
+made.dicoding.moviecatalogueapps.core.R$style: int TabsLayoutTextAppearance
+made.dicoding.moviecatalogueapps.core.R$font: int roboto_bolditalic
+made.dicoding.moviecatalogueapps.core.R$styleable: int ErrorState_image
+made.dicoding.moviecatalogueapps.core.R$font: int roboto_black
+made.dicoding.moviecatalogueapps.core.R$layout: int items_companies
+made.dicoding.moviecatalogueapps.core.R$attr: int image
+made.dicoding.moviecatalogueapps.core.R$layout: int items_movies
+made.dicoding.moviecatalogueapps.core.R$font: int roboto_light
+made.dicoding.moviecatalogueapps.core.R$id: int movie_title
+made.dicoding.moviecatalogueapps.core.R$drawable: int ic_error_state
+made.dicoding.moviecatalogueapps.core.R$drawable: int bg_progress_bar
+made.dicoding.moviecatalogueapps.core.R$string: int Greeting
+made.dicoding.moviecatalogueapps.core.R$font: int roboto_blackitalic
+made.dicoding.moviecatalogueapps.core.R$string: int tv_show_text
+made.dicoding.moviecatalogueapps.core.R$color: int white
+made.dicoding.moviecatalogueapps.core.R$id: int tv_title
+made.dicoding.moviecatalogueapps.core.R$drawable: int cast_image_default
+made.dicoding.moviecatalogueapps.core.R$color: int primary_color_29
+made.dicoding.moviecatalogueapps.core.R$drawable: int ic_image_loader
+made.dicoding.moviecatalogueapps.core.R$styleable: int ErrorState_description
+made.dicoding.moviecatalogueapps.core.R$color: int primary_color
+made.dicoding.moviecatalogueapps.core.R$string: int back_button
+made.dicoding.moviecatalogueapps.core.R$id: int logo_companies
+made.dicoding.moviecatalogueapps.core.R$attr: int description
+made.dicoding.moviecatalogueapps.core.R$color: R$color()
+made.dicoding.moviecatalogueapps.core.R$styleable: <clinit>()
+made.dicoding.moviecatalogueapps.core.R$string: R$string()
+made.dicoding.moviecatalogueapps.core.R$style: R$style()
+made.dicoding.moviecatalogueapps.core.R$id: R$id()
+made.dicoding.moviecatalogueapps.core.R$styleable: R$styleable()
+made.dicoding.moviecatalogueapps.core.R$font: R$font()
+made.dicoding.moviecatalogueapps.core.R$layout: R$layout()
+made.dicoding.moviecatalogueapps.core.R$attr: R$attr()
+made.dicoding.moviecatalogueapps.core.database.MovieDatabase_Impl: MovieDatabase_Impl()
+made.dicoding.moviecatalogueapps.core.database.MovieDatabase: MovieDatabase()
+made.dicoding.moviecatalogueapps.core.R$drawable: R$drawable()
+made.dicoding.moviecatalogueapps.core.R: R()

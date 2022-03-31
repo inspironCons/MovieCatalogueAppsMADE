@@ -1,0 +1,45 @@
+# compiler: R8
+# compiler_version: 3.1.66
+# pg_map_id: 39defe7
+# common_typos_disable
+# {"id":"com.android.tools.r8.mapping","version":"1.0"}
+made.dicoding.moviecatalogueapps.core.data.remote.local.dao.FavoriteDao -> a.a:
+# {"id":"sourceFile","fileName":"FavoriteDao.kt"}
+made.dicoding.moviecatalogueapps.core.data.remote.local.dao.FavoriteDao_Impl -> a.b:
+    572:572:java.util.List getRequiredConverters() -> a
+made.dicoding.moviecatalogueapps.core.data.remote.local.entity.FavoriteEntity -> b.a:
+# {"id":"sourceFile","fileName":"FavoriteEntity.kt"}
+made.dicoding.moviecatalogueapps.core.database.MovieDatabase -> made.dicoding.moviecatalogueapps.core.database.MovieDatabase:
+# {"id":"sourceFile","fileName":"MovieDatabase.kt"}
+    17:17:void <init>() -> <init>
+made.dicoding.moviecatalogueapps.core.database.MovieDatabase_Impl -> made.dicoding.moviecatalogueapps.core.database.MovieDatabase_Impl:
+    36:36:void <init>() -> <init>
+    36:36:java.util.List access$000(made.dicoding.moviecatalogueapps.core.database.MovieDatabase_Impl) -> a
+    36:36:androidx.sqlite.db.SupportSQLiteDatabase access$602(made.dicoding.moviecatalogueapps.core.database.MovieDatabase_Impl,androidx.sqlite.db.SupportSQLiteDatabase) -> a
+    36:36:java.util.List access$100(made.dicoding.moviecatalogueapps.core.database.MovieDatabase_Impl) -> b
+    36:36:void access$700(made.dicoding.moviecatalogueapps.core.database.MovieDatabase_Impl,androidx.sqlite.db.SupportSQLiteDatabase) -> b
+    36:36:java.util.List access$1000(made.dicoding.moviecatalogueapps.core.database.MovieDatabase_Impl) -> c
+    133:146:void clearAllTables() -> clearAllTables
+    126:128:androidx.room.InvalidationTracker createInvalidationTracker() -> createInvalidationTracker
+    41:121:androidx.sqlite.db.SupportSQLiteOpenHelper createOpenHelper(androidx.room.DatabaseConfiguration) -> createOpenHelper
+    36:36:java.util.List access$200(made.dicoding.moviecatalogueapps.core.database.MovieDatabase_Impl) -> d
+    36:36:java.util.List access$300(made.dicoding.moviecatalogueapps.core.database.MovieDatabase_Impl) -> e
+    36:36:java.util.List access$400(made.dicoding.moviecatalogueapps.core.database.MovieDatabase_Impl) -> f
+    36:36:java.util.List access$500(made.dicoding.moviecatalogueapps.core.database.MovieDatabase_Impl) -> g
+    164:164:java.util.List getAutoMigrations(java.util.Map) -> getAutoMigrations
+    157:158:java.util.Set getRequiredAutoMigrationSpecs() -> getRequiredAutoMigrationSpecs
+    150:152:java.util.Map getRequiredTypeConverters() -> getRequiredTypeConverters
+    36:36:java.util.List access$800(made.dicoding.moviecatalogueapps.core.database.MovieDatabase_Impl) -> h
+    36:36:java.util.List access$900(made.dicoding.moviecatalogueapps.core.database.MovieDatabase_Impl) -> i
+made.dicoding.moviecatalogueapps.core.database.MovieDatabase_Impl$1 -> made.dicoding.moviecatalogueapps.core.database.MovieDatabase_Impl$a:
+    made.dicoding.moviecatalogueapps.core.database.MovieDatabase_Impl this$0 -> a
+    41:41:void <init>(made.dicoding.moviecatalogueapps.core.database.MovieDatabase_Impl,int) -> <init>
+    44:47:void createAllTables(androidx.sqlite.db.SupportSQLiteDatabase) -> createAllTables
+    51:57:void dropAllTables(androidx.sqlite.db.SupportSQLiteDatabase) -> dropAllTables
+    61:66:void onCreate(androidx.sqlite.db.SupportSQLiteDatabase) -> onCreate
+    70:77:void onOpen(androidx.sqlite.db.SupportSQLiteDatabase) -> onOpen
+    86:86:void onPostMigrate(androidx.sqlite.db.SupportSQLiteDatabase) -> onPostMigrate
+    81:82:void onPreMigrate(androidx.sqlite.db.SupportSQLiteDatabase) -> onPreMigrate
+    90:113:androidx.room.RoomOpenHelper$ValidationResult onValidateSchema(androidx.sqlite.db.SupportSQLiteDatabase) -> onValidateSchema
+made.dicoding.moviecatalogueapps.core.database.converter.Converters -> c.a:
+# {"id":"sourceFile","fileName":"Converters.kt"}
