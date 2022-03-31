@@ -13,5 +13,5 @@ object ConstanNameHelper {
 
     const val MOVIES_TYPE = "MOVIES_TYPE"
     const val TV_TYPE = "TV_TYPE"
-
+    val HEX_CHARS = "0123456789ABCDEF".toCharArray()
 }

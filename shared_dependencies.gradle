@@ -1,4 +1,5 @@
 android {
+
     sourceSets {
         // non-instrumental test example
         test {
@@ -60,9 +61,13 @@ dependencies {
     kapt "androidx.room:room-compiler:$room_version"
 
     //flipper
-    implementation 'com.facebook.flipper:flipper:0.127.0'
+    implementation 'com.facebook.flipper:flipper:0.140.0'
     implementation 'com.facebook.soloader:soloader:0.10.3'
     implementation 'com.facebook.flipper:flipper-network-plugin:0.119.0'
+    implementation 'com.facebook.flipper:flipper-leakcanary2-plugin:0.140.0'
+
+    //leak canary
+    debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.8.1'
 
     //unit testing
     testImplementation 'junit:junit:4.13.2'
@@ -75,6 +80,7 @@ dependencies {
     testImplementation project(':core')
     androidTestImplementation project(":core")
 
+    androidTestImplementation 'com.squareup.leakcanary:leakcanary-android-instrumentation:2.8.1'
     androidTestImplementation 'androidx.test:rules:1.4.0'
     androidTestImplementation 'androidx.test:runner:1.4.0'
     androidTestImplementation 'androidx.test.ext:junit-ktx:1.1.3'
