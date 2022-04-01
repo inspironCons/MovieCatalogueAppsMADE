@@ -6,7 +6,6 @@ import kotlinx.coroutines.flow.catch
 import kotlinx.coroutines.flow.flow
 import made.dicoding.moviecatalogueapps.core.data.remote.local.dao.FavoriteDao
 import made.dicoding.moviecatalogueapps.core.data.remote.local.entity.FavoriteEntity
-import made.dicoding.moviecatalogueapps.core.utils.EspressoIdling
 import java.io.IOException
 import javax.inject.Inject
 

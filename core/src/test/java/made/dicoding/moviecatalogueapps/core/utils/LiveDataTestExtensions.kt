@@ -13,13 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+@file:Suppress("KDocUnresolvedReference", "KDocUnresolvedReference")
+
 package made.dicoding.moviecatalogueapps.core.utils
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Observer
-import java.util.concurrent.CountDownLatch
-import java.util.concurrent.TimeUnit
-import java.util.concurrent.TimeoutException
 
 /**
  * Represents a list of capture values from a LiveData.

@@ -1,12 +1,11 @@
 package made.dicoding.moviecatalogueapps.core.service.trending
 
-import made.dicoding.moviecatalogueapps.core.common.ConstanNameHelper
-import made.dicoding.moviecatalogueapps.core.data.remote.network.TrendingApi
-import made.dicoding.moviecatalogueapps.core.model.Movies
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.catch
 import kotlinx.coroutines.flow.flow
-import made.dicoding.moviecatalogueapps.core.utils.EspressoIdling
+import made.dicoding.moviecatalogueapps.core.common.ConstanNameHelper
+import made.dicoding.moviecatalogueapps.core.data.remote.network.TrendingApi
+import made.dicoding.moviecatalogueapps.core.model.Movies
 import javax.inject.Inject
 
 class TrendingServiceImpl @Inject constructor(

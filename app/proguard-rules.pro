@@ -54,3 +54,4 @@
 -keepclassmembernames class androidx.appcompat.view.WindowCallbackWrapper {
     android.view.Window$Callback mWrapped;
 }
+
