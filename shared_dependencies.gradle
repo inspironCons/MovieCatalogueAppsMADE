@@ -9,7 +9,6 @@ android {
         androidTest {
             java.srcDir project(":core").file("src/androidTest/java")
         }
-
     }
 }
 dependencies {
