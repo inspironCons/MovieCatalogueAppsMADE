@@ -1,0 +1,235 @@
+hilt_aggregated_deps._made_dicoding_moviecatalogueapps_core_di_DatabaseModule
+hilt_aggregated_deps._made_dicoding_moviecatalogueapps_core_di_NetworkModule
+hilt_aggregated_deps._made_dicoding_moviecatalogueapps_core_di_RepositoryModule
+hilt_aggregated_deps._made_dicoding_moviecatalogueapps_core_di_ServiceModule
+made.dicoding.moviecatalogueapps.core.BuildConfig
+made.dicoding.moviecatalogueapps.core.common.ConstanNameHelper
+made.dicoding.moviecatalogueapps.core.component.ErrorState
+made.dicoding.moviecatalogueapps.core.data.remote.local.dao.FavoriteDao:
+    public abstract java.lang.Object countMoviesById(java.lang.Integer,kotlin.coroutines.Continuation)
+    public abstract java.lang.Object delete(made.dicoding.moviecatalogueapps.core.data.remote.local.entity.FavoriteEntity,kotlin.coroutines.Continuation)
+    public abstract java.lang.Object getDetailById(int,kotlin.coroutines.Continuation)
+    public abstract androidx.paging.PagingSource getMovies(java.lang.String)
+    public abstract java.lang.Object insert(made.dicoding.moviecatalogueapps.core.data.remote.local.entity.FavoriteEntity,kotlin.coroutines.Continuation)
+    public abstract java.util.List observeAllData()
+made.dicoding.moviecatalogueapps.core.data.remote.local.dao.FavoriteDao_Impl$1
+made.dicoding.moviecatalogueapps.core.data.remote.local.dao.FavoriteDao_Impl$2
+made.dicoding.moviecatalogueapps.core.data.remote.local.dao.FavoriteDao_Impl$3
+made.dicoding.moviecatalogueapps.core.data.remote.local.dao.FavoriteDao_Impl$4
+made.dicoding.moviecatalogueapps.core.data.remote.local.dao.FavoriteDao_Impl$5
+made.dicoding.moviecatalogueapps.core.data.remote.local.dao.FavoriteDao_Impl$6
+made.dicoding.moviecatalogueapps.core.data.remote.local.dao.FavoriteDao_Impl$7
+made.dicoding.moviecatalogueapps.core.data.remote.local.dao.FavoriteDao_Impl:
+    private final made.dicoding.moviecatalogueapps.core.database.converter.Converters __converters
+    private final androidx.room.RoomDatabase __db
+    private final androidx.room.EntityDeletionOrUpdateAdapter __deletionAdapterOfFavoriteEntity
+    private final androidx.room.EntityInsertionAdapter __insertionAdapterOfFavoriteEntity
+    public void <init>(androidx.room.RoomDatabase)
+    public java.lang.Object countMoviesById(java.lang.Integer,kotlin.coroutines.Continuation)
+    public java.lang.Object delete(made.dicoding.moviecatalogueapps.core.data.remote.local.entity.FavoriteEntity,kotlin.coroutines.Continuation)
+    public java.lang.Object getDetailById(int,kotlin.coroutines.Continuation)
+    public androidx.paging.PagingSource getMovies(java.lang.String)
+    public java.lang.Object insert(made.dicoding.moviecatalogueapps.core.data.remote.local.entity.FavoriteEntity,kotlin.coroutines.Continuation)
+    public java.util.List observeAllData()
+made.dicoding.moviecatalogueapps.core.data.remote.local.entity.FavoriteEntity:
+    private java.util.List category
+    private java.util.List companies
+    private java.lang.Integer movieId
+    private java.lang.String originLanguage
+    private java.lang.String overview
+    private java.lang.String poster
+    private java.lang.String productionCountry
+    private java.lang.String releaseDate
+    private java.lang.String tagline
+    private java.lang.String title
+    private java.lang.String type
+    private java.lang.String urlWatch
+    private java.lang.Integer userScore
+    public void <init>()
+    public void <init>(java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,java.util.List,java.lang.String,java.lang.String,java.lang.String,java.util.List,java.lang.String)
+    public synthetic void <init>(java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,java.util.List,java.lang.String,java.lang.String,java.lang.String,java.util.List,java.lang.String,int,kotlin.jvm.internal.DefaultConstructorMarker)
+    public final java.lang.Integer component1()
+    public final java.lang.String component10()
+    public final java.lang.String component11()
+    public final java.util.List component12()
+    public final java.lang.String component13()
+    public final java.lang.String component2()
+    public final java.lang.String component3()
+    public final java.lang.String component4()
+    public final java.lang.String component5()
+    public final java.lang.Integer component6()
+    public final java.lang.String component7()
+    public final java.util.List component8()
+    public final java.lang.String component9()
+    public final made.dicoding.moviecatalogueapps.core.data.remote.local.entity.FavoriteEntity copy(java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,java.util.List,java.lang.String,java.lang.String,java.lang.String,java.util.List,java.lang.String)
+    public static synthetic made.dicoding.moviecatalogueapps.core.data.remote.local.entity.FavoriteEntity copy$default(made.dicoding.moviecatalogueapps.core.data.remote.local.entity.FavoriteEntity,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,java.util.List,java.lang.String,java.lang.String,java.lang.String,java.util.List,java.lang.String,int,java.lang.Object)
+    public boolean equals(java.lang.Object)
+    public final java.util.List getCategory()
+    public final java.util.List getCompanies()
+    public final java.lang.Integer getMovieId()
+    public final java.lang.String getOriginLanguage()
+    public final java.lang.String getOverview()
+    public final java.lang.String getPoster()
+    public final java.lang.String getProductionCountry()
+    public final java.lang.String getReleaseDate()
+    public final java.lang.String getTagline()
+    public final java.lang.String getTitle()
+    public final java.lang.String getType()
+    public final java.lang.String getUrlWatch()
+    public final java.lang.Integer getUserScore()
+    public int hashCode()
+    public final void setCategory(java.util.List)
+    public final void setCompanies(java.util.List)
+    public final void setMovieId(java.lang.Integer)
+    public final void setOriginLanguage(java.lang.String)
+    public final void setOverview(java.lang.String)
+    public final void setPoster(java.lang.String)
+    public final void setProductionCountry(java.lang.String)
+    public final void setReleaseDate(java.lang.String)
+    public final void setTagline(java.lang.String)
+    public final void setTitle(java.lang.String)
+    public final void setType(java.lang.String)
+    public final void setUrlWatch(java.lang.String)
+    public final void setUserScore(java.lang.Integer)
+    public final made.dicoding.moviecatalogueapps.core.model.Movies toMovies()
+    public java.lang.String toString()
+made.dicoding.moviecatalogueapps.core.data.remote.network.DetailMoviesApi
+made.dicoding.moviecatalogueapps.core.data.remote.network.TrendingApi
+made.dicoding.moviecatalogueapps.core.data.remote.network.dto.DetailMoviesResponse
+made.dicoding.moviecatalogueapps.core.data.remote.network.dto.DetailTvShowsResponse
+made.dicoding.moviecatalogueapps.core.data.remote.network.dto.GenresDto
+made.dicoding.moviecatalogueapps.core.data.remote.network.dto.ProductionCompanies
+made.dicoding.moviecatalogueapps.core.data.remote.network.dto.ProductionCountries
+made.dicoding.moviecatalogueapps.core.data.remote.network.dto.ResultsMovieResponse
+made.dicoding.moviecatalogueapps.core.data.remote.network.dto.ResultsTvResponse
+made.dicoding.moviecatalogueapps.core.data.remote.network.dto.TrendingMovieResponse
+made.dicoding.moviecatalogueapps.core.data.remote.network.dto.TrendingTvResponse
+made.dicoding.moviecatalogueapps.core.data.repository_impl.FavoriteRepositoryImpl$favoriteMovieById$$inlined$map$1$2$1
+made.dicoding.moviecatalogueapps.core.data.repository_impl.FavoriteRepositoryImpl$favoriteMovieById$$inlined$map$1$2
+made.dicoding.moviecatalogueapps.core.data.repository_impl.FavoriteRepositoryImpl$favoriteMovieById$$inlined$map$1
+made.dicoding.moviecatalogueapps.core.data.repository_impl.FavoriteRepositoryImpl
+made.dicoding.moviecatalogueapps.core.data.repository_impl.FavoriteRepositoryImpl_Factory
+made.dicoding.moviecatalogueapps.core.data.repository_impl.MovieRepositoryImpl$detailMovie$$inlined$map$1$2$1
+made.dicoding.moviecatalogueapps.core.data.repository_impl.MovieRepositoryImpl$detailMovie$$inlined$map$1$2
+made.dicoding.moviecatalogueapps.core.data.repository_impl.MovieRepositoryImpl$detailMovie$$inlined$map$1
+made.dicoding.moviecatalogueapps.core.data.repository_impl.MovieRepositoryImpl$detailTvShows$$inlined$map$1$2$1
+made.dicoding.moviecatalogueapps.core.data.repository_impl.MovieRepositoryImpl$detailTvShows$$inlined$map$1$2
+made.dicoding.moviecatalogueapps.core.data.repository_impl.MovieRepositoryImpl$detailTvShows$$inlined$map$1
+made.dicoding.moviecatalogueapps.core.data.repository_impl.MovieRepositoryImpl$trendingMovies$$inlined$map$1$2$1
+made.dicoding.moviecatalogueapps.core.data.repository_impl.MovieRepositoryImpl$trendingMovies$$inlined$map$1$2
+made.dicoding.moviecatalogueapps.core.data.repository_impl.MovieRepositoryImpl$trendingMovies$$inlined$map$1
+made.dicoding.moviecatalogueapps.core.data.repository_impl.MovieRepositoryImpl$trendingMovies$1
+made.dicoding.moviecatalogueapps.core.data.repository_impl.MovieRepositoryImpl$trendingTvShows$$inlined$map$1$2$1
+made.dicoding.moviecatalogueapps.core.data.repository_impl.MovieRepositoryImpl$trendingTvShows$$inlined$map$1$2
+made.dicoding.moviecatalogueapps.core.data.repository_impl.MovieRepositoryImpl$trendingTvShows$$inlined$map$1
+made.dicoding.moviecatalogueapps.core.data.repository_impl.MovieRepositoryImpl$trendingTvShows$1
+made.dicoding.moviecatalogueapps.core.data.repository_impl.MovieRepositoryImpl
+made.dicoding.moviecatalogueapps.core.data.repository_impl.MovieRepositoryImpl_Factory
+made.dicoding.moviecatalogueapps.core.database.MovieDatabase:
+    public abstract made.dicoding.moviecatalogueapps.core.data.remote.local.dao.FavoriteDao favoriteDao()
+made.dicoding.moviecatalogueapps.core.database.MovieDatabase_Impl:
+    private volatile made.dicoding.moviecatalogueapps.core.data.remote.local.dao.FavoriteDao _favoriteDao
+    public made.dicoding.moviecatalogueapps.core.data.remote.local.dao.FavoriteDao favoriteDao()
+made.dicoding.moviecatalogueapps.core.database.converter.Converters$jsonToListCompanies$listType$1
+made.dicoding.moviecatalogueapps.core.database.converter.Converters$jsonToListGenres$listType$1
+made.dicoding.moviecatalogueapps.core.database.converter.Converters:
+    public void <init>()
+    public final java.util.ArrayList jsonToListCompanies(java.lang.String)
+    public final java.util.List jsonToListGenres(java.lang.String)
+    public final java.lang.String listToJsonCompanies(java.util.List)
+    public final java.lang.String listToJsonGenres(java.util.List)
+made.dicoding.moviecatalogueapps.core.databinding.ItemsCompaniesBinding
+made.dicoding.moviecatalogueapps.core.databinding.ItemsMoviesBinding
+made.dicoding.moviecatalogueapps.core.databinding.ViewErrorStateBinding
+made.dicoding.moviecatalogueapps.core.di.DatabaseModule
+made.dicoding.moviecatalogueapps.core.di.DatabaseModule_DbInstanceFactory
+made.dicoding.moviecatalogueapps.core.di.DatabaseModule_FavoriteDaoFactory
+made.dicoding.moviecatalogueapps.core.di.NetworkModule
+made.dicoding.moviecatalogueapps.core.di.NetworkModule_DetailMoviesApiFactory
+made.dicoding.moviecatalogueapps.core.di.NetworkModule_MovieApiFactory
+made.dicoding.moviecatalogueapps.core.di.NetworkModule_NetworkFlipperPluginFactory
+made.dicoding.moviecatalogueapps.core.di.NetworkModule_RetrofitFactory
+made.dicoding.moviecatalogueapps.core.di.RepositoryModule
+made.dicoding.moviecatalogueapps.core.di.ServiceModule
+made.dicoding.moviecatalogueapps.core.di.ServiceModule_ProvideDetailMovieServiceFactory
+made.dicoding.moviecatalogueapps.core.di.ServiceModule_ProvideFavoriteServiceFactory
+made.dicoding.moviecatalogueapps.core.di.ServiceModule_ProvideTrendingServiceFactory
+made.dicoding.moviecatalogueapps.core.domain.repository.IFavoriteRepository
+made.dicoding.moviecatalogueapps.core.domain.repository.IMovieRepository
+made.dicoding.moviecatalogueapps.core.domain.use_case.favorite.FavoriteUseCaseImpl
+made.dicoding.moviecatalogueapps.core.domain.use_case.favorite.FavoriteUseCaseImpl_Factory
+made.dicoding.moviecatalogueapps.core.domain.use_case.favorite.IFavoriteUseCase
+made.dicoding.moviecatalogueapps.core.domain.use_case.movie.IMovieUseCase
+made.dicoding.moviecatalogueapps.core.domain.use_case.movie.MovieUseCaseImpl$getDetailMovie$$inlined$map$1$2$1
+made.dicoding.moviecatalogueapps.core.domain.use_case.movie.MovieUseCaseImpl$getDetailMovie$$inlined$map$1$2
+made.dicoding.moviecatalogueapps.core.domain.use_case.movie.MovieUseCaseImpl$getDetailMovie$$inlined$map$1
+made.dicoding.moviecatalogueapps.core.domain.use_case.movie.MovieUseCaseImpl$getDetailTvShow$$inlined$map$1$2$1
+made.dicoding.moviecatalogueapps.core.domain.use_case.movie.MovieUseCaseImpl$getDetailTvShow$$inlined$map$1$2
+made.dicoding.moviecatalogueapps.core.domain.use_case.movie.MovieUseCaseImpl$getDetailTvShow$$inlined$map$1
+made.dicoding.moviecatalogueapps.core.domain.use_case.movie.MovieUseCaseImpl$getMovieFromSourceLocal$$inlined$map$1$2$1
+made.dicoding.moviecatalogueapps.core.domain.use_case.movie.MovieUseCaseImpl$getMovieFromSourceLocal$$inlined$map$1$2
+made.dicoding.moviecatalogueapps.core.domain.use_case.movie.MovieUseCaseImpl$getMovieFromSourceLocal$$inlined$map$1
+made.dicoding.moviecatalogueapps.core.domain.use_case.movie.MovieUseCaseImpl
+made.dicoding.moviecatalogueapps.core.domain.use_case.movie.MovieUseCaseImpl_Factory
+made.dicoding.moviecatalogueapps.core.domain.use_case.movies.IMoviesUseCase
+made.dicoding.moviecatalogueapps.core.domain.use_case.movies.MoviesUseCaseImpl$getMovieList$$inlined$map$1$2$1
+made.dicoding.moviecatalogueapps.core.domain.use_case.movies.MoviesUseCaseImpl$getMovieList$$inlined$map$1$2
+made.dicoding.moviecatalogueapps.core.domain.use_case.movies.MoviesUseCaseImpl$getMovieList$$inlined$map$1
+made.dicoding.moviecatalogueapps.core.domain.use_case.movies.MoviesUseCaseImpl$getMovieList$1
+made.dicoding.moviecatalogueapps.core.domain.use_case.movies.MoviesUseCaseImpl$getTvShowList$$inlined$map$1$2$1
+made.dicoding.moviecatalogueapps.core.domain.use_case.movies.MoviesUseCaseImpl$getTvShowList$$inlined$map$1$2
+made.dicoding.moviecatalogueapps.core.domain.use_case.movies.MoviesUseCaseImpl$getTvShowList$$inlined$map$1
+made.dicoding.moviecatalogueapps.core.domain.use_case.movies.MoviesUseCaseImpl$getTvShowList$1
+made.dicoding.moviecatalogueapps.core.domain.use_case.movies.MoviesUseCaseImpl
+made.dicoding.moviecatalogueapps.core.domain.use_case.movies.MoviesUseCaseImpl_Factory
+made.dicoding.moviecatalogueapps.core.model.Companies
+made.dicoding.moviecatalogueapps.core.model.DetailMovie
+made.dicoding.moviecatalogueapps.core.model.Genres
+made.dicoding.moviecatalogueapps.core.model.ListMovies
+made.dicoding.moviecatalogueapps.core.model.Movies
+made.dicoding.moviecatalogueapps.core.presentation.CompaniesAdapter$ViewHolder
+made.dicoding.moviecatalogueapps.core.presentation.CompaniesAdapter
+made.dicoding.moviecatalogueapps.core.presentation.FavoriteAdapter$Companion$diffCallback$1
+made.dicoding.moviecatalogueapps.core.presentation.FavoriteAdapter$Companion
+made.dicoding.moviecatalogueapps.core.presentation.FavoriteAdapter$ItemsCallback
+made.dicoding.moviecatalogueapps.core.presentation.FavoriteAdapter$ViewHolder
+made.dicoding.moviecatalogueapps.core.presentation.FavoriteAdapter
+made.dicoding.moviecatalogueapps.core.presentation.MoviesAdapter$ItemsCallback
+made.dicoding.moviecatalogueapps.core.presentation.MoviesAdapter$ViewHolder
+made.dicoding.moviecatalogueapps.core.presentation.MoviesAdapter
+made.dicoding.moviecatalogueapps.core.presentation.TvShowsAdapter$ItemsCallback
+made.dicoding.moviecatalogueapps.core.presentation.TvShowsAdapter$ViewHolder
+made.dicoding.moviecatalogueapps.core.presentation.TvShowsAdapter
+made.dicoding.moviecatalogueapps.core.service.detail_movie.DetailMovieServiceImpl$fetchDetailMovies$1
+made.dicoding.moviecatalogueapps.core.service.detail_movie.DetailMovieServiceImpl$fetchDetailMovies$2
+made.dicoding.moviecatalogueapps.core.service.detail_movie.DetailMovieServiceImpl$fetchDetailTV$1
+made.dicoding.moviecatalogueapps.core.service.detail_movie.DetailMovieServiceImpl$fetchDetailTV$2
+made.dicoding.moviecatalogueapps.core.service.detail_movie.DetailMovieServiceImpl
+made.dicoding.moviecatalogueapps.core.service.detail_movie.DetailMovieServiceImpl_Factory
+made.dicoding.moviecatalogueapps.core.service.detail_movie.IDetailMovieService
+made.dicoding.moviecatalogueapps.core.service.favorite.FavoriteServiceImpl$deleteMovie$2
+made.dicoding.moviecatalogueapps.core.service.favorite.FavoriteServiceImpl$deleteMovie$3
+made.dicoding.moviecatalogueapps.core.service.favorite.FavoriteServiceImpl$getMovieById$1
+made.dicoding.moviecatalogueapps.core.service.favorite.FavoriteServiceImpl$getMovieById$2
+made.dicoding.moviecatalogueapps.core.service.favorite.FavoriteServiceImpl$insertMovie$2
+made.dicoding.moviecatalogueapps.core.service.favorite.FavoriteServiceImpl$insertMovie$3
+made.dicoding.moviecatalogueapps.core.service.favorite.FavoriteServiceImpl$isMovieAlreadyInFavorite$1
+made.dicoding.moviecatalogueapps.core.service.favorite.FavoriteServiceImpl$isMovieAlreadyInFavorite$2
+made.dicoding.moviecatalogueapps.core.service.favorite.FavoriteServiceImpl
+made.dicoding.moviecatalogueapps.core.service.favorite.FavoriteServiceImpl_Factory
+made.dicoding.moviecatalogueapps.core.service.favorite.IFavoriteService
+made.dicoding.moviecatalogueapps.core.service.trending.ITrendingService
+made.dicoding.moviecatalogueapps.core.service.trending.TrendingServiceImpl$fetchApiMovieList$2
+made.dicoding.moviecatalogueapps.core.service.trending.TrendingServiceImpl$fetchApiMovieList$3
+made.dicoding.moviecatalogueapps.core.service.trending.TrendingServiceImpl$fetchApiTvList$2
+made.dicoding.moviecatalogueapps.core.service.trending.TrendingServiceImpl$fetchApiTvList$3
+made.dicoding.moviecatalogueapps.core.service.trending.TrendingServiceImpl
+made.dicoding.moviecatalogueapps.core.service.trending.TrendingServiceImpl_Factory
+made.dicoding.moviecatalogueapps.core.utils.EspressoIdling
+made.dicoding.moviecatalogueapps.core.utils.General
+made.dicoding.moviecatalogueapps.core.utils.mapper.ListMoviesMapper
+made.dicoding.moviecatalogueapps.core.utils.mapper.ListMoviesMapper_Factory$InstanceHolder
+made.dicoding.moviecatalogueapps.core.utils.mapper.ListMoviesMapper_Factory
+made.dicoding.moviecatalogueapps.core.utils.mapper.MovieMapper
+made.dicoding.moviecatalogueapps.core.utils.mapper.MovieMapper_Factory$InstanceHolder
+made.dicoding.moviecatalogueapps.core.utils.mapper.MovieMapper_Factory

@@ -10,14 +10,26 @@ import dagger.hilt.components.SingletonComponent
 import made.dicoding.moviecatalogueapps.core.common.ConstanNameHelper
 import made.dicoding.moviecatalogueapps.core.data.remote.local.dao.FavoriteDao
 import made.dicoding.moviecatalogueapps.core.database.MovieDatabase
+import net.sqlcipher.database.SQLiteDatabase
+import net.sqlcipher.database.SupportFactory
+import javax.inject.Singleton
 
 @Module
 @InstallIn(SingletonComponent::class)
-class DatabaseModule {
+object DatabaseModule {
+
     @Provides
-    fun dbInstance(@ApplicationContext app:Context): MovieDatabase = Room
-        .databaseBuilder(app, MovieDatabase::class.java, ConstanNameHelper.DB_NAME)
-        .build()
+    @Singleton
+    fun dbInstance(@ApplicationContext app:Context): MovieDatabase {
+        val passPhrase:ByteArray = SQLiteDatabase.getBytes("dicoding".toCharArray())
+        val factory = SupportFactory(passPhrase)
+        return Room
+            .databaseBuilder(app, MovieDatabase::class.java, ConstanNameHelper.DB_NAME)
+            .fallbackToDestructiveMigration()
+            .openHelperFactory(factory)
+            .build()
+    }
+
     @Provides
     fun favoriteDao(db: MovieDatabase): FavoriteDao = db.favoriteDao()
 }

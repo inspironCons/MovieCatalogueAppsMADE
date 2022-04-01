@@ -1,3 +1,5 @@
+@file:Suppress("unused")
+
 package made.dicoding.moviecatalogueapps.core.di
 
 import dagger.Binds
