@@ -11494,7 +11494,6 @@ androidx.room.RoomDatabase$Builder:
     public androidx.room.RoomDatabase$Builder createFromInputStream(java.util.concurrent.Callable)
     public androidx.room.RoomDatabase$Builder createFromInputStream(java.util.concurrent.Callable,androidx.room.RoomDatabase$PrepackagedDatabaseCallback)
     public androidx.room.RoomDatabase$Builder enableMultiInstanceInvalidation()
-    public androidx.room.RoomDatabase$Builder fallbackToDestructiveMigration()
     public varargs androidx.room.RoomDatabase$Builder fallbackToDestructiveMigrationFrom(int[])
     public androidx.room.RoomDatabase$Builder fallbackToDestructiveMigrationOnDowngrade()
     public androidx.room.RoomDatabase$Builder setAutoCloseTimeout(long,java.util.concurrent.TimeUnit)
@@ -31101,16 +31100,14 @@ made.dicoding.moviecatalogueapps.core.databinding.ItemsMoviesBinding:
 made.dicoding.moviecatalogueapps.core.databinding.ViewErrorStateBinding
 made.dicoding.moviecatalogueapps.core.di.DatabaseModule_DbInstanceFactory:
     private final javax.inject.Provider appProvider
-    private final made.dicoding.moviecatalogueapps.core.di.DatabaseModule module
-    public void <init>(made.dicoding.moviecatalogueapps.core.di.DatabaseModule,javax.inject.Provider)
-    public static made.dicoding.moviecatalogueapps.core.di.DatabaseModule_DbInstanceFactory create(made.dicoding.moviecatalogueapps.core.di.DatabaseModule,javax.inject.Provider)
+    public void <init>(javax.inject.Provider)
+    public static made.dicoding.moviecatalogueapps.core.di.DatabaseModule_DbInstanceFactory create(javax.inject.Provider)
     public synthetic bridge java.lang.Object get()
     public made.dicoding.moviecatalogueapps.core.database.MovieDatabase get()
 made.dicoding.moviecatalogueapps.core.di.DatabaseModule_FavoriteDaoFactory:
     private final javax.inject.Provider dbProvider
-    private final made.dicoding.moviecatalogueapps.core.di.DatabaseModule module
-    public void <init>(made.dicoding.moviecatalogueapps.core.di.DatabaseModule,javax.inject.Provider)
-    public static made.dicoding.moviecatalogueapps.core.di.DatabaseModule_FavoriteDaoFactory create(made.dicoding.moviecatalogueapps.core.di.DatabaseModule,javax.inject.Provider)
+    public void <init>(javax.inject.Provider)
+    public static made.dicoding.moviecatalogueapps.core.di.DatabaseModule_FavoriteDaoFactory create(javax.inject.Provider)
     public synthetic bridge java.lang.Object get()
     public made.dicoding.moviecatalogueapps.core.data.remote.local.dao.FavoriteDao get()
 made.dicoding.moviecatalogueapps.core.di.NetworkModule_DetailMoviesApiFactory:
@@ -36057,13 +36054,13 @@ androidx.room.AutoCloser:
     public androidx.sqlite.db.SupportSQLiteDatabase getDelegateDatabase()
     public androidx.sqlite.db.SupportSQLiteDatabase incrementCountAndEnsureDbIsOpen()
     public void init(androidx.sqlite.db.SupportSQLiteOpenHelper)
-androidx.room.AutoClosingRoomOpenHelper$AutoClosingSupportSQLiteDatabase$$InternalSyntheticLambda$6$03c4c882cf11b81cf2c9b13bd16ac8e79e3871c294c37260d08307d9aa7d59f0$0
-androidx.room.AutoClosingRoomOpenHelper$AutoClosingSupportSQLiteDatabase$$InternalSyntheticLambda$6$5a2eb97a3059949373295ce4f42c1bbb89035da59b01d4f8ae1d0a0ba2f38c9f$0
-androidx.room.AutoClosingRoomOpenHelper$AutoClosingSupportSQLiteDatabase$$InternalSyntheticLambda$6$70e25f293017b7dae0054048cebf8e46d3af6d43883e89e3a08b24b98ba9b217$0
-androidx.room.AutoClosingRoomOpenHelper$AutoClosingSupportSQLiteDatabase$$InternalSyntheticLambda$6$a7aeff940d44feb3c7842d6dafe160446b34f367d311bc45f5a76c140096d49e$0
-androidx.room.AutoClosingRoomOpenHelper$AutoClosingSupportSQLiteDatabase$$InternalSyntheticLambda$6$c31d02b6fa73115a1997ae368efe882566afb4ef52214333dd987179cd758b43$0
-androidx.room.AutoClosingRoomOpenHelper$AutoClosingSupportSQLiteDatabase$$InternalSyntheticLambda$6$d65adf64daaa267b0a4f58c8d3c3a2b9bb6fc1ec231a1b81ee2c3471a0a1251a$0
-androidx.room.AutoClosingRoomOpenHelper$AutoClosingSupportSQLiteDatabase$$InternalSyntheticLambda$6$fce62bcfb672b4d48c9b1df3262deaf33f9bca8117c0d39d2ba185f00fce62c9$0
+androidx.room.AutoClosingRoomOpenHelper$AutoClosingSupportSQLiteDatabase$$InternalSyntheticLambda$4$03c4c882cf11b81cf2c9b13bd16ac8e79e3871c294c37260d08307d9aa7d59f0$0
+androidx.room.AutoClosingRoomOpenHelper$AutoClosingSupportSQLiteDatabase$$InternalSyntheticLambda$4$5a2eb97a3059949373295ce4f42c1bbb89035da59b01d4f8ae1d0a0ba2f38c9f$0
+androidx.room.AutoClosingRoomOpenHelper$AutoClosingSupportSQLiteDatabase$$InternalSyntheticLambda$4$70e25f293017b7dae0054048cebf8e46d3af6d43883e89e3a08b24b98ba9b217$0
+androidx.room.AutoClosingRoomOpenHelper$AutoClosingSupportSQLiteDatabase$$InternalSyntheticLambda$4$a7aeff940d44feb3c7842d6dafe160446b34f367d311bc45f5a76c140096d49e$0
+androidx.room.AutoClosingRoomOpenHelper$AutoClosingSupportSQLiteDatabase$$InternalSyntheticLambda$4$c31d02b6fa73115a1997ae368efe882566afb4ef52214333dd987179cd758b43$0
+androidx.room.AutoClosingRoomOpenHelper$AutoClosingSupportSQLiteDatabase$$InternalSyntheticLambda$4$d65adf64daaa267b0a4f58c8d3c3a2b9bb6fc1ec231a1b81ee2c3471a0a1251a$0
+androidx.room.AutoClosingRoomOpenHelper$AutoClosingSupportSQLiteDatabase$$InternalSyntheticLambda$4$fce62bcfb672b4d48c9b1df3262deaf33f9bca8117c0d39d2ba185f00fce62c9$0
 androidx.room.AutoClosingRoomOpenHelper$AutoClosingSupportSQLiteDatabase:
     public final androidx.room.AutoCloser mAutoCloser
     public static synthetic java.lang.Object $r8$lambda$JmCZFgYqN8IAleNUA8VAUt1bG9c(java.lang.String,androidx.sqlite.db.SupportSQLiteDatabase)
@@ -36091,9 +36088,9 @@ androidx.room.AutoClosingRoomOpenHelper$AutoClosingSupportSQLiteDatabase:
     public android.database.Cursor query(java.lang.String,java.lang.Object[])
     public void setTransactionSuccessful()
     public void setVersion(int)
-androidx.room.AutoClosingRoomOpenHelper$AutoClosingSupportSqliteStatement$$InternalSyntheticLambda$6$534f5b107d27902f077def9fa42d048b55e80215171a5e6456d9060dee76a3b3$0
-androidx.room.AutoClosingRoomOpenHelper$AutoClosingSupportSqliteStatement$$InternalSyntheticLambda$6$efce483dbdb0a6cc7896b076f4cc047237a6c2e413d8115e59f32765fa24f71a$0
-androidx.room.AutoClosingRoomOpenHelper$AutoClosingSupportSqliteStatement$$InternalSyntheticLambda$7$f1c8b9f5cf234073c06c75539345b55320cda6c207135dd9a4d39533ec353068$0
+androidx.room.AutoClosingRoomOpenHelper$AutoClosingSupportSqliteStatement$$InternalSyntheticLambda$4$534f5b107d27902f077def9fa42d048b55e80215171a5e6456d9060dee76a3b3$0
+androidx.room.AutoClosingRoomOpenHelper$AutoClosingSupportSqliteStatement$$InternalSyntheticLambda$4$efce483dbdb0a6cc7896b076f4cc047237a6c2e413d8115e59f32765fa24f71a$0
+androidx.room.AutoClosingRoomOpenHelper$AutoClosingSupportSqliteStatement$$InternalSyntheticLambda$5$f1c8b9f5cf234073c06c75539345b55320cda6c207135dd9a4d39533ec353068$0
 androidx.room.AutoClosingRoomOpenHelper$AutoClosingSupportSqliteStatement
 androidx.room.AutoClosingRoomOpenHelper$KeepAliveCursor
 androidx.room.AutoClosingRoomOpenHelper:
@@ -36121,26 +36118,25 @@ androidx.room.InvalidationLiveDataContainer:
 androidx.room.InvalidationTracker:
     public final androidx.room.InvalidationLiveDataContainer mInvalidationLiveDataContainer
     public androidx.room.MultiInstanceInvalidationClient mMultiInstanceInvalidationClient
-androidx.room.QueryInterceptorDatabase$$InternalSyntheticLambda$6$1900628d602f86ce69a3eea35683e5013c417085ea6529403c9641914093998a$0
-androidx.room.QueryInterceptorDatabase$$InternalSyntheticLambda$6$1960c6dff744e8a2db2454092697b04eec5407e2f6d389f4b7a9f77aeaf86ddd$0
-androidx.room.QueryInterceptorDatabase$$InternalSyntheticLambda$6$1bcdd037f5e4885de991c91c66fe14f8bb8c532a455b91f867122caa4959acb5$0
-androidx.room.QueryInterceptorDatabase$$InternalSyntheticLambda$6$840805b1e5be612ea99963715c4993cdc13ff607a9ef060dccee0ed89520674f$0
-androidx.room.QueryInterceptorDatabase$$InternalSyntheticLambda$6$85f7b0b96741a667a52972e7efd273be6767278122378fbc929e6702d78486b0$0
-androidx.room.QueryInterceptorDatabase$$InternalSyntheticLambda$6$9425620339d5d757f34a17c8174fab1a30b5d96472d3b17935abade4529be7c3$0
-androidx.room.QueryInterceptorDatabase$$InternalSyntheticLambda$6$c02322fe547e6b6f3e3f374d7385d7da605e6e62a3c9ae8b80d33384ffeca0a8$0
-androidx.room.QueryInterceptorDatabase$$InternalSyntheticLambda$6$db6aa981b1d5d3db8a927e4e6d99985d7163706ae5c7c0024e27732667e608db$0
-androidx.room.QueryInterceptorDatabase$$InternalSyntheticLambda$6$eb0dd0a566f62bff27bab94f977e8dcb21a0270bfbf76560edf08827d888c33a$0
+androidx.room.QueryInterceptorDatabase$$InternalSyntheticLambda$4$1900628d602f86ce69a3eea35683e5013c417085ea6529403c9641914093998a$0
+androidx.room.QueryInterceptorDatabase$$InternalSyntheticLambda$4$1960c6dff744e8a2db2454092697b04eec5407e2f6d389f4b7a9f77aeaf86ddd$0
+androidx.room.QueryInterceptorDatabase$$InternalSyntheticLambda$4$1bcdd037f5e4885de991c91c66fe14f8bb8c532a455b91f867122caa4959acb5$0
+androidx.room.QueryInterceptorDatabase$$InternalSyntheticLambda$4$840805b1e5be612ea99963715c4993cdc13ff607a9ef060dccee0ed89520674f$0
+androidx.room.QueryInterceptorDatabase$$InternalSyntheticLambda$4$85f7b0b96741a667a52972e7efd273be6767278122378fbc929e6702d78486b0$0
+androidx.room.QueryInterceptorDatabase$$InternalSyntheticLambda$4$9425620339d5d757f34a17c8174fab1a30b5d96472d3b17935abade4529be7c3$0
+androidx.room.QueryInterceptorDatabase$$InternalSyntheticLambda$4$c02322fe547e6b6f3e3f374d7385d7da605e6e62a3c9ae8b80d33384ffeca0a8$0
+androidx.room.QueryInterceptorDatabase$$InternalSyntheticLambda$4$db6aa981b1d5d3db8a927e4e6d99985d7163706ae5c7c0024e27732667e608db$0
+androidx.room.QueryInterceptorDatabase$$InternalSyntheticLambda$4$eb0dd0a566f62bff27bab94f977e8dcb21a0270bfbf76560edf08827d888c33a$0
 androidx.room.QueryInterceptorDatabase
 androidx.room.QueryInterceptorOpenHelper
 androidx.room.QueryInterceptorOpenHelperFactory
 androidx.room.QueryInterceptorProgram
-androidx.room.QueryInterceptorStatement$$InternalSyntheticLambda$6$09e454b6c6022b7b0cd92c44262531f629e13a640b1628c407904de07b877a86$0
-androidx.room.QueryInterceptorStatement$$InternalSyntheticLambda$6$d33a3c429c9cc6135bebb1b1f60eecd6c7c6d693973b30fbefc14956b78d78fa$0
+androidx.room.QueryInterceptorStatement$$InternalSyntheticLambda$4$09e454b6c6022b7b0cd92c44262531f629e13a640b1628c407904de07b877a86$0
+androidx.room.QueryInterceptorStatement$$InternalSyntheticLambda$4$d33a3c429c9cc6135bebb1b1f60eecd6c7c6d693973b30fbefc14956b78d78fa$0
 androidx.room.QueryInterceptorStatement
-androidx.room.RoomDatabase$$InternalSyntheticLambda$6$231bba65d412989b7eb8668938d6d973f01a707939385ab521f1fe46c843cde0$0
-androidx.room.RoomDatabase$$InternalSyntheticLambda$6$c127180caea1b164250449b5833d687e2d16d2d24866aae23d9b9b27246ead23$0
+androidx.room.RoomDatabase$$InternalSyntheticLambda$5$231bba65d412989b7eb8668938d6d973f01a707939385ab521f1fe46c843cde0$0
+androidx.room.RoomDatabase$$InternalSyntheticLambda$5$c127180caea1b164250449b5833d687e2d16d2d24866aae23d9b9b27246ead23$0
 androidx.room.RoomDatabase$Builder:
-    public boolean mAllowDestructiveMigrationOnDowngrade
     public boolean mAllowMainThreadQueries
     public java.util.concurrent.TimeUnit mAutoCloseTimeUnit
     public java.util.List mAutoMigrationSpecs
