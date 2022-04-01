@@ -3,10 +3,9 @@ plugins {
     id 'org.jetbrains.kotlin.android'
     id 'kotlin-parcelize'
     id 'kotlin-kapt'
-    id 'com.google.gms.google-services'
     id 'com.google.firebase.crashlytics'
-
 }
+
 apply {
     from '../shared_dependencies.gradle'
 }

@@ -21,21 +21,24 @@ class BaseApplication:Application(){
     override fun onCreate() {
         super.onCreate()
 
-        if (BuildConfig.DEBUG && FlipperUtils.shouldEnableFlipper(this)) {
+        if (BuildConfig.DEBUG) {
+            SoLoader.init(this, false) 
             /*
                 set the flipper listener in leak canary config
             */
             LeakCanary.config = LeakCanary.config.copy(
                 onHeapAnalyzedListener = FlipperLeakListener()
             )
-            //#issue flipper ketika menjalankan instrument testing agar di komen
-            SoLoader.init(this, false)
-            val client = AndroidFlipperClient.getInstance(this)
-            client.addPlugin(InspectorFlipperPlugin(this, DescriptorMapping.withDefaults()))
-            client.addPlugin(DatabasesFlipperPlugin(this))
-            client.addPlugin(networkFlipperPlugin)
-            client.addPlugin(LeakCanary2FlipperPlugin())
-            client.start()
+            if(FlipperUtils.shouldEnableFlipper(this)){
+                //#issue flipper ketika menjalankan instrument testing agar di komen
+                val client = AndroidFlipperClient.getInstance(this)
+                client.addPlugin(InspectorFlipperPlugin(this, DescriptorMapping.withDefaults()))
+                client.addPlugin(DatabasesFlipperPlugin(this))
+                client.addPlugin(networkFlipperPlugin)
+                client.addPlugin(LeakCanary2FlipperPlugin())
+                client.start()
+            }
+
         }
     }
 
