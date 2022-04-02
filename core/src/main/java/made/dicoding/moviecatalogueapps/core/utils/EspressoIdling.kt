@@ -1,3 +1,5 @@
+@file:Suppress("unused", "unused")
+
 package made.dicoding.moviecatalogueapps.core.utils
 
 import androidx.test.espresso.idling.CountingIdlingResource

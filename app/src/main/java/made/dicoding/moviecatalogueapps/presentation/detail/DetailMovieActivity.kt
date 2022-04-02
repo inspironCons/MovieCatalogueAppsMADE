@@ -59,9 +59,9 @@ class DetailMovieActivity:AppCompatActivity() {
             val type = extra.getString(type) as String
             val local = extra.getBoolean(local)
             if(type == ConstanNameHelper.TV_TYPE){
-                binding.tvLableCompanies.text = getString(Core.string.network)
+                binding.tvLableCompanies.text = getString(R.string.network)
             }else{
-                binding.tvLableCompanies.text = getString(Core.string.companies)
+                binding.tvLableCompanies.text = getString(R.string.companies)
             }
             viewModel.detailMovie(id,type,local).observe(this){ data->
                 if(data.isSuccess){
@@ -95,7 +95,7 @@ class DetailMovieActivity:AppCompatActivity() {
                             })
 
                         movieTitleDetail.text = movie?.title
-                        movieTagline.text = getString(Core.string.tagline,movie?.tagline)
+                        movieTagline.text = getString(R.string.tagline,movie?.tagline)
                         movieUserScore.text = getString(Core.string.movie_score,movie?.userScore)
                         movieReleaseDate.text = movie?.releaseDate?.toDateFormatRelease()
                         movieProductionCountry.text = movie?.productionCountry

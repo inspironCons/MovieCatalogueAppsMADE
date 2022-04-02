@@ -19,3 +19,6 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+#custom view
+ -keep class made.dicoding.moviecatalogueapps.core.component.ErrorState**
+ -keepclassmembers class made.dicoding.moviecatalogueapps.core.component.ErrorState** {*;}

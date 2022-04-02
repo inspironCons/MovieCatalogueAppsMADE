@@ -30874,7 +30874,6 @@ made.dicoding.moviecatalogueapps.DaggerBaseApplication_HiltComponents_SingletonC
     public dagger.hilt.android.internal.builders.ServiceComponentBuilder serviceComponentBuilder()
 made.dicoding.moviecatalogueapps.Hilt_BaseApplication:
     public synthetic bridge dagger.hilt.internal.GeneratedComponentManager componentManager()
-made.dicoding.moviecatalogueapps.R$attr
 made.dicoding.moviecatalogueapps.R$color
 made.dicoding.moviecatalogueapps.R$drawable
 made.dicoding.moviecatalogueapps.R$font
@@ -30884,7 +30883,6 @@ made.dicoding.moviecatalogueapps.R$mipmap
 made.dicoding.moviecatalogueapps.R$raw
 made.dicoding.moviecatalogueapps.R$string
 made.dicoding.moviecatalogueapps.R$style
-made.dicoding.moviecatalogueapps.R$styleable
 made.dicoding.moviecatalogueapps.R
 made.dicoding.moviecatalogueapps.core.BuildConfig
 made.dicoding.moviecatalogueapps.core.R$attr
@@ -30894,7 +30892,6 @@ made.dicoding.moviecatalogueapps.core.R$drawable:
     public static final int bg_outline_textview
     public static final int bg_progress_bar
     public static final int ic_avatar
-    public static final int ic_favorite
     public static final int ic_rotate_right
     private void <init>()
 made.dicoding.moviecatalogueapps.core.R$font:
@@ -30912,22 +30909,8 @@ made.dicoding.moviecatalogueapps.core.R$id:
 made.dicoding.moviecatalogueapps.core.R$layout:
     private void <init>()
 made.dicoding.moviecatalogueapps.core.R$string:
-    public static final int Greeting
-    public static final int app_name
-    public static final int back_button
-    public static final int companies
     public static final int empty_state
-    public static final int empty_title
-    public static final int fab_content_desc
-    public static final int movie_text
-    public static final int msg_error_default
-    public static final int network
-    public static final int overview
-    public static final int reviewer
-    public static final int tagline
-    public static final int tv_show_text
     public static final int user_score
-    public static final int watch
     private void <init>()
 made.dicoding.moviecatalogueapps.core.R$style
 made.dicoding.moviecatalogueapps.core.R$styleable:
@@ -31146,13 +31129,13 @@ made.dicoding.moviecatalogueapps.core.data.repository_impl.MovieRepositoryImpl$t
 made.dicoding.moviecatalogueapps.core.data.repository_impl.MovieRepositoryImpl_Factory
 made.dicoding.moviecatalogueapps.core.database.MovieDatabase_Impl:
     public void clearAllTables()
+made.dicoding.moviecatalogueapps.core.databinding.ErrorStateBinding
 made.dicoding.moviecatalogueapps.core.databinding.ItemsCompaniesBinding:
     public synthetic bridge android.view.View getRoot()
     public static made.dicoding.moviecatalogueapps.core.databinding.ItemsCompaniesBinding inflate(android.view.LayoutInflater)
 made.dicoding.moviecatalogueapps.core.databinding.ItemsMoviesBinding:
     public synthetic bridge android.view.View getRoot()
     public static made.dicoding.moviecatalogueapps.core.databinding.ItemsMoviesBinding inflate(android.view.LayoutInflater)
-made.dicoding.moviecatalogueapps.core.databinding.ViewErrorStateBinding
 made.dicoding.moviecatalogueapps.core.di.DatabaseModule_DbInstanceFactory:
     private final javax.inject.Provider appProvider
     public void <init>(javax.inject.Provider)
@@ -31335,7 +31318,6 @@ made.dicoding.moviecatalogueapps.databinding.ActivityDetailMovieBinding:
     public synthetic bridge android.view.View getRoot()
 made.dicoding.moviecatalogueapps.databinding.ActivityHomeBinding:
     public synthetic bridge android.view.View getRoot()
-made.dicoding.moviecatalogueapps.databinding.ActivityMainBinding
 made.dicoding.moviecatalogueapps.databinding.ActivitySplashScreenBinding:
     public synthetic bridge android.view.View getRoot()
 made.dicoding.moviecatalogueapps.databinding.FragmentMoviesBinding:
@@ -51994,9 +51976,9 @@ leakcanary.internal.activity.db.Io:
     public static final void execute(kotlin.jvm.functions.Function0)
 leakcanary.internal.activity.db.IoKt$sam$java_lang_Runnable$0
 leakcanary.internal.activity.db.IoKt:
+    public static final int error_state
     public static final int items_companies
     public static final int items_movies
-    public static final int view_error_state
     public static final int access$getAndroidLevel$p(java.util.logging.LogRecord)
     public static final okio.BufferedSink buffer(okio.Sink)
     public static final okio.BufferedSource buffer(okio.Source)
