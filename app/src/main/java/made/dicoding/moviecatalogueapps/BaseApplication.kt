@@ -28,7 +28,7 @@ class BaseApplication:Application(){
             LeakCanary.config = LeakCanary.config.copy(
                 onHeapAnalyzedListener = FlipperLeakListener()
             )
-            //#issue flipper ketika menjalankan instrument testing agar di komen
+            //#issue flipper ketika menjalankan instrument testing agar di komenn
             SoLoader.init(this, false)
 
             if(FlipperUtils.shouldEnableFlipper(this)){
