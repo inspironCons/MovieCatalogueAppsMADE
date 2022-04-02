@@ -26,7 +26,4 @@
         <item name="android:colorControlHighlight">@color/white</item>
         <item name="android:colorControlNormal">@color/white</item>
     </style>
-    <style name="Theme.MovieCatalogueApp.Overdraw" parent="Theme.MovieCatalogueApp">
-        <item name="android:windowBackground">@drawable/bg_page</item>
-    </style>
 </resources>

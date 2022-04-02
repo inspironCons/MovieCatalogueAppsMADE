@@ -178,7 +178,7 @@
 
 
 # End of content from D:\Ramdhon\DICODING\MADE\Submission\MovieCatalogueAppsMADE\app\proguard-rules.pro
-# The proguard configuration file for the following section is D:\Ramdhon\DICODING\MADE\Submission\MovieCatalogueAppsMADE\app\build\intermediates\merged_aapt_proguard_file\debug\merged_aapt_rules.txt
+# The proguard configuration file for the following section is D:\Ramdhon\DICODING\MADE\Submission\MovieCatalogueAppsMADE\app\build\intermediates\merged_aapt_proguard_file\release\merged_aapt_rules.txt
 -keep class androidx.core.app.CoreComponentFactory { <init>(); }
 -keep class androidx.room.MultiInstanceInvalidationService { <init>(); }
 -keep class androidx.startup.InitializationProvider { <init>(); }
@@ -319,8 +319,8 @@
 
 
 
-# End of content from D:\Ramdhon\DICODING\MADE\Submission\MovieCatalogueAppsMADE\app\build\intermediates\merged_aapt_proguard_file\debug\merged_aapt_rules.txt
-# The proguard configuration file for the following section is D:\Ramdhon\DICODING\MADE\Submission\MovieCatalogueAppsMADE\core\build\intermediates\consumer_proguard_dir\debug\lib0\proguard.txt
+# End of content from D:\Ramdhon\DICODING\MADE\Submission\MovieCatalogueAppsMADE\app\build\intermediates\merged_aapt_proguard_file\release\merged_aapt_rules.txt
+# The proguard configuration file for the following section is D:\Ramdhon\DICODING\MADE\Submission\MovieCatalogueAppsMADE\core\build\intermediates\consumer_proguard_dir\release\lib0\proguard.txt
 #SQL Chiper proguard rules
 -keep,includedescriptorclasses class net.sqlcipher.** { *; }
 -keep,includedescriptorclasses interface net.sqlcipher.** { *; }
@@ -402,7 +402,7 @@
 -keepclassmembers,allowobfuscation class * {
   @com.google.gson.annotations.SerializedName <fields>;
 }
-# End of content from D:\Ramdhon\DICODING\MADE\Submission\MovieCatalogueAppsMADE\core\build\intermediates\consumer_proguard_dir\debug\lib0\proguard.txt
+# End of content from D:\Ramdhon\DICODING\MADE\Submission\MovieCatalogueAppsMADE\core\build\intermediates\consumer_proguard_dir\release\lib0\proguard.txt
 # The proguard configuration file for the following section is C:\Users\RMS-PI4\.gradle\caches\transforms-3\b753f79c6b2be1acc5c17af9004c9f9b\transformed\rules\lib\META-INF\com.android.tools\r8-from-1.6.0\coroutines.pro
 # Allow R8 to optimize away the FastServiceLoader.
 # Together with ServiceLoader optimization in R8
@@ -1063,16 +1063,6 @@
 -dontwarn android.app.Notification
 
 # End of content from C:\Users\RMS-PI4\.gradle\caches\transforms-3\d35e94c0201fd14d5b6f1a15ddf0deae\transformed\jetified-leakcanary-android-core-2.8.1\proguard.txt
-# The proguard configuration file for the following section is C:\Users\RMS-PI4\.gradle\caches\transforms-3\f659eba96304b04b009a4a09b79a0643\transformed\jetified-leakcanary-object-watcher-android-2.8.1\proguard.txt
-# A ContentProvider that gets created by Android on startup
--keep class leakcanary.internal.MainProcessAppWatcherInstaller { <init>(); }
-
-# End of content from C:\Users\RMS-PI4\.gradle\caches\transforms-3\f659eba96304b04b009a4a09b79a0643\transformed\jetified-leakcanary-object-watcher-android-2.8.1\proguard.txt
-# The proguard configuration file for the following section is C:\Users\RMS-PI4\.gradle\caches\transforms-3\8b3e105c20eba004b1c22a79f841e8a3\transformed\jetified-plumber-android-2.8.1\proguard.txt
-# A ContentProvider that gets created by Android on startup
--keep class leakcanary.internal.PlumberInstaller { <init>(); }
-
-# End of content from C:\Users\RMS-PI4\.gradle\caches\transforms-3\8b3e105c20eba004b1c22a79f841e8a3\transformed\jetified-plumber-android-2.8.1\proguard.txt
 # The proguard configuration file for the following section is C:\Users\RMS-PI4\.gradle\caches\transforms-3\4f1e10c49e128611bec338afb4b0645d\transformed\rules\lib\META-INF\proguard\shark.pro
 # Used during heap analysis to find resource id names
 -keep class shark.AndroidResourceIdNames { *; }
@@ -1083,6 +1073,16 @@
 -dontwarn org.codehaus.mojo.animal_sniffer.*
 
 # End of content from C:\Users\RMS-PI4\.gradle\caches\transforms-3\634c6da4b04379044797d645fa1c102c\transformed\rules\lib\META-INF\proguard\okio.pro
+# The proguard configuration file for the following section is C:\Users\RMS-PI4\.gradle\caches\transforms-3\f659eba96304b04b009a4a09b79a0643\transformed\jetified-leakcanary-object-watcher-android-2.8.1\proguard.txt
+# A ContentProvider that gets created by Android on startup
+-keep class leakcanary.internal.MainProcessAppWatcherInstaller { <init>(); }
+
+# End of content from C:\Users\RMS-PI4\.gradle\caches\transforms-3\f659eba96304b04b009a4a09b79a0643\transformed\jetified-leakcanary-object-watcher-android-2.8.1\proguard.txt
+# The proguard configuration file for the following section is C:\Users\RMS-PI4\.gradle\caches\transforms-3\8b3e105c20eba004b1c22a79f841e8a3\transformed\jetified-plumber-android-2.8.1\proguard.txt
+# A ContentProvider that gets created by Android on startup
+-keep class leakcanary.internal.PlumberInstaller { <init>(); }
+
+# End of content from C:\Users\RMS-PI4\.gradle\caches\transforms-3\8b3e105c20eba004b1c22a79f841e8a3\transformed\jetified-plumber-android-2.8.1\proguard.txt
 # The proguard configuration file for the following section is C:\Users\RMS-PI4\.gradle\caches\transforms-3\026a614e07f1feaaad4458bb5dc801c9\transformed\jetified-leakcanary-object-watcher-android-androidx-2.8.1\proguard.txt
 # AndroidXFragmentDestroyWatcher is loaded via reflection
 -keep class leakcanary.internal.AndroidXFragmentDestroyWatcher { *; }

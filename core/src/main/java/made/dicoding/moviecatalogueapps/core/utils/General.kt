@@ -1,3 +1,4 @@
+
 package made.dicoding.moviecatalogueapps.core.utils
 
 import android.annotation.SuppressLint
@@ -33,7 +34,7 @@ object General {
             view?.visibility = View.GONE
         }
     }
-
+    @Suppress("unused")
     fun dummyMoviesList() = ListMovies(
         movieId = 634649,
         title = "Spider-Man: No Way Home",
@@ -43,6 +44,7 @@ object General {
         originLanguage = "en"
     )
 
+    @Suppress("unused")
     fun dummyTvShowsList() = ListMovies(
         movieId = 115036,
         title = "Euphoria",

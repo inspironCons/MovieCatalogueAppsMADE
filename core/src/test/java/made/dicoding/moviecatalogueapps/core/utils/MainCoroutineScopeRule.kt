@@ -29,13 +29,13 @@ import org.junit.runner.Description
  * MainCoroutineRule installs a TestCoroutineDispatcher for Disptachers.Main.
  *
  * Since it extends TestCoroutineScope, you can directly launch coroutines on the MainCoroutineRule
- * as a [CoroutineScope]:
+ * as a CoroutineScope:
  *
  * ```
  * mainCoroutineRule.launch { aTestCoroutine() }
  * ```
  *
- * All coroutines started on [MainCoroutineScopeRule] must complete (including timeouts) before the test
+ * All coroutines started on MainCoroutineScopeRule must complete (including timeouts) before the test
  * finishes, or it will throw an exception.
  *
  * When using MainCoroutineRule you should always invoke runBlockingTest on it to avoid creating two
@@ -48,7 +48,7 @@ import org.junit.runner.Description
  * }
  * ```
  *
- * You may call [DelayController] methods on [MainCoroutineScopeRule] and they will control the
+ * You may call DelayController methods on MainCoroutineScopeRule and they will control the
  * virtual-clock.
  *
  * ```

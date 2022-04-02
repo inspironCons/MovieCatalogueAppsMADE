@@ -1,50 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="TabsLayoutTransparent">
-        <item name="android:background">@android:color/transparent</item>
-        <item name="tabIndicatorColor">?attr/colorOnPrimary</item>
-        <item name="tabTextColor">@color/text_color</item>
-        <item name="textAllCaps">false</item>
 
-    </style>
-    <style name="TabsLayoutTextAppearance" parent="TextAppearance.Design.Tab">
-        <item name="android:fontFamily">@font/roboto_regular</item>
-        <item name="android:textAllCaps">false</item>
-        <item name="textAllCaps">false</item>
-
-    </style>
     <style name="textColor">
         <item name="android:textColor">@color/text_color</item>
     </style>
     <style name="textColor.Thin">
         <item name="android:fontFamily">@font/roboto_thin</item>
     </style>
-    <style name="textColor.Light">
-        <item name="android:fontFamily">@font/roboto_light</item>
-    </style>
+
     <style name="textColor.Regular">
         <item name="android:fontFamily">@font/roboto_regular</item>
     </style>
-    <style name="textColor.Medium">
-        <item name="android:fontFamily">@font/roboto_medium</item>
-    </style>
+
     <style name="textColor.Bold">
         <item name="android:fontFamily">@font/roboto_bold</item>
     </style>
 
-    <style name="menuBackGlassmorph">
-        <item name="android:layout_marginStart">16dp</item>
-        <item name="android:layout_marginTop">6dp</item>
-        <item name="android:background">@android:color/transparent</item>
-    </style>
-
     <style name="roundedImageView">
         <item name="cornerSize">8%</item>
-    </style>
-
-    <style name="fabFavorite">
-        <item name="srcCompat">@drawable/ic_favorite</item>
-        <item name="backgroundTint">@color/primary_color</item>
-        <item name="tint">@color/grey_color</item>
     </style>
 </resources>

@@ -21,7 +21,7 @@ class BaseApplication:Application(){
     override fun onCreate() {
         super.onCreate()
 
-        if (BuildConfig.DEBUG && FlipperUtils.shouldEnableFlipper(this)) {
+        if (BuildConfig.DEBUG) {
             /*
                 set the flipper listener in leak canary config
             */
@@ -30,12 +30,16 @@ class BaseApplication:Application(){
             )
             //#issue flipper ketika menjalankan instrument testing agar di komen
             SoLoader.init(this, false)
-            val client = AndroidFlipperClient.getInstance(this)
-            client.addPlugin(InspectorFlipperPlugin(this, DescriptorMapping.withDefaults()))
-            client.addPlugin(DatabasesFlipperPlugin(this))
-            client.addPlugin(networkFlipperPlugin)
-            client.addPlugin(LeakCanary2FlipperPlugin())
-            client.start()
+
+            if(FlipperUtils.shouldEnableFlipper(this)){
+                val client = AndroidFlipperClient.getInstance(this)
+                client.addPlugin(InspectorFlipperPlugin(this, DescriptorMapping.withDefaults()))
+                client.addPlugin(DatabasesFlipperPlugin(this))
+                client.addPlugin(networkFlipperPlugin)
+                client.addPlugin(LeakCanary2FlipperPlugin())
+                client.start()
+            }
+
         }
     }
 

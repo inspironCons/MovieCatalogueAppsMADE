@@ -1,6 +1,5 @@
 package made.dicoding.moviecatalogueapps.core.component
 
-import android.annotation.SuppressLint
 import android.content.Context
 import android.util.AttributeSet
 import android.view.Gravity
@@ -11,7 +10,6 @@ import android.widget.TextView
 import androidx.appcompat.content.res.AppCompatResources
 import made.dicoding.moviecatalogueapps.core.R
 
-@SuppressLint("CustomViewStyleable")
 class ErrorState @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
@@ -19,7 +17,7 @@ class ErrorState @JvmOverloads constructor(
     defStyleRes: Int = 0
 ): LinearLayout(context, attrs, defStyle, defStyleRes) {
     init{
-        LayoutInflater.from(context).inflate(R.layout.view_error_state,this,true)
+        LayoutInflater.from(context).inflate(R.layout.error_state,this,true)
         orientation = VERTICAL
         gravity = Gravity.CENTER
 
