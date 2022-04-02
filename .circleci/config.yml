@@ -34,7 +34,7 @@ jobs:
           command: ./gradlew build
       - codecov/upload:
           token: CODECOV_TOKEN
-          files: './coverage/clover.xml'
+          file: './coverage/clover.xml'
           flags: fronted
       - store_artifacts:
           path: app/build/reports
