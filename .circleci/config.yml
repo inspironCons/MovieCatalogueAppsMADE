@@ -52,8 +52,6 @@ jobs:
           command: ./gradlew lint test
       - store_test_results:
           path: app/build/test-results
-      - codecov/upload:
-          file: coverage/coverage-final.json
       - store_artifacts:
           path: app/build/outputs/apk/debug/
           destination: artifact-file
