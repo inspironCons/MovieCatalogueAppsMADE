@@ -24,7 +24,6 @@ android {
     buildTypes {
         release {
             minifyEnabled true
-            testCoverageEnabled = true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             buildConfigField 'String', 'BASE_URL', '"https://api.themoviedb.org/3/"'
             buildConfigField 'String', 'HOST_NAME', '"api.themoviedb.org"'
@@ -35,7 +34,6 @@ android {
         debug {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-            testCoverageEnabled = true
             buildConfigField 'String', 'BASE_URL', '"https://api.themoviedb.org/3/"'
             buildConfigField 'String', 'HOST_NAME', '"api.themoviedb.org"'
             buildConfigField 'String', 'PIN_SHA256', '"sha256/oD/WAoRPvbez1Y2dfYfuo4yujAcYHXdv1Ivb2v2MOKk="'

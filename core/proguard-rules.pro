@@ -20,5 +20,5 @@
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
 #custom view
- -keep class made.dicoding.moviecatalogueapps.core.component.ErrorState**
- -keepclassmembers class made.dicoding.moviecatalogueapps.core.component.ErrorState** {*;}
+-keep class made.dicoding.moviecatalogueapps.core.component.ErrorState**
+-keepclassmembers class made.dicoding.moviecatalogueapps.core.component.ErrorState** {*;}
