@@ -33,7 +33,7 @@ jobs:
           name: Run Build
           command: ./gradlew build
       - codecov/upload:
-          token: '0020d71b-418a-41d9-80fb-addf97ab2b51'
+          token: $CODECOV_TOKEN
           file: report
           flags: fronted
       - store_artifacts:
@@ -47,3 +47,7 @@ jobs:
       - store_artifacts:
           path: app/build/outputs/apk/debug/
           destination: artifact-file
+workflows:
+  build_and_test:
+    jobs:
+      - build
