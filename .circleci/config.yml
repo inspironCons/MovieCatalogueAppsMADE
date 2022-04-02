@@ -33,7 +33,7 @@ jobs:
           name: Run Build
           command: ./gradlew build
       - codecov/upload:
-          token: $CODECOV_TOKEN
+          token: CODECOV_TOKEN
           file: report
           flags: fronted
       - store_artifacts:
