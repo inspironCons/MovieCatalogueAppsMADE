@@ -7,6 +7,7 @@ import android.content.res.ColorStateList
 import androidx.core.content.ContextCompat
 import androidx.test.core.app.ApplicationProvider
 import androidx.test.espresso.Espresso.onView
+import androidx.test.espresso.IdlingRegistry
 import androidx.test.espresso.assertion.ViewAssertions.matches
 import androidx.test.espresso.intent.Intents
 import androidx.test.espresso.intent.Intents.intended
@@ -20,6 +21,7 @@ import com.adevinta.android.barista.assertion.BaristaVisibilityAssertions.assert
 import com.adevinta.android.barista.interaction.BaristaClickInteractions.clickOn
 import com.adevinta.android.barista.interaction.BaristaListInteractions.clickListItem
 import kotlinx.coroutines.runBlocking
+import made.dicoding.moviecatalogueapps.core.utils.EspressoIdling
 import made.dicoding.moviecatalogueapps.core.utils.General
 import made.dicoding.moviecatalogueapps.core.utils.General.toDateFormatRelease
 import made.dicoding.moviecatalogueapps.utils.BaseUiTest
@@ -74,6 +76,7 @@ class DetailsFeatures: BaseUiTest() {
 
     @Test
     fun navigateToIntentWhileClickButtonWatch(){
+        IdlingRegistry.getInstance().unregister(EspressoIdling.getEspressoIdlingResource)
         clickListItem(R.id.rv_movies, numTestingPosition)
         try {
             Intents.init()
@@ -125,6 +128,7 @@ class DetailsFeatures: BaseUiTest() {
 
     @Test
     fun changeColorWhenClickBtnFavorite(){
+        IdlingRegistry.getInstance().unregister(EspressoIdling.getEspressoIdlingResource)
         val context = ApplicationProvider.getApplicationContext<Context>()
         clickListItem(R.id.rv_movies, numTestingPosition)
         onView(withId(R.id.fab_favorite)).check(matches(general.checkColorFab(ColorStateList.valueOf(

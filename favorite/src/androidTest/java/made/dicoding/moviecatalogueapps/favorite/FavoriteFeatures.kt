@@ -23,7 +23,7 @@ class FavoriteFeatures: BaseUiTest() {
         assertDisplayed(R.id.favorite_layout)
     }
     private fun insertData(){
-        clickListItem(App.id.rv_movies, 0)
+        clickListItem(App.id.rv_movies, moviePosition)
         clickOn(App.id.fab_favorite)
         clickOn(App.id.btn_back)
         clickOn(App.id.btn_favorite)
@@ -35,19 +35,19 @@ class FavoriteFeatures: BaseUiTest() {
         val years = mockDataMovies.releaseDate?.toGetYear()
         assertDisplayedAtPosition(
             App.id.rv_movies,
-            0,
+            moviePosition,
             Core.id.movie_title,
             "${mockDataMovies.title} ($years)"
         )
         assertDisplayedAtPosition(
             App.id.rv_movies,
-            0,
+            moviePosition,
             Core.id.movie_score,
             "${mockDataMovies.userScore}%"
         )
         assertDisplayedAtPosition(
             App.id.rv_movies,
-            0,
+            moviePosition,
             Core.id.movie_ori_language,
            "${mockDataMovies.originLanguage?.uppercase()}"
         )
@@ -57,7 +57,7 @@ class FavoriteFeatures: BaseUiTest() {
     @Test
     fun displayFavoriteTvShows(){
         onView(ViewMatchers.withId(App.id.tl_home)).perform(general.selectTabAtPosition(1))
-        clickListItem(App.id.rv_tv_show, 0)
+        clickListItem(App.id.rv_tv_show, tvShowPosition)
         clickOn(App.id.fab_favorite)
         clickOn(App.id.btn_back)
         clickOn(App.id.btn_favorite)
@@ -65,19 +65,19 @@ class FavoriteFeatures: BaseUiTest() {
         val years = mockTvShows.releaseDate?.toGetYear()
         assertDisplayedAtPosition(
             App.id.rv_tv_show,
-            0,
+            tvShowPosition,
             Core.id.movie_title,
             "${mockTvShows.title} ($years)"
         )
         assertDisplayedAtPosition(
             App.id.rv_tv_show,
-            0,
+            tvShowPosition,
             Core.id.movie_score,
             "${mockTvShows.userScore}%"
         )
         assertDisplayedAtPosition(
             App.id.rv_tv_show,
-            0,
+            tvShowPosition,
             Core.id.movie_ori_language,
             "${mockTvShows.originLanguage?.uppercase()}"
         )

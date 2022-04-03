@@ -26,8 +26,6 @@ import made.dicoding.moviecatalogueapps.core.R as Core
 @RunWith(AndroidJUnit4::class)
 class HomeFeatures: BaseUiTest() {
 
-    private val testingItemsNumMovie = 0
-    private val testingItemsNumTvShows = 0
     private val general = GeneralTesting()
 
     private val mockDataMovies = General.dummyMoviesList()
@@ -68,12 +66,12 @@ class HomeFeatures: BaseUiTest() {
         assertRecyclerViewItemCount(R.id.rv_movies,20)
         val years = mockDataMovies.releaseDate?.toGetYear()
         assertDisplayedAtPosition(
-            R.id.rv_movies,testingItemsNumMovie,
+            R.id.rv_movies,moviePosition,
             Core.id.movie_title,
             "${mockDataMovies.title} ($years)")
 
-        assertDisplayedAtPosition(R.id.rv_movies,testingItemsNumMovie,Core.id.movie_score,"${mockDataMovies.voteAverage}%")
-        assertDisplayedAtPosition(R.id.rv_movies,testingItemsNumMovie,Core.id.movie_ori_language,mockDataMovies.originLanguage?.uppercase()?:"")
+        assertDisplayedAtPosition(R.id.rv_movies,moviePosition,Core.id.movie_score,"${mockDataMovies.voteAverage}%")
+        assertDisplayedAtPosition(R.id.rv_movies,moviePosition,Core.id.movie_ori_language,mockDataMovies.originLanguage?.uppercase()?:"")
 
     }
 
@@ -84,21 +82,21 @@ class HomeFeatures: BaseUiTest() {
         val years = mockDataTvShows.releaseDate?.toGetYear()
         assertDisplayedAtPosition(
             R.id.rv_tv_show,
-            testingItemsNumTvShows,
+            tvShowPosition,
             Core.id.movie_title,
             "${mockDataTvShows.title} ($years)")
 
-        assertDisplayedAtPosition(R.id.rv_tv_show,testingItemsNumTvShows,Core.id.movie_score,"${mockDataTvShows.voteAverage}%")
-        assertDisplayedAtPosition(R.id.rv_tv_show,testingItemsNumTvShows,Core.id.movie_ori_language,mockDataTvShows.originLanguage?.uppercase()?:"")
+        assertDisplayedAtPosition(R.id.rv_tv_show,tvShowPosition,Core.id.movie_score,"${mockDataTvShows.voteAverage}%")
+        assertDisplayedAtPosition(R.id.rv_tv_show,tvShowPosition,Core.id.movie_ori_language,mockDataTvShows.originLanguage?.uppercase()?:"")
     }
 
     @Test
     fun navigateToDetailMovies(){
-        clickListItem(R.id.rv_movies,testingItemsNumMovie)
+        clickListItem(R.id.rv_movies,moviePosition)
         assertDisplayed(R.id.detail_activity)
         clickBack()
         onView(withId(R.id.tl_home)).perform(general.selectTabAtPosition(1))
-        clickListItem(R.id.rv_tv_show,testingItemsNumTvShows)
+        clickListItem(R.id.rv_tv_show,tvShowPosition)
         assertDisplayed(R.id.detail_activity)
     }
 }

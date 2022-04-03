@@ -20,6 +20,8 @@ open class BaseUiTest {
     var mActivityRule = BaristaRule.create(HomeActivity::class.java)
     lateinit var db: RoomDatabase
     lateinit var favoriteDao: FavoriteDao
+    val moviePosition = 0
+    val tvShowPosition = 6
 
     fun createDbFavorite(){
         val context = ApplicationProvider.getApplicationContext<Context>()

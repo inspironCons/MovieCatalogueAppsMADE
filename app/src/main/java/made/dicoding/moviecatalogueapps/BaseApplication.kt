@@ -16,31 +16,31 @@ import javax.inject.Inject
 
 @HiltAndroidApp
 class BaseApplication:Application(){
-    @Inject lateinit var networkFlipperPlugin:NetworkFlipperPlugin
-
-    override fun onCreate() {
-        super.onCreate()
-
-        if (BuildConfig.DEBUG) {
-            /*
-                set the flipper listener in leak canary config
-            */
-            LeakCanary.config = LeakCanary.config.copy(
-                onHeapAnalyzedListener = FlipperLeakListener()
-            )
-            //#issue flipper ketika menjalankan instrument testing agar di komenn
-            SoLoader.init(this, false)
-
-            if(FlipperUtils.shouldEnableFlipper(this)){
-                val client = AndroidFlipperClient.getInstance(this)
-                client.addPlugin(InspectorFlipperPlugin(this, DescriptorMapping.withDefaults()))
-                client.addPlugin(DatabasesFlipperPlugin(this))
-                client.addPlugin(networkFlipperPlugin)
-                client.addPlugin(LeakCanary2FlipperPlugin())
-                client.start()
-            }
-
-        }
-    }
+//    @Inject lateinit var networkFlipperPlugin:NetworkFlipperPlugin
+//
+//    override fun onCreate() {
+//        super.onCreate()
+//
+//        if (BuildConfig.DEBUG) {
+//            /*
+//                set the flipper listener in leak canary config
+//            */
+//            LeakCanary.config = LeakCanary.config.copy(
+//                onHeapAnalyzedListener = FlipperLeakListener()
+//            )
+//            //#issue flipper ketika menjalankan instrument testing agar di komen
+//            SoLoader.init(this, false)
+//
+//            if(FlipperUtils.shouldEnableFlipper(this)){
+//                val client = AndroidFlipperClient.getInstance(this)
+//                client.addPlugin(InspectorFlipperPlugin(this, DescriptorMapping.withDefaults()))
+//                client.addPlugin(DatabasesFlipperPlugin(this))
+//                client.addPlugin(networkFlipperPlugin)
+//                client.addPlugin(LeakCanary2FlipperPlugin())
+//                client.start()
+//            }
+//
+//        }
+//    }
 
 }

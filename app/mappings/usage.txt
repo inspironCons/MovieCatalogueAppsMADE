@@ -869,7 +869,6 @@ androidx.annotation.experimental.R
 androidx.annotation.experimental.UseExperimental
 androidx.appcompat.R$anim
 androidx.appcompat.R$attr:
-    private static synthetic transient boolean[] $jacocoData
     public static final int actionBarDivider
     public static final int actionBarItemBackground
     public static final int actionBarSplitStyle
@@ -1103,15 +1102,11 @@ androidx.appcompat.R$attr:
     public static final int windowMinWidthMajor
     public static final int windowMinWidthMinor
     public static final int windowNoTitle
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 androidx.appcompat.R$bool:
-    private static synthetic transient boolean[] $jacocoData
     public static final int abc_config_actionMenuItemAllCaps
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 androidx.appcompat.R$color:
-    private static synthetic transient boolean[] $jacocoData
     public static final int abc_background_cache_hint_selector_material_dark
     public static final int abc_background_cache_hint_selector_material_light
     public static final int abc_btn_colored_borderless_text_material
@@ -1187,10 +1182,8 @@ androidx.appcompat.R$color:
     public static final int switch_thumb_normal_material_light
     public static final int tooltip_background_dark
     public static final int tooltip_background_light
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 androidx.appcompat.R$dimen:
-    private static synthetic transient boolean[] $jacocoData
     public static final int abc_action_bar_content_inset_material
     public static final int abc_action_bar_content_inset_with_nav
     public static final int abc_action_bar_default_height_material
@@ -1274,10 +1267,8 @@ androidx.appcompat.R$dimen:
     public static final int tooltip_horizontal_padding
     public static final int tooltip_margin
     public static final int tooltip_vertical_padding
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 androidx.appcompat.R$drawable:
-    private static synthetic transient boolean[] $jacocoData
     public static final int abc_action_bar_item_background_material
     public static final int abc_btn_check_to_on_mtrl_000
     public static final int abc_btn_check_to_on_mtrl_015
@@ -1322,10 +1313,8 @@ androidx.appcompat.R$drawable:
     public static final int test_level_drawable
     public static final int tooltip_frame_dark
     public static final int tooltip_frame_light
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 androidx.appcompat.R$id:
-    private static synthetic transient boolean[] $jacocoData
     public static final int action_bar_root
     public static final int action_bar_spinner
     public static final int action_menu_divider
@@ -1362,12 +1351,10 @@ androidx.appcompat.R$id:
     public static final int uniform
     public static final int up
     public static final int wrap_content
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 androidx.appcompat.R$integer
 androidx.appcompat.R$interpolator
 androidx.appcompat.R$layout:
-    private static synthetic transient boolean[] $jacocoData
     public static final int abc_action_bar_up_container
     public static final int abc_action_mode_bar
     public static final int abc_activity_chooser_view
@@ -1380,10 +1367,8 @@ androidx.appcompat.R$layout:
     public static final int select_dialog_item_material
     public static final int select_dialog_multichoice_material
     public static final int select_dialog_singlechoice_material
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 androidx.appcompat.R$string:
-    private static synthetic transient boolean[] $jacocoData
     public static final int abc_action_bar_home_description
     public static final int abc_action_menu_overflow_description
     public static final int abc_action_mode_done
@@ -1400,10 +1385,8 @@ androidx.appcompat.R$string:
     public static final int abc_shareactionprovider_share_with_application
     public static final int abc_toolbar_collapse_description
     public static final int search_menu_title
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 androidx.appcompat.R$style:
-    private static synthetic transient boolean[] $jacocoData
     public static final int AlertDialog_AppCompat
     public static final int AlertDialog_AppCompat_Light
     public static final int Animation_AppCompat_Dialog
@@ -1743,7 +1726,6 @@ androidx.appcompat.R$style:
     public static final int Widget_AppCompat_TextView_SpinnerItem
     public static final int Widget_AppCompat_Toolbar
     public static final int Widget_AppCompat_Toolbar_Button_Navigation
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 androidx.appcompat.R$styleable:
     public static final int ActionBar_contentInsetEndWithActions
@@ -2401,8 +2383,6 @@ androidx.appcompat.resources.Compatibility$Api21Impl:
     private void <init>()
 androidx.appcompat.resources.Compatibility
 androidx.appcompat.resources.R$drawable:
-    private static synthetic transient boolean[] $jacocoData
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 androidx.appcompat.resources.R$styleable:
     public static final int StateListDrawableItem_android_drawable
@@ -6451,7 +6431,6 @@ androidx.constraintlayout.widget.VirtualLayout:
     public void <init>(android.content.Context,android.util.AttributeSet)
     public void <init>(android.content.Context,android.util.AttributeSet,int)
 androidx.coordinatorlayout.R$attr:
-    private static synthetic transient boolean[] $jacocoData
     public static final int alpha
     public static final int font
     public static final int fontProviderAuthority
@@ -6472,7 +6451,6 @@ androidx.coordinatorlayout.R$attr:
     public static final int layout_keyline
     public static final int statusBarBackground
     public static final int ttcIndex
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 androidx.coordinatorlayout.R$color
 androidx.coordinatorlayout.R$dimen
@@ -6482,7 +6460,6 @@ androidx.coordinatorlayout.R$integer
 androidx.coordinatorlayout.R$layout
 androidx.coordinatorlayout.R$string
 androidx.coordinatorlayout.R$style:
-    private static synthetic transient boolean[] $jacocoData
     public static final int TextAppearance_Compat_Notification
     public static final int TextAppearance_Compat_Notification_Info
     public static final int TextAppearance_Compat_Notification_Line2
@@ -6490,7 +6467,6 @@ androidx.coordinatorlayout.R$style:
     public static final int TextAppearance_Compat_Notification_Title
     public static final int Widget_Compat_NotificationActionContainer
     public static final int Widget_Compat_NotificationActionText
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 androidx.coordinatorlayout.R$styleable:
     public static final int ColorStateListItem_alpha
@@ -6552,7 +6528,6 @@ androidx.coordinatorlayout.widget.DirectedAcyclicGraph:
 androidx.coordinatorlayout.widget.ViewGroupUtils:
     private void <init>()
 androidx.core.R$attr:
-    private static synthetic transient boolean[] $jacocoData
     public static final int font
     public static final int fontProviderAuthority
     public static final int fontProviderCerts
@@ -6567,13 +6542,11 @@ androidx.core.R$attr:
     public static final int queryPatterns
     public static final int shortcutMatchRequired
     public static final int ttcIndex
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 androidx.core.R$color
 androidx.core.R$dimen
 androidx.core.R$drawable
 androidx.core.R$id:
-    private static synthetic transient boolean[] $jacocoData
     public static final int action_container
     public static final int action_divider
     public static final int action_image
@@ -6604,7 +6577,6 @@ androidx.core.R$id:
     public static final int text2
     public static final int time
     public static final int title
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 androidx.core.R$integer
 androidx.core.R$layout
@@ -9392,12 +9364,8 @@ androidx.exifinterface.media.ExifInterface:
     private int writeExifSegment(androidx.exifinterface.media.ExifInterface$ByteOrderedDataOutputStream)
 androidx.fragment.R$anim
 androidx.fragment.R$animator:
-    private static synthetic transient boolean[] $jacocoData
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 androidx.fragment.R$id:
-    private static synthetic transient boolean[] $jacocoData
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 androidx.fragment.R$styleable:
     private void <init>()
@@ -9792,8 +9760,6 @@ androidx.lifecycle.LifecycleDispatcher:
 androidx.lifecycle.LifecycleRegistry:
     public static androidx.lifecycle.LifecycleRegistry createUnsafe(androidx.lifecycle.LifecycleOwner)
     public int getObserverCount()
-androidx.lifecycle.LifecycleRegistryOwner:
-    public synthetic bridge androidx.lifecycle.Lifecycle getLifecycle()
 androidx.lifecycle.Lifecycling$1:
     void <init>(androidx.lifecycle.LifecycleEventObserver)
 androidx.lifecycle.Lifecycling:
@@ -9887,13 +9853,9 @@ androidx.lifecycle.livedata.core.ktx.R
 androidx.lifecycle.livedata.ktx.R
 androidx.lifecycle.process.R
 androidx.lifecycle.runtime.R$id:
-    private static synthetic transient boolean[] $jacocoData
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 androidx.lifecycle.runtime.R
 androidx.lifecycle.viewmodel.R$id:
-    private static synthetic transient boolean[] $jacocoData
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 androidx.lifecycle.viewmodel.R
 androidx.lifecycle.viewmodel.ktx.R
@@ -10766,7 +10728,6 @@ androidx.print.PrintHelper$PrintUriAdapter
 androidx.print.PrintHelper
 androidx.print.R
 androidx.recyclerview.R$attr:
-    private static synthetic transient boolean[] $jacocoData
     public static final int alpha
     public static final int fastScrollEnabled
     public static final int fastScrollHorizontalThumbDrawable
@@ -10788,11 +10749,9 @@ androidx.recyclerview.R$attr:
     public static final int spanCount
     public static final int stackFromEnd
     public static final int ttcIndex
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 androidx.recyclerview.R$color
 androidx.recyclerview.R$dimen:
-    private static synthetic transient boolean[] $jacocoData
     public static final int compat_button_inset_horizontal_material
     public static final int compat_button_inset_vertical_material
     public static final int compat_button_padding_horizontal_material
@@ -10818,7 +10777,6 @@ androidx.recyclerview.R$dimen:
     public static final int notification_subtext_size
     public static final int notification_top_pad
     public static final int notification_top_pad_large_text
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 androidx.recyclerview.R$drawable
 androidx.recyclerview.R$id
@@ -11632,8 +11590,6 @@ androidx.room.util.TableInfo:
 androidx.room.util.UUIDUtil
 androidx.room.util.ViewInfo
 androidx.savedstate.R$id:
-    private static synthetic transient boolean[] $jacocoData
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 androidx.savedstate.R
 androidx.savedstate.Recreator:
@@ -11689,7 +11645,6 @@ androidx.sqlite.db.SupportSQLiteDatabase:
     public abstract int delete(java.lang.String,java.lang.String,java.lang.Object[])
     public abstract void disableWriteAheadLogging()
     public abstract boolean enableWriteAheadLogging()
-    public abstract void execPerConnectionSQL(java.lang.String,java.lang.Object[])
     public abstract void execSQL(java.lang.String,java.lang.Object[])
     public abstract long getMaximumSize()
     public abstract long getPageSize()
@@ -11697,7 +11652,6 @@ androidx.sqlite.db.SupportSQLiteDatabase:
     public abstract long insert(java.lang.String,int,android.content.ContentValues)
     public abstract boolean isDatabaseIntegrityOk()
     public abstract boolean isDbLockedByCurrentThread()
-    public abstract boolean isExecPerConnectionSQLSupported()
     public abstract boolean isReadOnly()
     public abstract boolean needUpgrade(int)
     public abstract void setForeignKeyConstraintsEnabled(boolean)
@@ -11761,8 +11715,6 @@ androidx.startup.AppInitializer:
     private static final java.lang.String SECTION_NAME
     public boolean isEagerlyInitialized(java.lang.Class)
 androidx.startup.R$string:
-    private static synthetic transient boolean[] $jacocoData
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 androidx.startup.R
 androidx.startup.StartupException:
@@ -12003,7 +11955,6 @@ androidx.transition.R$color
 androidx.transition.R$dimen
 androidx.transition.R$drawable
 androidx.transition.R$id:
-    private static synthetic transient boolean[] $jacocoData
     public static final int action_container
     public static final int action_divider
     public static final int action_image
@@ -12038,7 +11989,6 @@ androidx.transition.R$id:
     public static final int transition_position
     public static final int transition_scene_layoutid_cache
     public static final int transition_transform
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 androidx.transition.R$integer
 androidx.transition.R$layout
@@ -12800,7 +12750,6 @@ com.airbnb.lottie.PerformanceTracker:
     public void removeFrameListener(com.airbnb.lottie.PerformanceTracker$FrameListener)
 com.airbnb.lottie.R$anim
 com.airbnb.lottie.R$attr:
-    private static synthetic transient boolean[] $jacocoData
     public static final int actionBarDivider
     public static final int actionBarItemBackground
     public static final int actionBarPopupTheme
@@ -13090,7 +13039,6 @@ com.airbnb.lottie.R$attr:
     public static final int windowMinWidthMajor
     public static final int windowMinWidthMinor
     public static final int windowNoTitle
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 com.airbnb.lottie.R$bool
 com.airbnb.lottie.R$color
@@ -13831,7 +13779,6 @@ com.bumptech.glide.R$color
 com.bumptech.glide.R$dimen
 com.bumptech.glide.R$drawable
 com.bumptech.glide.R$id:
-    private static synthetic transient boolean[] $jacocoData
     public static final int action_container
     public static final int action_divider
     public static final int action_image
@@ -13867,7 +13814,6 @@ com.bumptech.glide.R$id:
     public static final int time
     public static final int title
     public static final int top
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 com.bumptech.glide.R$integer
 com.bumptech.glide.R$layout
@@ -14776,28 +14722,40 @@ com.facebook.fbjni.R
 com.facebook.soloader.Api18TraceUtils:
     private static final int MAX_SECTION_NAME_LENGTH
     void <init>()
-com.facebook.soloader.ApkSoSource:
-    private static final byte APK_SO_SOURCE_SIGNATURE_VERSION
-    private static final byte LIBS_DIR_DOESNT_EXIST
-    private static final byte LIBS_DIR_DONT_CARE
-    private static final byte LIBS_DIR_SNAPSHOT
-    public static final int PREFER_ANDROID_LIBS_DIRECTORY
-    private static final java.lang.String TAG
-    public void <init>(android.content.Context,java.lang.String,int)
+com.facebook.soloader.ApkSoSource$ApkUnpacker
+com.facebook.soloader.ApkSoSource
 com.facebook.soloader.ApplicationSoSource:
+    private android.content.Context applicationContext
+    private int flags
+    private com.facebook.soloader.DirectorySoSource soSource
+    public void <init>(android.content.Context,int)
     public void addToLdLibraryPath(java.util.Collection)
     public java.lang.String[] getLibraryDependencies(java.lang.String)
     public java.lang.String getLibraryPath(java.lang.String)
     public java.io.File getSoFileByName(java.lang.String)
+    public int loadLibrary(java.lang.String,int,android.os.StrictMode$ThreadPolicy)
+    protected void prepare(int)
+    public java.lang.String toString()
     public java.io.File unpackLibrary(java.lang.String)
-com.facebook.soloader.DirectApkSoSource:
-    public java.io.File unpackLibrary(java.lang.String)
+com.facebook.soloader.DirectApkSoSource
 com.facebook.soloader.DirectorySoSource:
     public static final int ON_LD_LIBRARY_PATH
     public static final int RESOLVE_DEPENDENCIES
+    protected final java.util.List denyList
+    protected final int flags
+    protected final java.io.File soDirectory
+    public void <init>(java.io.File,int)
+    public void <init>(java.io.File,int,java.lang.String[])
     public void addToLdLibraryPath(java.util.Collection)
+    protected com.facebook.soloader.ElfByteChannel getChannel(java.io.File)
+    protected java.lang.String[] getDependencies(java.lang.String,com.facebook.soloader.ElfByteChannel)
     public java.lang.String[] getLibraryDependencies(java.lang.String)
     public java.lang.String getLibraryPath(java.lang.String)
+    protected java.io.File getSoFileByName(java.lang.String)
+    private void loadDependencies(java.lang.String,com.facebook.soloader.ElfByteChannel,int,android.os.StrictMode$ThreadPolicy)
+    public int loadLibrary(java.lang.String,int,android.os.StrictMode$ThreadPolicy)
+    protected int loadLibraryFrom(java.lang.String,int,java.io.File,android.os.StrictMode$ThreadPolicy)
+    public java.lang.String toString()
     public java.io.File unpackLibrary(java.lang.String)
 com.facebook.soloader.DoNotOptimize
 com.facebook.soloader.Elf32_Dyn
@@ -14808,55 +14766,32 @@ com.facebook.soloader.Elf64_Dyn
 com.facebook.soloader.Elf64_Ehdr
 com.facebook.soloader.Elf64_Phdr
 com.facebook.soloader.Elf64_Shdr
-com.facebook.soloader.ElfByteChannel:
-    public abstract long position()
-    public abstract com.facebook.soloader.ElfByteChannel position(long)
-    public abstract int read(java.nio.ByteBuffer)
-    public abstract long size()
-    public abstract com.facebook.soloader.ElfByteChannel truncate(long)
-    public abstract int write(java.nio.ByteBuffer)
-com.facebook.soloader.ElfFileChannel:
-    public long position()
-    public com.facebook.soloader.ElfByteChannel position(long)
-    public long size()
-    public com.facebook.soloader.ElfByteChannel truncate(long)
-com.facebook.soloader.ElfZipFileChannel:
-    public long position()
-    public long size()
-    public com.facebook.soloader.ElfByteChannel truncate(long)
-com.facebook.soloader.ExtractFromZipSoSource:
-    protected com.facebook.soloader.UnpackingSoSource$Unpacker makeUnpacker(byte)
+com.facebook.soloader.ElfByteChannel
+com.facebook.soloader.ElfFileChannel
+com.facebook.soloader.ElfZipFileChannel
+com.facebook.soloader.ExoSoSource$1
+com.facebook.soloader.ExoSoSource$ExoUnpacker$FileBackedInputDsoIterator
+com.facebook.soloader.ExoSoSource$ExoUnpacker
+com.facebook.soloader.ExoSoSource$FileDso
+com.facebook.soloader.ExoSoSource
+com.facebook.soloader.ExtractFromZipSoSource$1
+com.facebook.soloader.ExtractFromZipSoSource$ZipDso
+com.facebook.soloader.ExtractFromZipSoSource$ZipUnpacker$ZipBackedInputDsoIterator
+com.facebook.soloader.ExtractFromZipSoSource$ZipUnpacker
+com.facebook.soloader.ExtractFromZipSoSource
+com.facebook.soloader.FileLocker
 com.facebook.soloader.MergedSoMapping:
     void <init>()
-com.facebook.soloader.MinElf:
-    public static final int DT_NEEDED
-    public static final int DT_NULL
-    public static final int DT_STRTAB
-    public static final int ELF_MAGIC
-    public static final int PN_XNUM
-    public static final int PT_DYNAMIC
-    public static final int PT_LOAD
-    private static final java.lang.String TAG
-    public void <init>()
-    public static java.lang.String[] extract_DT_NEEDED(java.io.File)
-com.facebook.soloader.NativeDeps:
-    private static final int DEFAULT_LIBS_CAPACITY
-    private static final int INITIAL_HASH
-    public void <init>()
-    public static java.lang.String[] getDependencies(java.lang.String,java.io.File)
-    private static void indexDepsBytes(byte[],int)
-    private static void indexLib(int,int)
-    private static boolean readDepsFromFile(byte[],java.lang.String)
-    public static boolean useDepsFile(byte[],java.lang.String)
-    private static int verifyBytesAndGetOffset(byte[],byte[])
+com.facebook.soloader.MinElf$ElfError
+com.facebook.soloader.MinElf
+com.facebook.soloader.NativeDeps
 com.facebook.soloader.NativeLibrary
-com.facebook.soloader.NativeLoaderToSoLoaderDelegate:
-    public java.lang.String getLibraryPath(java.lang.String)
-    public int getSoSourcesVersion()
+com.facebook.soloader.NativeLoaderToSoLoaderDelegate
 com.facebook.soloader.NoopSoSource
 com.facebook.soloader.R
-com.facebook.soloader.SoLoader$Api14Utils:
-    void <init>()
+com.facebook.soloader.SoFileLoader
+com.facebook.soloader.SoLoader$1
+com.facebook.soloader.SoLoader$Api14Utils
 com.facebook.soloader.SoLoader$AppType
 com.facebook.soloader.SoLoader$TestOnlyUtils
 com.facebook.soloader.SoLoader:
@@ -14870,20 +14805,37 @@ com.facebook.soloader.SoLoader:
     private static final java.lang.String SO_STORE_NAME_MAIN
     private static final java.lang.String SO_STORE_NAME_SPLIT
     static final java.lang.String TAG
+    private static int sFlags
+    static com.facebook.soloader.SoFileLoader sSoFileLoader
+    private static void AddBackupSoSource(android.content.Context,java.util.ArrayList,int)
+    private static void AddSystemLibSoSource(java.util.ArrayList,java.lang.String[])
     static synthetic java.util.concurrent.locks.ReentrantReadWriteLock access$000()
     static synthetic com.facebook.soloader.SoSource[] access$102(com.facebook.soloader.SoSource[])
     static synthetic java.util.concurrent.atomic.AtomicInteger access$200()
     static synthetic java.util.HashSet access$300()
     static synthetic java.util.Map access$400()
+    private static void addApplicationSoSource(android.content.Context,java.util.ArrayList,int)
+    private static void addBackupSoSourceFromSplitApk(android.content.Context,int,java.util.ArrayList)
+    private static void addDirectApkSoSource(android.content.Context,java.util.ArrayList)
     public static boolean areSoSourcesAbisSupported()
     public static void deinitForTest()
+    private static int getAppType(android.content.Context,int)
+    private static int getApplicationSoSourceFlags()
     public static java.lang.String[] getLibraryDependencies(java.lang.String)
     public static java.lang.String getLibraryPath(java.lang.String)
+    private static java.lang.reflect.Method getNativeLoadRuntimeMethod()
     public static java.io.File getSoFile(java.lang.String)
     public static int getSoSourcesVersion()
     public static void init(android.content.Context,int)
     public static void init(android.content.Context,int,com.facebook.soloader.SoFileLoader)
+    public static void init(android.content.Context,int,com.facebook.soloader.SoFileLoader,java.lang.String[])
+    public static void init(android.content.Context,boolean)
+    private static synchronized void initSoLoader(com.facebook.soloader.SoFileLoader)
+    private static void initSoSources(android.content.Context,int,java.lang.String[])
+    static void loadLibraryBySoName(java.lang.String,int,android.os.StrictMode$ThreadPolicy)
     public static java.lang.String makeLdLibraryPath()
+    public static java.lang.String makeNonZipPath(java.lang.String)
+    private static int makePrepareFlags()
     public static void prependSoSource(com.facebook.soloader.SoSource)
     public static void setInTestMode()
     public static void setSystemLoadLibraryWrapper(com.facebook.soloader.SystemLoadLibraryWrapper)
@@ -14900,28 +14852,50 @@ com.facebook.soloader.SoSource:
     public static final int LOAD_RESULT_NOT_FOUND
     public static final int PREPARE_FLAG_ALLOW_ASYNC_INIT
     public static final int PREPARE_FLAG_FORCE_REFRESH
+    public void <init>()
     public void addToLdLibraryPath(java.util.Collection)
     public java.lang.String[] getLibraryDependencies(java.lang.String)
     public java.lang.String getLibraryPath(java.lang.String)
     protected java.io.File getSoFileByName(java.lang.String)
     public java.lang.String[] getSoSourceAbis()
+    protected void prepare(int)
     public abstract java.io.File unpackLibrary(java.lang.String)
 com.facebook.soloader.SysUtil$LollipopSysdeps:
     private void <init>()
+    public static void fallocateIfSupported(java.io.FileDescriptor,long)
 com.facebook.soloader.SysUtil$MarshmallowSysdeps:
     private void <init>()
+    private static boolean isApkUncompressedDso(android.content.Context)
+    public static boolean isDisabledExtractNativeLibs(android.content.Context)
+    public static boolean isSupportedDirectLoad(android.content.Context,int)
 com.facebook.soloader.SysUtil:
     private static final long APK_DEP_BLOCK_METADATA_LENGTH
     private static final byte APK_SIGNATURE_VERSION
     private static final java.lang.String TAG
     public void <init>()
+    static int copyBytes(java.io.DataOutput,java.io.InputStream,int,byte[])
+    public static void deleteOrThrow(java.io.File)
+    public static void dumbDeleteRecursive(java.io.File)
+    public static void fallocateIfSupported(java.io.FileDescriptor,long)
+    public static int findAbiScore(java.lang.String[],java.lang.String)
+    public static void fsyncRecursive(java.io.File)
     public static long getApkDepBlockLength(java.io.File)
+    public static int getAppVersionCode(android.content.Context)
+    public static java.lang.String getBaseName(java.lang.String)
+    public static com.facebook.soloader.FileLocker getOrCreateLockOnDir(java.io.File,java.io.File,boolean)
     private static long getParcelPadSize(long)
+    public static boolean is64Bit()
+    public static boolean isDisabledExtractNativeLibs(android.content.Context)
+    public static boolean isSupportedDirectLoad(android.content.Context,int)
     public static byte[] makeApkDepBlock(java.io.File,android.content.Context)
-com.facebook.soloader.UnpackingSoSource$InputDso:
-    public abstract java.io.InputStream getStream()
-com.facebook.soloader.UnpackingSoSource$InputDsoStream:
-    public java.io.InputStream getStream()
+    public static void mkdirOrThrow(java.io.File)
+com.facebook.soloader.UnpackingSoSource$1
+com.facebook.soloader.UnpackingSoSource$Dso
+com.facebook.soloader.UnpackingSoSource$DsoManifest
+com.facebook.soloader.UnpackingSoSource$InputDso
+com.facebook.soloader.UnpackingSoSource$InputDsoIterator
+com.facebook.soloader.UnpackingSoSource$InputDsoStream
+com.facebook.soloader.UnpackingSoSource$Unpacker
 com.facebook.soloader.UnpackingSoSource:
     private static final java.lang.String DEPS_FILE_NAME
     private static final java.lang.String INSTANCE_LOCK_FILE_NAME
@@ -14932,12 +14906,37 @@ com.facebook.soloader.UnpackingSoSource:
     protected static final byte STATE_DIRTY
     private static final java.lang.String STATE_FILE_NAME
     private static final java.lang.String TAG
+    private java.lang.String[] mAbis
+    protected final android.content.Context mContext
+    protected java.lang.String mCorruptedLib
+    protected com.facebook.soloader.FileLocker mInstanceLock
+    private final java.util.Map mLibsBeingLoaded
     protected void <init>(android.content.Context,java.io.File)
+    protected void <init>(android.content.Context,java.lang.String)
+    static synthetic void access$000(java.io.File,byte)
+    private void deleteUnmentionedFiles(com.facebook.soloader.UnpackingSoSource$Dso[])
+    protected boolean depsChanged(byte[],byte[])
+    private void extractDso(com.facebook.soloader.UnpackingSoSource$InputDso,byte[])
+    private void extractDsoImpl(com.facebook.soloader.UnpackingSoSource$InputDso,byte[])
+    protected byte[] getDepsBlock()
+    private java.lang.Object getLibraryLock(java.lang.String)
     public java.lang.String getLibraryPath(java.lang.String)
+    protected com.facebook.soloader.FileLocker getOrCreateLock(java.io.File,boolean)
+    protected java.lang.String getSoNameFromFileName(java.lang.String)
     public java.lang.String[] getSoSourceAbis()
+    public static java.io.File getSoStorePath(android.content.Context,java.lang.String)
+    protected abstract com.facebook.soloader.UnpackingSoSource$Unpacker makeUnpacker(byte)
+    protected void prepare(int)
+    protected boolean refreshLocked(com.facebook.soloader.FileLocker,int,byte[])
+    private void regenerate(byte,com.facebook.soloader.UnpackingSoSource$DsoManifest,com.facebook.soloader.UnpackingSoSource$InputDsoIterator)
+    public void setSoSourceAbis(java.lang.String[])
+    private static void writeState(java.io.File,byte)
 com.facebook.soloader.nativeloader.NativeLoader:
     public static java.lang.String getLibraryPath(java.lang.String)
     public static int getSoSourcesVersion()
+    public static synchronized void init(com.facebook.soloader.nativeloader.NativeLoaderDelegate)
+    public static synchronized void initIfUninitialized(com.facebook.soloader.nativeloader.NativeLoaderDelegate)
+    public static synchronized boolean isInitialized()
 com.facebook.soloader.nativeloader.NativeLoaderDelegate:
     public static final int SKIP_MERGED_JNI_ONLOAD
     public abstract java.lang.String getLibraryPath(java.lang.String)
@@ -15283,8 +15282,6 @@ com.google.android.gms.common.GoogleSourceStampsResult
 com.google.android.gms.common.ProGuardCanary
 com.google.android.gms.common.R$integer
 com.google.android.gms.common.R$string:
-    private static synthetic transient boolean[] $jacocoData
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 com.google.android.gms.common.R
 com.google.android.gms.common.Scopes
@@ -16048,7 +16045,6 @@ com.google.android.gms.tasks.zzx
 com.google.android.gms.tasks.zzy
 com.google.android.material.R$anim
 com.google.android.material.R$animator:
-    private static synthetic transient boolean[] $jacocoData
     public static final int design_appbar_state_list_animator
     public static final int design_fab_hide_motion_spec
     public static final int design_fab_show_motion_spec
@@ -16071,10 +16067,8 @@ com.google.android.material.R$animator:
     public static final int mtrl_extended_fab_hide_motion_spec
     public static final int mtrl_extended_fab_show_motion_spec
     public static final int mtrl_extended_fab_state_list_animator
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 com.google.android.material.R$attr:
-    private static synthetic transient boolean[] $jacocoData
     public static final int actionBarDivider
     public static final int actionBarItemBackground
     public static final int actionBarPopupTheme
@@ -17037,11 +17031,9 @@ com.google.android.material.R$attr:
     public static final int yearSelectedStyle
     public static final int yearStyle
     public static final int yearTodayStyle
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 com.google.android.material.R$bool
 com.google.android.material.R$color:
-    private static synthetic transient boolean[] $jacocoData
     public static final int abc_background_cache_hint_selector_material_dark
     public static final int abc_background_cache_hint_selector_material_light
     public static final int abc_btn_colored_borderless_text_material
@@ -17620,10 +17612,8 @@ com.google.android.material.R$color:
     public static final int test_mtrl_calendar_day_selected
     public static final int tooltip_background_dark
     public static final int tooltip_background_light
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 com.google.android.material.R$dimen:
-    private static synthetic transient boolean[] $jacocoData
     public static final int abc_action_bar_content_inset_material
     public static final int abc_action_bar_content_inset_with_nav
     public static final int abc_action_bar_default_height_material
@@ -18150,10 +18140,8 @@ com.google.android.material.R$dimen:
     public static final int tooltip_vertical_padding
     public static final int tooltip_y_offset_non_touch
     public static final int tooltip_y_offset_touch
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 com.google.android.material.R$drawable:
-    private static synthetic transient boolean[] $jacocoData
     public static final int abc_ab_share_pack_mtrl_alpha
     public static final int abc_action_bar_item_background_material
     public static final int abc_btn_borderless_material
@@ -18289,10 +18277,8 @@ com.google.android.material.R$drawable:
     public static final int test_custom_background
     public static final int tooltip_frame_dark
     public static final int tooltip_frame_light
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 com.google.android.material.R$id:
-    private static synthetic transient boolean[] $jacocoData
     public static final int BOTTOM_END
     public static final int BOTTOM_START
     public static final int NO_DEBUG
@@ -18616,10 +18602,8 @@ com.google.android.material.R$id:
     public static final int wrap
     public static final int wrap_content
     public static final int zero_corner_chip
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 com.google.android.material.R$integer:
-    private static synthetic transient boolean[] $jacocoData
     public static final int abc_config_activityDefaultDur
     public static final int abc_config_activityShortDur
     public static final int bottom_sheet_slide_duration
@@ -18663,11 +18647,9 @@ com.google.android.material.R$integer:
     public static final int mtrl_view_visible
     public static final int show_password_duration
     public static final int status_bar_notification_info_maxnum
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 com.google.android.material.R$interpolator
 com.google.android.material.R$layout:
-    private static synthetic transient boolean[] $jacocoData
     public static final int abc_action_bar_title_item
     public static final int abc_action_bar_up_container
     public static final int abc_action_menu_item_layout
@@ -18764,14 +18746,10 @@ com.google.android.material.R$layout:
     public static final int text_view_with_line_height_from_style
     public static final int text_view_with_theme_line_height
     public static final int text_view_without_line_height
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 com.google.android.material.R$plurals:
-    private static synthetic transient boolean[] $jacocoData
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 com.google.android.material.R$string:
-    private static synthetic transient boolean[] $jacocoData
     public static final int abc_action_bar_home_description
     public static final int abc_action_bar_up_description
     public static final int abc_action_menu_overflow_description
@@ -18882,10 +18860,8 @@ com.google.android.material.R$string:
     public static final int path_password_strike_through
     public static final int search_menu_title
     public static final int status_bar_notification_info_overflow
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 com.google.android.material.R$style:
-    private static synthetic transient boolean[] $jacocoData
     public static final int AlertDialog_AppCompat
     public static final int AlertDialog_AppCompat_Light
     public static final int AndroidThemeColorAccentYellow
@@ -19880,7 +19856,6 @@ com.google.android.material.R$style:
     public static final int Widget_MaterialComponents_Toolbar_Surface
     public static final int Widget_MaterialComponents_Tooltip
     public static final int Widget_Support_CoordinatorLayout
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 com.google.android.material.R$styleable:
     public static final int ActionBarLayout_android_layout_gravity
@@ -23797,18 +23772,13 @@ com.squareup.leakcanary.R$xml
 com.squareup.leakcanary.R
 com.squareup.leakcanary.core.BuildConfig
 com.squareup.leakcanary.core.R$anim:
-    private static synthetic transient boolean[] $jacocoData
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 com.squareup.leakcanary.core.R$attr
 com.squareup.leakcanary.core.R$bool:
-    private static synthetic transient boolean[] $jacocoData
     public static final int leak_canary_add_launcher_icon
     public static final int leak_canary_watcher_watch_dismissed_dialogs
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 com.squareup.leakcanary.core.R$color:
-    private static synthetic transient boolean[] $jacocoData
     public static final int leak_canary_background_color
     public static final int leak_canary_bottom_menu
     public static final int leak_canary_count_default
@@ -23834,10 +23804,8 @@ com.squareup.leakcanary.core.R$color:
     public static final int ripple_material_light
     public static final int secondary_text_default_material_dark
     public static final int secondary_text_default_material_light
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 com.squareup.leakcanary.core.R$dimen:
-    private static synthetic transient boolean[] $jacocoData
     public static final int compat_button_inset_horizontal_material
     public static final int compat_button_inset_vertical_material
     public static final int compat_button_padding_horizontal_material
@@ -23865,10 +23833,8 @@ com.squareup.leakcanary.core.R$dimen:
     public static final int subtitle_outline_width
     public static final int subtitle_shadow_offset
     public static final int subtitle_shadow_radius
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 com.squareup.leakcanary.core.R$drawable:
-    private static synthetic transient boolean[] $jacocoData
     public static final int leak_canary_count_background
     public static final int leak_canary_dump
     public static final int leak_canary_gray_fill
@@ -23894,10 +23860,8 @@ com.squareup.leakcanary.core.R$drawable:
     public static final int notification_template_icon_low_bg
     public static final int notification_tile_bg
     public static final int notify_panel_notification_icon_bg
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 com.squareup.leakcanary.core.R$id:
-    private static synthetic transient boolean[] $jacocoData
     public static final int action0
     public static final int action_container
     public static final int action_divider
@@ -23938,11 +23902,9 @@ com.squareup.leakcanary.core.R$id:
     public static final int time
     public static final int title
     public static final int top
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 com.squareup.leakcanary.core.R$integer
 com.squareup.leakcanary.core.R$layout:
-    private static synthetic transient boolean[] $jacocoData
     public static final int leak_canary_leak_chips
     public static final int notification_action
     public static final int notification_action_tombstone
@@ -23959,18 +23921,12 @@ com.squareup.leakcanary.core.R$layout:
     public static final int notification_template_media_custom
     public static final int notification_template_part_chronometer
     public static final int notification_template_part_time
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 com.squareup.leakcanary.core.R$mipmap:
-    private static synthetic transient boolean[] $jacocoData
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 com.squareup.leakcanary.core.R$plurals:
-    private static synthetic transient boolean[] $jacocoData
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 com.squareup.leakcanary.core.R$string:
-    private static synthetic transient boolean[] $jacocoData
     public static final int androidx_startup
     public static final int leak_canary_about_enable_heap_dump
     public static final int leak_canary_about_enable_heap_dump_textOff
@@ -23988,10 +23944,8 @@ com.squareup.leakcanary.core.R$string:
     public static final int leak_canary_storage_permission_activity_label
     public static final int leak_canary_toast_heap_dump
     public static final int status_bar_notification_info_overflow
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 com.squareup.leakcanary.core.R$style:
-    private static synthetic transient boolean[] $jacocoData
     public static final int TextAppearance_Compat_Notification
     public static final int TextAppearance_Compat_Notification_Info
     public static final int TextAppearance_Compat_Notification_Info_Media
@@ -24007,7 +23961,6 @@ com.squareup.leakcanary.core.R$style:
     public static final int Widget_Support_CoordinatorLayout
     public static final int leak_canary_Theme_Transparent
     public static final int leak_canary_Widget_ActionBar
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 com.squareup.leakcanary.core.R$styleable
 com.squareup.leakcanary.core.R$xml
@@ -24039,8 +23992,6 @@ com.squareup.leakcanary.fragments.androidx.R
 com.squareup.leakcanary.objectwatcher.R$bool
 com.squareup.leakcanary.objectwatcher.R
 com.squareup.leakcanary.objectwatcher.core.R$bool:
-    private static synthetic transient boolean[] $jacocoData
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 com.squareup.leakcanary.objectwatcher.core.R
 com.squareup.leakcanary.plumber.R$attr
@@ -24567,14 +24518,132 @@ kotlin.UByteArray$Iterator
 kotlin.UByteArray
 kotlin.UByteArrayKt
 kotlin.UByteKt
-kotlin.UInt$Companion
-kotlin.UInt
+kotlin.UInt:
+    public static final int MAX_VALUE
+    public static final int MIN_VALUE
+    public static final int SIZE_BITS
+    public static final int SIZE_BYTES
+    private synthetic void <init>(int)
+    private static final int and-WZ4Q5Ns(int,int)
+    public static final synthetic kotlin.UInt box-impl(int)
+    private static final int compareTo-7apg3OU(int,byte)
+    private static final int compareTo-VKZWuLQ(int,long)
+    private int compareTo-WZ4Q5Ns(int)
+    private static int compareTo-WZ4Q5Ns(int,int)
+    private static final int compareTo-xj2QHRw(int,short)
+    private static final int dec-pVg5ArA(int)
+    private static final int div-7apg3OU(int,byte)
+    private static final long div-VKZWuLQ(int,long)
+    private static final int div-WZ4Q5Ns(int,int)
+    private static final int div-xj2QHRw(int,short)
+    public static final boolean equals-impl0(int,int)
+    private static final int floorDiv-7apg3OU(int,byte)
+    private static final long floorDiv-VKZWuLQ(int,long)
+    private static final int floorDiv-WZ4Q5Ns(int,int)
+    private static final int floorDiv-xj2QHRw(int,short)
+    public static synthetic void getData$annotations()
+    private static final int inc-pVg5ArA(int)
+    private static final int inv-pVg5ArA(int)
+    private static final int minus-7apg3OU(int,byte)
+    private static final long minus-VKZWuLQ(int,long)
+    private static final int minus-WZ4Q5Ns(int,int)
+    private static final int minus-xj2QHRw(int,short)
+    private static final byte mod-7apg3OU(int,byte)
+    private static final long mod-VKZWuLQ(int,long)
+    private static final int mod-WZ4Q5Ns(int,int)
+    private static final short mod-xj2QHRw(int,short)
+    private static final int or-WZ4Q5Ns(int,int)
+    private static final int plus-7apg3OU(int,byte)
+    private static final long plus-VKZWuLQ(int,long)
+    private static final int plus-WZ4Q5Ns(int,int)
+    private static final int plus-xj2QHRw(int,short)
+    private static final kotlin.ranges.UIntRange rangeTo-WZ4Q5Ns(int,int)
+    private static final int rem-7apg3OU(int,byte)
+    private static final long rem-VKZWuLQ(int,long)
+    private static final int rem-WZ4Q5Ns(int,int)
+    private static final int rem-xj2QHRw(int,short)
+    private static final int shl-pVg5ArA(int,int)
+    private static final int shr-pVg5ArA(int,int)
+    private static final int times-7apg3OU(int,byte)
+    private static final long times-VKZWuLQ(int,long)
+    private static final int times-WZ4Q5Ns(int,int)
+    private static final int times-xj2QHRw(int,short)
+    private static final byte toByte-impl(int)
+    private static final double toDouble-impl(int)
+    private static final float toFloat-impl(int)
+    private static final int toInt-impl(int)
+    private static final long toLong-impl(int)
+    private static final short toShort-impl(int)
+    private static final byte toUByte-w2LRezQ(int)
+    private static final int toUInt-pVg5ArA(int)
+    private static final long toULong-s-VKNKU(int)
+    private static final short toUShort-Mh2AYeg(int)
+    private static final int xor-WZ4Q5Ns(int,int)
 kotlin.UIntArray$Iterator
 kotlin.UIntArray
 kotlin.UIntArrayKt
 kotlin.UIntKt
-kotlin.ULong$Companion
-kotlin.ULong
+kotlin.ULong:
+    public static final long MAX_VALUE
+    public static final long MIN_VALUE
+    public static final int SIZE_BITS
+    public static final int SIZE_BYTES
+    private synthetic void <init>(long)
+    private static final long and-VKZWuLQ(long,long)
+    public static final synthetic kotlin.ULong box-impl(long)
+    private static final int compareTo-7apg3OU(long,byte)
+    private int compareTo-VKZWuLQ(long)
+    private static int compareTo-VKZWuLQ(long,long)
+    private static final int compareTo-WZ4Q5Ns(long,int)
+    private static final int compareTo-xj2QHRw(long,short)
+    private static final long dec-s-VKNKU(long)
+    private static final long div-7apg3OU(long,byte)
+    private static final long div-VKZWuLQ(long,long)
+    private static final long div-WZ4Q5Ns(long,int)
+    private static final long div-xj2QHRw(long,short)
+    public static final boolean equals-impl0(long,long)
+    private static final long floorDiv-7apg3OU(long,byte)
+    private static final long floorDiv-VKZWuLQ(long,long)
+    private static final long floorDiv-WZ4Q5Ns(long,int)
+    private static final long floorDiv-xj2QHRw(long,short)
+    public static synthetic void getData$annotations()
+    private static final long inc-s-VKNKU(long)
+    private static final long inv-s-VKNKU(long)
+    private static final long minus-7apg3OU(long,byte)
+    private static final long minus-VKZWuLQ(long,long)
+    private static final long minus-WZ4Q5Ns(long,int)
+    private static final long minus-xj2QHRw(long,short)
+    private static final byte mod-7apg3OU(long,byte)
+    private static final long mod-VKZWuLQ(long,long)
+    private static final int mod-WZ4Q5Ns(long,int)
+    private static final short mod-xj2QHRw(long,short)
+    private static final long or-VKZWuLQ(long,long)
+    private static final long plus-7apg3OU(long,byte)
+    private static final long plus-VKZWuLQ(long,long)
+    private static final long plus-WZ4Q5Ns(long,int)
+    private static final long plus-xj2QHRw(long,short)
+    private static final kotlin.ranges.ULongRange rangeTo-VKZWuLQ(long,long)
+    private static final long rem-7apg3OU(long,byte)
+    private static final long rem-VKZWuLQ(long,long)
+    private static final long rem-WZ4Q5Ns(long,int)
+    private static final long rem-xj2QHRw(long,short)
+    private static final long shl-s-VKNKU(long,int)
+    private static final long shr-s-VKNKU(long,int)
+    private static final long times-7apg3OU(long,byte)
+    private static final long times-VKZWuLQ(long,long)
+    private static final long times-WZ4Q5Ns(long,int)
+    private static final long times-xj2QHRw(long,short)
+    private static final byte toByte-impl(long)
+    private static final double toDouble-impl(long)
+    private static final float toFloat-impl(long)
+    private static final int toInt-impl(long)
+    private static final long toLong-impl(long)
+    private static final short toShort-impl(long)
+    private static final byte toUByte-w2LRezQ(long)
+    private static final int toUInt-pVg5ArA(long)
+    private static final long toULong-s-VKNKU(long)
+    private static final short toUShort-Mh2AYeg(long)
+    private static final long xor-VKZWuLQ(long,long)
 kotlin.ULongArray$Iterator
 kotlin.ULongArray
 kotlin.ULongArrayKt
@@ -24592,7 +24661,15 @@ kotlin.UninitializedPropertyAccessException:
 kotlin.UnsafeLazyImpl:
     private final java.lang.Object writeReplace()
 kotlin.UnsafeVariance
-kotlin.UnsignedKt
+kotlin.UnsignedKt:
+    public static final int doubleToUInt(double)
+    public static final long doubleToULong(double)
+    public static final int uintDivide-J1ME1BU(int,int)
+    public static final int uintRemainder-J1ME1BU(int,int)
+    public static final double uintToDouble(int)
+    public static final long ulongDivide-eb3DHEI(long,long)
+    public static final long ulongRemainder-eb3DHEI(long,long)
+    public static final double ulongToDouble(long)
 kotlin.UseExperimental
 kotlin.WasExperimental
 kotlin._Assertions
@@ -24606,8 +24683,6 @@ kotlin.collections.AbstractCollection:
     public abstract java.util.Iterator iterator()
 kotlin.collections.AbstractIterator$WhenMappings
 kotlin.collections.AbstractIterator
-kotlin.collections.AbstractList$Companion:
-    public final void checkBoundsIndexes$kotlin_stdlib(int,int,int)
 kotlin.collections.AbstractList:
     public abstract int getSize()
 kotlin.collections.AbstractMap$Companion
@@ -25125,7 +25200,6 @@ kotlin.collections.ArraysKt___ArraysKt:
     private static final short component5(short[])
     private static final boolean component5(boolean[])
     public static final boolean contains(byte[],byte)
-    public static final boolean contains(char[],char)
     public static final boolean contains(double[],double)
     public static final boolean contains(float[],float)
     public static final boolean contains(int[],int)
@@ -25499,7 +25573,6 @@ kotlin.collections.ArraysKt___ArraysKt:
     public static final java.util.Map groupByTo(boolean[],java.util.Map,kotlin.jvm.functions.Function1,kotlin.jvm.functions.Function1)
     public static final kotlin.collections.Grouping groupingBy(java.lang.Object[],kotlin.jvm.functions.Function1)
     public static final int indexOf(byte[],byte)
-    public static final int indexOf(char[],char)
     public static final int indexOf(double[],double)
     public static final int indexOf(float[],float)
     public static final int indexOf(int[],int)
@@ -26590,7 +26663,6 @@ kotlin.collections.BrittleContainsOptimizationKt:
     public static final java.util.Collection convertToSetForSetOperation(kotlin.sequences.Sequence)
     public static final java.util.Collection convertToSetForSetOperation(java.lang.Object[])
 kotlin.collections.ByteIterator
-kotlin.collections.CharIterator
 kotlin.collections.CollectionsKt:
     private void <init>()
 kotlin.collections.CollectionsKt__CollectionsJVMKt:
@@ -26936,15 +27008,15 @@ kotlin.collections.EmptySet:
     private static final long serialVersionUID
     private final java.lang.Object readResolve()
 kotlin.collections.FloatIterator
-kotlin.collections.Grouping
+kotlin.collections.Grouping:
+    public abstract java.lang.Object keyOf(java.lang.Object)
+    public abstract java.util.Iterator sourceIterator()
 kotlin.collections.GroupingKt
 kotlin.collections.GroupingKt__GroupingJVMKt
 kotlin.collections.GroupingKt__GroupingKt
 kotlin.collections.IndexedValue:
     public final kotlin.collections.IndexedValue copy(int,java.lang.Object)
     public static synthetic kotlin.collections.IndexedValue copy$default(kotlin.collections.IndexedValue,int,java.lang.Object,int,java.lang.Object)
-kotlin.collections.IndexingIterable
-kotlin.collections.IndexingIterator
 kotlin.collections.IntIterator:
     public final java.lang.Integer next()
 kotlin.collections.LongIterator:
@@ -27128,7 +27200,9 @@ kotlin.collections.SetsKt___SetsKt:
 kotlin.collections.ShortIterator
 kotlin.collections.SlidingWindowKt$windowedIterator$1
 kotlin.collections.SlidingWindowKt$windowedSequence$$inlined$Sequence$1
-kotlin.collections.SlidingWindowKt
+kotlin.collections.SlidingWindowKt:
+    public static final java.util.Iterator windowedIterator(java.util.Iterator,int,int,boolean,boolean)
+    public static final kotlin.sequences.Sequence windowedSequence(kotlin.sequences.Sequence,int,int,boolean,boolean)
 kotlin.collections.State
 kotlin.collections.TypeAliasesKt
 kotlin.collections.UArraySortingKt
@@ -27348,7 +27422,8 @@ kotlin.coroutines.jvm.internal.DebugMetadata:
 kotlin.coroutines.jvm.internal.DebugMetadataKt:
     private static final int COROUTINES_DEBUG_METADATA_VERSION
     public static final java.lang.String[] getSpilledVariableFieldMapping(kotlin.coroutines.jvm.internal.BaseContinuationImpl)
-kotlin.coroutines.jvm.internal.RestrictedSuspendLambda
+kotlin.coroutines.jvm.internal.RestrictedSuspendLambda:
+    public void <init>(int)
 kotlin.coroutines.jvm.internal.RunSuspend
 kotlin.coroutines.jvm.internal.RunSuspendKt
 kotlin.coroutines.jvm.internal.SuspendFunction
@@ -27687,7 +27762,6 @@ kotlin.jvm.internal.Intrinsics:
     public static void checkNotNull(java.lang.Object,java.lang.String)
     public static void checkReturnedValueIsNotNull(java.lang.Object,java.lang.String)
     public static void checkReturnedValueIsNotNull(java.lang.Object,java.lang.String,java.lang.String)
-    public static int compare(long,long)
     public static void needClassReification()
     public static void needClassReification(java.lang.String)
     public static void reifiedOperationMarker(int,java.lang.String)
@@ -27849,7 +27923,6 @@ kotlin.random.AbstractPlatformRandom:
     public byte[] nextBytes(byte[])
     public double nextDouble()
     public float nextFloat()
-    public int nextInt(int)
     public long nextLong()
 kotlin.random.KotlinRandom$Companion
 kotlin.random.KotlinRandom
@@ -27866,8 +27939,6 @@ kotlin.random.Random$Default:
     public double nextDouble(double)
     public double nextDouble(double,double)
     public float nextFloat()
-    public int nextInt(int)
-    public int nextInt(int,int)
     public long nextLong()
     public long nextLong(long)
     public long nextLong(long,long)
@@ -27882,19 +27953,14 @@ kotlin.random.Random:
     public double nextDouble(double)
     public double nextDouble(double,double)
     public float nextFloat()
-    public int nextInt(int)
-    public int nextInt(int,int)
     public long nextLong()
     public long nextLong(long)
     public long nextLong(long,long)
 kotlin.random.RandomKt:
     public static final kotlin.random.Random Random(int)
     public static final kotlin.random.Random Random(long)
-    public static final java.lang.String boundsErrorMessage(java.lang.Object,java.lang.Object)
     public static final void checkRangeBounds(double,double)
-    public static final void checkRangeBounds(int,int)
     public static final void checkRangeBounds(long,long)
-    public static final int fastLog2(int)
     public static final int nextInt(kotlin.random.Random,kotlin.ranges.IntRange)
     public static final long nextLong(kotlin.random.Random,kotlin.ranges.LongRange)
 kotlin.random.URandomKt
@@ -27902,7 +27968,6 @@ kotlin.random.XorWowRandom$Companion
 kotlin.random.XorWowRandom
 kotlin.random.jdk8.PlatformThreadLocalRandom:
     public double nextDouble(double)
-    public int nextInt(int,int)
     public long nextLong(long)
     public long nextLong(long,long)
 kotlin.ranges.CharProgression$Companion
@@ -28188,12 +28253,16 @@ kotlin.sequences.IndexingSequence$iterator$1:
     public final void setIndex(int)
 kotlin.sequences.MergingSequence$iterator$1
 kotlin.sequences.MergingSequence
-kotlin.sequences.SequenceBuilderIterator
-kotlin.sequences.SequenceScope
+kotlin.sequences.SequenceBuilderIterator:
+    public final kotlin.coroutines.Continuation getNextStep()
+    public java.lang.Object yieldAll(java.util.Iterator,kotlin.coroutines.Continuation)
+kotlin.sequences.SequenceScope:
+    public final java.lang.Object yieldAll(java.lang.Iterable,kotlin.coroutines.Continuation)
+    public abstract java.lang.Object yieldAll(java.util.Iterator,kotlin.coroutines.Continuation)
+    public final java.lang.Object yieldAll(kotlin.sequences.Sequence,kotlin.coroutines.Continuation)
 kotlin.sequences.SequencesKt:
     private void <init>()
 kotlin.sequences.SequencesKt__SequenceBuilderKt$buildSequence$$inlined$Sequence$1
-kotlin.sequences.SequencesKt__SequenceBuilderKt$sequence$$inlined$Sequence$1
 kotlin.sequences.SequencesKt__SequenceBuilderKt:
     private static final int State_Done
     private static final int State_Failed
@@ -28205,8 +28274,6 @@ kotlin.sequences.SequencesKt__SequenceBuilderKt:
     public static synthetic void SequenceBuilder$annotations()
     private static final java.util.Iterator buildIterator(kotlin.jvm.functions.Function2)
     private static final kotlin.sequences.Sequence buildSequence(kotlin.jvm.functions.Function2)
-    public static final java.util.Iterator iterator(kotlin.jvm.functions.Function2)
-    public static final kotlin.sequences.Sequence sequence(kotlin.jvm.functions.Function2)
 kotlin.sequences.SequencesKt__SequencesJVMKt:
     public void <init>()
     private static final kotlin.sequences.Sequence asSequence(java.util.Enumeration)
@@ -28515,20 +28582,35 @@ kotlin.text.DelimitedRangesSequence$iterator$1:
     public final void setNextItem(kotlin.ranges.IntRange)
     public final void setNextSearchIndex(int)
     public final void setNextState(int)
-kotlin.text.FlagEnum
-kotlin.text.MatchGroup
-kotlin.text.MatchGroupCollection
+kotlin.text.FlagEnum:
+    public abstract int getMask()
+kotlin.text.MatchGroup:
+    public final java.lang.String component1()
+    public final kotlin.ranges.IntRange component2()
+    public final kotlin.text.MatchGroup copy(java.lang.String,kotlin.ranges.IntRange)
+    public static synthetic kotlin.text.MatchGroup copy$default(kotlin.text.MatchGroup,java.lang.String,kotlin.ranges.IntRange,int,java.lang.Object)
+    public final kotlin.ranges.IntRange getRange()
+    public final java.lang.String getValue()
+kotlin.text.MatchGroupCollection:
+    public abstract kotlin.text.MatchGroup get(int)
 kotlin.text.MatchNamedGroupCollection
 kotlin.text.MatchResult$DefaultImpls
 kotlin.text.MatchResult$Destructured
-kotlin.text.MatchResult
+kotlin.text.MatchResult:
+    public abstract kotlin.text.MatchResult$Destructured getDestructured()
+    public abstract java.util.List getGroupValues()
+    public abstract kotlin.text.MatchGroupCollection getGroups()
+    public abstract java.lang.String getValue()
 kotlin.text.MatcherMatchResult$groupValues$1
-kotlin.text.MatcherMatchResult$groups$1$iterator$1
-kotlin.text.MatcherMatchResult$groups$1
-kotlin.text.MatcherMatchResult
+kotlin.text.MatcherMatchResult$groups$1:
+    public kotlin.text.MatchGroup get(java.lang.String)
+kotlin.text.MatcherMatchResult:
+    private java.util.List groupValues_
+    public kotlin.text.MatchResult$Destructured getDestructured()
+    public java.util.List getGroupValues()
+    public kotlin.text.MatchGroupCollection getGroups()
+    public java.lang.String getValue()
 kotlin.text.Regex$Companion:
-    public static final synthetic int access$ensureUnicodeCase(kotlin.text.Regex$Companion,int)
-    private final int ensureUnicodeCase(int)
     public final java.lang.String escape(java.lang.String)
     public final java.lang.String escapeReplacement(java.lang.String)
     public final kotlin.text.Regex fromLiteral(java.lang.String)
@@ -28537,15 +28619,8 @@ kotlin.text.Regex$Serialized
 kotlin.text.Regex$findAll$1
 kotlin.text.Regex$findAll$2
 kotlin.text.Regex$special$$inlined$fromInt$1
-kotlin.text.Regex$splitToSequence$1
 kotlin.text.Regex:
     private java.util.Set _options
-    public void <init>(java.lang.String,java.util.Set)
-    public void <init>(java.lang.String,kotlin.text.RegexOption)
-    public static final synthetic java.util.regex.Pattern access$getNativePattern$p(kotlin.text.Regex)
-    public final boolean containsMatchIn(java.lang.CharSequence)
-    public final kotlin.text.MatchResult find(java.lang.CharSequence,int)
-    public static synthetic kotlin.text.MatchResult find$default(kotlin.text.Regex,java.lang.CharSequence,int,int,java.lang.Object)
     public final kotlin.sequences.Sequence findAll(java.lang.CharSequence,int)
     public static synthetic kotlin.sequences.Sequence findAll$default(kotlin.text.Regex,java.lang.CharSequence,int,int,java.lang.Object)
     public final java.util.Set getOptions()
@@ -28553,508 +28628,17 @@ kotlin.text.Regex:
     public final kotlin.text.MatchResult matchAt(java.lang.CharSequence,int)
     public final kotlin.text.MatchResult matchEntire(java.lang.CharSequence)
     public final boolean matchesAt(java.lang.CharSequence,int)
-    public final java.lang.String replace(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    public final java.lang.String replaceFirst(java.lang.CharSequence,java.lang.String)
-    public final java.util.List split(java.lang.CharSequence,int)
     public static synthetic java.util.List split$default(kotlin.text.Regex,java.lang.CharSequence,int,int,java.lang.Object)
-    public final kotlin.sequences.Sequence splitToSequence(java.lang.CharSequence,int)
     public static synthetic kotlin.sequences.Sequence splitToSequence$default(kotlin.text.Regex,java.lang.CharSequence,int,int,java.lang.Object)
     public final java.util.regex.Pattern toPattern()
     private final java.lang.Object writeReplace()
 kotlin.text.RegexKt$fromInt$1$1
-kotlin.text.RegexKt
-kotlin.text.RegexOption
-kotlin.text.ScreenFloatValueRegEx
-kotlin.text.StringsKt:
-    private void <init>()
-kotlin.text.StringsKt__AppendableKt:
-    public void <init>()
-    public static final varargs java.lang.Appendable append(java.lang.Appendable,java.lang.CharSequence[])
-    private static final java.lang.Appendable appendLine(java.lang.Appendable)
-    private static final java.lang.Appendable appendLine(java.lang.Appendable,char)
-    private static final java.lang.Appendable appendLine(java.lang.Appendable,java.lang.CharSequence)
-    public static final java.lang.Appendable appendRange(java.lang.Appendable,java.lang.CharSequence,int,int)
-kotlin.text.StringsKt__IndentKt$prependIndent$1
-kotlin.text.StringsKt__IndentKt:
-    public void <init>()
-    public static final java.lang.String prependIndent(java.lang.String,java.lang.String)
-    public static synthetic java.lang.String prependIndent$default(java.lang.String,java.lang.String,int,java.lang.Object)
-    private static final java.lang.String reindent$StringsKt__IndentKt(java.util.List,int,kotlin.jvm.functions.Function1,kotlin.jvm.functions.Function1)
-    public static synthetic java.lang.String replaceIndent$default(java.lang.String,java.lang.String,int,java.lang.Object)
-    public static synthetic java.lang.String replaceIndentByMargin$default(java.lang.String,java.lang.String,java.lang.String,int,java.lang.Object)
-kotlin.text.StringsKt__RegexExtensionsJVMKt:
-    public void <init>()
-    private static final kotlin.text.Regex toRegex(java.util.regex.Pattern)
-kotlin.text.StringsKt__RegexExtensionsKt:
-    public void <init>()
-    private static final kotlin.text.Regex toRegex(java.lang.String)
-    private static final kotlin.text.Regex toRegex(java.lang.String,java.util.Set)
-    private static final kotlin.text.Regex toRegex(java.lang.String,kotlin.text.RegexOption)
-kotlin.text.StringsKt__StringBuilderJVMKt:
-    public void <init>()
-    private static final java.lang.StringBuilder appendLine(java.lang.StringBuilder,byte)
-    private static final java.lang.StringBuilder appendLine(java.lang.StringBuilder,double)
-    private static final java.lang.StringBuilder appendLine(java.lang.StringBuilder,float)
-    private static final java.lang.StringBuilder appendLine(java.lang.StringBuilder,int)
-    private static final java.lang.StringBuilder appendLine(java.lang.StringBuilder,long)
-    private static final java.lang.StringBuilder appendLine(java.lang.StringBuilder,java.lang.StringBuffer)
-    private static final java.lang.StringBuilder appendLine(java.lang.StringBuilder,java.lang.StringBuilder)
-    private static final java.lang.StringBuilder appendLine(java.lang.StringBuilder,short)
-    private static final java.lang.StringBuilder appendRange(java.lang.StringBuilder,java.lang.CharSequence,int,int)
-    private static final java.lang.StringBuilder appendRange(java.lang.StringBuilder,char[],int,int)
-    public static final java.lang.Appendable appendln(java.lang.Appendable)
-    private static final java.lang.Appendable appendln(java.lang.Appendable,char)
-    private static final java.lang.Appendable appendln(java.lang.Appendable,java.lang.CharSequence)
-    public static final java.lang.StringBuilder appendln(java.lang.StringBuilder)
-    private static final java.lang.StringBuilder appendln(java.lang.StringBuilder,byte)
-    private static final java.lang.StringBuilder appendln(java.lang.StringBuilder,char)
-    private static final java.lang.StringBuilder appendln(java.lang.StringBuilder,double)
-    private static final java.lang.StringBuilder appendln(java.lang.StringBuilder,float)
-    private static final java.lang.StringBuilder appendln(java.lang.StringBuilder,int)
-    private static final java.lang.StringBuilder appendln(java.lang.StringBuilder,long)
-    private static final java.lang.StringBuilder appendln(java.lang.StringBuilder,java.lang.CharSequence)
-    private static final java.lang.StringBuilder appendln(java.lang.StringBuilder,java.lang.Object)
-    private static final java.lang.StringBuilder appendln(java.lang.StringBuilder,java.lang.String)
-    private static final java.lang.StringBuilder appendln(java.lang.StringBuilder,java.lang.StringBuffer)
-    private static final java.lang.StringBuilder appendln(java.lang.StringBuilder,java.lang.StringBuilder)
-    private static final java.lang.StringBuilder appendln(java.lang.StringBuilder,short)
-    private static final java.lang.StringBuilder appendln(java.lang.StringBuilder,boolean)
-    private static final java.lang.StringBuilder appendln(java.lang.StringBuilder,char[])
-    public static final java.lang.StringBuilder clear(java.lang.StringBuilder)
-    private static final java.lang.StringBuilder deleteAt(java.lang.StringBuilder,int)
-    private static final java.lang.StringBuilder deleteRange(java.lang.StringBuilder,int,int)
-    private static final java.lang.StringBuilder insertRange(java.lang.StringBuilder,int,java.lang.CharSequence,int,int)
-    private static final java.lang.StringBuilder insertRange(java.lang.StringBuilder,int,char[],int,int)
-    private static final void set(java.lang.StringBuilder,int,char)
-    private static final java.lang.StringBuilder setRange(java.lang.StringBuilder,int,int,java.lang.String)
-    private static final void toCharArray(java.lang.StringBuilder,char[],int,int,int)
-    static synthetic void toCharArray$default(java.lang.StringBuilder,char[],int,int,int,int,java.lang.Object)
-kotlin.text.StringsKt__StringBuilderKt:
-    public void <init>()
-    private static final java.lang.StringBuilder append(java.lang.StringBuilder,java.lang.Object)
-    public static final varargs java.lang.StringBuilder append(java.lang.StringBuilder,java.lang.Object[])
-    public static final varargs java.lang.StringBuilder append(java.lang.StringBuilder,java.lang.String[])
-    private static final java.lang.StringBuilder appendLine(java.lang.StringBuilder)
-    private static final java.lang.StringBuilder appendLine(java.lang.StringBuilder,char)
-    private static final java.lang.StringBuilder appendLine(java.lang.StringBuilder,java.lang.CharSequence)
-    private static final java.lang.StringBuilder appendLine(java.lang.StringBuilder,java.lang.Object)
-    private static final java.lang.StringBuilder appendLine(java.lang.StringBuilder,java.lang.String)
-    private static final java.lang.StringBuilder appendLine(java.lang.StringBuilder,boolean)
-    private static final java.lang.StringBuilder appendLine(java.lang.StringBuilder,char[])
-    private static final java.lang.String buildString(int,kotlin.jvm.functions.Function1)
-    private static final java.lang.String buildString(kotlin.jvm.functions.Function1)
-kotlin.text.StringsKt__StringNumberConversionsJVMKt:
-    public void <init>()
-    private static final java.lang.Object screenFloatValue$StringsKt__StringNumberConversionsJVMKt(java.lang.String,kotlin.jvm.functions.Function1)
-    private static final java.math.BigDecimal toBigDecimal(java.lang.String)
-    private static final java.math.BigDecimal toBigDecimal(java.lang.String,java.math.MathContext)
-    public static final java.math.BigDecimal toBigDecimalOrNull(java.lang.String)
-    public static final java.math.BigDecimal toBigDecimalOrNull(java.lang.String,java.math.MathContext)
-    private static final java.math.BigInteger toBigInteger(java.lang.String)
-    private static final java.math.BigInteger toBigInteger(java.lang.String,int)
-    public static final java.math.BigInteger toBigIntegerOrNull(java.lang.String)
-    public static final java.math.BigInteger toBigIntegerOrNull(java.lang.String,int)
-    private static final synthetic boolean toBoolean(java.lang.String)
-    private static final boolean toBooleanNullable(java.lang.String)
-    private static final byte toByte(java.lang.String)
-    private static final byte toByte(java.lang.String,int)
-    private static final double toDouble(java.lang.String)
-    public static final java.lang.Double toDoubleOrNull(java.lang.String)
-    private static final float toFloat(java.lang.String)
-    public static final java.lang.Float toFloatOrNull(java.lang.String)
-    private static final int toInt(java.lang.String)
-    private static final int toInt(java.lang.String,int)
-    private static final long toLong(java.lang.String)
-    private static final long toLong(java.lang.String,int)
-    private static final short toShort(java.lang.String)
-    private static final short toShort(java.lang.String,int)
-    private static final java.lang.String toString(byte,int)
-    private static final java.lang.String toString(int,int)
-    private static final java.lang.String toString(long,int)
-    private static final java.lang.String toString(short,int)
-kotlin.text.StringsKt__StringNumberConversionsKt:
-    public void <init>()
-    public static final java.lang.Void numberFormatError(java.lang.String)
-    public static final java.lang.Byte toByteOrNull(java.lang.String)
-    public static final java.lang.Byte toByteOrNull(java.lang.String,int)
-    public static final java.lang.Short toShortOrNull(java.lang.String)
-    public static final java.lang.Short toShortOrNull(java.lang.String,int)
-kotlin.text.StringsKt__StringsJVMKt:
-    public void <init>()
-    private static final java.lang.String String(java.lang.StringBuffer)
-    private static final java.lang.String String(java.lang.StringBuilder)
-    private static final java.lang.String String(byte[])
-    private static final java.lang.String String(byte[],int,int)
-    private static final java.lang.String String(byte[],int,int,java.nio.charset.Charset)
-    private static final java.lang.String String(byte[],java.nio.charset.Charset)
-    private static final java.lang.String String(char[])
-    private static final java.lang.String String(char[],int,int)
-    private static final java.lang.String String(int[],int,int)
-    public static final java.lang.String capitalize(java.lang.String)
-    public static final java.lang.String capitalize(java.lang.String,java.util.Locale)
-    private static final int codePointAt(java.lang.String,int)
-    private static final int codePointBefore(java.lang.String,int)
-    private static final int codePointCount(java.lang.String,int,int)
-    public static final int compareTo(java.lang.String,java.lang.String,boolean)
-    public static synthetic int compareTo$default(java.lang.String,java.lang.String,boolean,int,java.lang.Object)
-    public static final java.lang.String concatToString(char[])
-    public static final java.lang.String concatToString(char[],int,int)
-    public static synthetic java.lang.String concatToString$default(char[],int,int,int,java.lang.Object)
-    public static final boolean contentEquals(java.lang.CharSequence,java.lang.CharSequence)
-    public static final boolean contentEquals(java.lang.CharSequence,java.lang.CharSequence,boolean)
-    private static final boolean contentEquals(java.lang.String,java.lang.CharSequence)
-    private static final boolean contentEquals(java.lang.String,java.lang.StringBuffer)
-    public static final java.lang.String decapitalize(java.lang.String)
-    public static final java.lang.String decapitalize(java.lang.String,java.util.Locale)
-    public static final java.lang.String decodeToString(byte[])
-    public static final java.lang.String decodeToString(byte[],int,int,boolean)
-    public static synthetic java.lang.String decodeToString$default(byte[],int,int,boolean,int,java.lang.Object)
-    public static final byte[] encodeToByteArray(java.lang.String)
-    public static final byte[] encodeToByteArray(java.lang.String,int,int,boolean)
-    public static synthetic byte[] encodeToByteArray$default(java.lang.String,int,int,boolean,int,java.lang.Object)
-    public static synthetic boolean equals$default(java.lang.String,java.lang.String,boolean,int,java.lang.Object)
-    private static final synthetic varargs java.lang.String format(java.lang.String,java.util.Locale,java.lang.Object[])
-    private static final varargs java.lang.String format(java.lang.String,java.lang.Object[])
-    private static final varargs java.lang.String format(kotlin.jvm.internal.StringCompanionObject,java.lang.String,java.lang.Object[])
-    private static final synthetic varargs java.lang.String format(kotlin.jvm.internal.StringCompanionObject,java.util.Locale,java.lang.String,java.lang.Object[])
-    private static final varargs java.lang.String formatNullable(java.lang.String,java.util.Locale,java.lang.Object[])
-    private static final varargs java.lang.String formatNullable(kotlin.jvm.internal.StringCompanionObject,java.util.Locale,java.lang.String,java.lang.Object[])
-    private static final java.lang.String intern(java.lang.String)
-    private static final java.lang.String lowercase(java.lang.String)
-    private static final java.lang.String lowercase(java.lang.String,java.util.Locale)
-    private static final int nativeIndexOf(java.lang.String,char,int)
-    private static final int nativeIndexOf(java.lang.String,java.lang.String,int)
-    private static final int nativeLastIndexOf(java.lang.String,char,int)
-    private static final int nativeLastIndexOf(java.lang.String,java.lang.String,int)
-    private static final int offsetByCodePoints(java.lang.String,int,int)
-    public static final boolean regionMatches(java.lang.CharSequence,int,java.lang.CharSequence,int,int,boolean)
-    public static synthetic boolean regionMatches$default(java.lang.CharSequence,int,java.lang.CharSequence,int,int,boolean,int,java.lang.Object)
-    public static final java.lang.String replaceFirst(java.lang.String,char,char,boolean)
-    public static final java.lang.String replaceFirst(java.lang.String,java.lang.String,java.lang.String,boolean)
-    public static synthetic java.lang.String replaceFirst$default(java.lang.String,char,char,boolean,int,java.lang.Object)
-    public static synthetic java.lang.String replaceFirst$default(java.lang.String,java.lang.String,java.lang.String,boolean,int,java.lang.Object)
-    public static final java.util.List split(java.lang.CharSequence,java.util.regex.Pattern,int)
-    public static synthetic java.util.List split$default(java.lang.CharSequence,java.util.regex.Pattern,int,int,java.lang.Object)
-    private static final java.lang.String substring(java.lang.String,int)
-    private static final java.lang.String substring(java.lang.String,int,int)
-    private static final byte[] toByteArray(java.lang.String,java.nio.charset.Charset)
-    static synthetic byte[] toByteArray$default(java.lang.String,java.nio.charset.Charset,int,java.lang.Object)
-    private static final char[] toCharArray(java.lang.String)
-    public static final char[] toCharArray(java.lang.String,int,int)
-    private static final char[] toCharArray(java.lang.String,char[],int,int,int)
-    public static synthetic char[] toCharArray$default(java.lang.String,int,int,int,java.lang.Object)
-    static synthetic char[] toCharArray$default(java.lang.String,char[],int,int,int,int,java.lang.Object)
-    private static final java.lang.String toLowerCase(java.lang.String)
-    private static final java.lang.String toLowerCase(java.lang.String,java.util.Locale)
-    private static final java.util.regex.Pattern toPattern(java.lang.String,int)
-    static synthetic java.util.regex.Pattern toPattern$default(java.lang.String,int,int,java.lang.Object)
-    private static final java.lang.String toUpperCase(java.lang.String)
-    private static final java.lang.String toUpperCase(java.lang.String,java.util.Locale)
-    private static final java.lang.String uppercase(java.lang.String)
-    private static final java.lang.String uppercase(java.lang.String,java.util.Locale)
-kotlin.text.StringsKt__StringsKt$iterator$1
-kotlin.text.StringsKt__StringsKt$splitToSequence$2
-kotlin.text.StringsKt__StringsKt:
-    public void <init>()
-    public static final java.lang.String commonPrefixWith(java.lang.CharSequence,java.lang.CharSequence,boolean)
-    public static synthetic java.lang.String commonPrefixWith$default(java.lang.CharSequence,java.lang.CharSequence,boolean,int,java.lang.Object)
-    public static final java.lang.String commonSuffixWith(java.lang.CharSequence,java.lang.CharSequence,boolean)
-    public static synthetic java.lang.String commonSuffixWith$default(java.lang.CharSequence,java.lang.CharSequence,boolean,int,java.lang.Object)
-    private static final boolean contains(java.lang.CharSequence,kotlin.text.Regex)
-    public static final boolean contentEqualsIgnoreCaseImpl(java.lang.CharSequence,java.lang.CharSequence)
-    public static final boolean contentEqualsImpl(java.lang.CharSequence,java.lang.CharSequence)
-    public static final boolean endsWith(java.lang.CharSequence,char,boolean)
-    public static synthetic boolean endsWith$default(java.lang.CharSequence,char,boolean,int,java.lang.Object)
-    public static final kotlin.Pair findAnyOf(java.lang.CharSequence,java.util.Collection,int,boolean)
-    public static synthetic kotlin.Pair findAnyOf$default(java.lang.CharSequence,java.util.Collection,int,boolean,int,java.lang.Object)
-    public static final kotlin.Pair findLastAnyOf(java.lang.CharSequence,java.util.Collection,int,boolean)
-    public static synthetic kotlin.Pair findLastAnyOf$default(java.lang.CharSequence,java.util.Collection,int,boolean,int,java.lang.Object)
-    public static final boolean hasSurrogatePairAt(java.lang.CharSequence,int)
-    private static final java.lang.Object ifBlank(java.lang.CharSequence,kotlin.jvm.functions.Function0)
-    private static final java.lang.Object ifEmpty(java.lang.CharSequence,kotlin.jvm.functions.Function0)
-    public static final int indexOfAny(java.lang.CharSequence,java.util.Collection,int,boolean)
-    public static synthetic int indexOfAny$default(java.lang.CharSequence,java.util.Collection,int,boolean,int,java.lang.Object)
-    public static synthetic int indexOfAny$default(java.lang.CharSequence,char[],int,boolean,int,java.lang.Object)
-    private static final boolean isEmpty(java.lang.CharSequence)
-    private static final boolean isNotBlank(java.lang.CharSequence)
-    private static final boolean isNotEmpty(java.lang.CharSequence)
-    private static final boolean isNullOrBlank(java.lang.CharSequence)
-    private static final boolean isNullOrEmpty(java.lang.CharSequence)
-    public static final kotlin.collections.CharIterator iterator(java.lang.CharSequence)
-    public static final int lastIndexOfAny(java.lang.CharSequence,java.util.Collection,int,boolean)
-    public static synthetic int lastIndexOfAny$default(java.lang.CharSequence,java.util.Collection,int,boolean,int,java.lang.Object)
-    public static synthetic int lastIndexOfAny$default(java.lang.CharSequence,char[],int,boolean,int,java.lang.Object)
-    private static final boolean matches(java.lang.CharSequence,kotlin.text.Regex)
-    private static final java.lang.String orEmpty(java.lang.String)
-    public static final java.lang.CharSequence padEnd(java.lang.CharSequence,int,char)
-    public static final java.lang.String padEnd(java.lang.String,int,char)
-    public static synthetic java.lang.CharSequence padEnd$default(java.lang.CharSequence,int,char,int,java.lang.Object)
-    public static synthetic java.lang.String padEnd$default(java.lang.String,int,char,int,java.lang.Object)
-    public static final java.lang.CharSequence padStart(java.lang.CharSequence,int,char)
-    public static final java.lang.String padStart(java.lang.String,int,char)
-    public static synthetic java.lang.CharSequence padStart$default(java.lang.CharSequence,int,char,int,java.lang.Object)
-    public static synthetic java.lang.String padStart$default(java.lang.String,int,char,int,java.lang.Object)
-    public static final java.lang.CharSequence removePrefix(java.lang.CharSequence,java.lang.CharSequence)
-    public static final java.lang.CharSequence removeRange(java.lang.CharSequence,int,int)
-    public static final java.lang.CharSequence removeRange(java.lang.CharSequence,kotlin.ranges.IntRange)
-    private static final java.lang.String removeRange(java.lang.String,int,int)
-    private static final java.lang.String removeRange(java.lang.String,kotlin.ranges.IntRange)
-    public static final java.lang.CharSequence removeSuffix(java.lang.CharSequence,java.lang.CharSequence)
-    public static final java.lang.CharSequence removeSurrounding(java.lang.CharSequence,java.lang.CharSequence)
-    public static final java.lang.CharSequence removeSurrounding(java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence)
-    public static final java.lang.String removeSurrounding(java.lang.String,java.lang.CharSequence)
-    public static final java.lang.String removeSurrounding(java.lang.String,java.lang.CharSequence,java.lang.CharSequence)
-    private static final java.lang.String replace(java.lang.CharSequence,kotlin.text.Regex,java.lang.String)
-    private static final java.lang.String replace(java.lang.CharSequence,kotlin.text.Regex,kotlin.jvm.functions.Function1)
-    public static final java.lang.String replaceAfter(java.lang.String,char,java.lang.String,java.lang.String)
-    public static final java.lang.String replaceAfter(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
-    public static synthetic java.lang.String replaceAfter$default(java.lang.String,char,java.lang.String,java.lang.String,int,java.lang.Object)
-    public static synthetic java.lang.String replaceAfter$default(java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.Object)
-    public static final java.lang.String replaceAfterLast(java.lang.String,char,java.lang.String,java.lang.String)
-    public static final java.lang.String replaceAfterLast(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
-    public static synthetic java.lang.String replaceAfterLast$default(java.lang.String,char,java.lang.String,java.lang.String,int,java.lang.Object)
-    public static synthetic java.lang.String replaceAfterLast$default(java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.Object)
-    public static final java.lang.String replaceBefore(java.lang.String,char,java.lang.String,java.lang.String)
-    public static final java.lang.String replaceBefore(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
-    public static synthetic java.lang.String replaceBefore$default(java.lang.String,char,java.lang.String,java.lang.String,int,java.lang.Object)
-    public static synthetic java.lang.String replaceBefore$default(java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.Object)
-    public static final java.lang.String replaceBeforeLast(java.lang.String,char,java.lang.String,java.lang.String)
-    public static final java.lang.String replaceBeforeLast(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
-    public static synthetic java.lang.String replaceBeforeLast$default(java.lang.String,char,java.lang.String,java.lang.String,int,java.lang.Object)
-    public static synthetic java.lang.String replaceBeforeLast$default(java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.Object)
-    private static final java.lang.String replaceFirst(java.lang.CharSequence,kotlin.text.Regex,java.lang.String)
-    private static final java.lang.String replaceFirstCharWithChar(java.lang.String,kotlin.jvm.functions.Function1)
-    private static final java.lang.String replaceFirstCharWithCharSequence(java.lang.String,kotlin.jvm.functions.Function1)
-    public static final java.lang.CharSequence replaceRange(java.lang.CharSequence,int,int,java.lang.CharSequence)
-    public static final java.lang.CharSequence replaceRange(java.lang.CharSequence,kotlin.ranges.IntRange,java.lang.CharSequence)
-    private static final java.lang.String replaceRange(java.lang.String,int,int,java.lang.CharSequence)
-    private static final java.lang.String replaceRange(java.lang.String,kotlin.ranges.IntRange,java.lang.CharSequence)
-    private static final java.util.List split(java.lang.CharSequence,kotlin.text.Regex,int)
-    static synthetic java.util.List split$default(java.lang.CharSequence,kotlin.text.Regex,int,int,java.lang.Object)
-    private static final kotlin.sequences.Sequence splitToSequence(java.lang.CharSequence,kotlin.text.Regex,int)
-    public static final kotlin.sequences.Sequence splitToSequence(java.lang.CharSequence,char[],boolean,int)
-    static synthetic kotlin.sequences.Sequence splitToSequence$default(java.lang.CharSequence,kotlin.text.Regex,int,int,java.lang.Object)
-    public static synthetic kotlin.sequences.Sequence splitToSequence$default(java.lang.CharSequence,char[],boolean,int,int,java.lang.Object)
-    public static final boolean startsWith(java.lang.CharSequence,java.lang.CharSequence,int,boolean)
-    public static synthetic boolean startsWith$default(java.lang.CharSequence,java.lang.CharSequence,int,boolean,int,java.lang.Object)
-    public static final java.lang.CharSequence subSequence(java.lang.CharSequence,kotlin.ranges.IntRange)
-    private static final java.lang.CharSequence subSequence(java.lang.String,int,int)
-    private static final java.lang.String substring(java.lang.CharSequence,int,int)
-    public static final java.lang.String substring(java.lang.String,kotlin.ranges.IntRange)
-    static synthetic java.lang.String substring$default(java.lang.CharSequence,int,int,int,java.lang.Object)
-    public static final java.lang.String substringAfter(java.lang.String,char,java.lang.String)
-    public static synthetic java.lang.String substringAfter$default(java.lang.String,char,java.lang.String,int,java.lang.Object)
-    public static final java.lang.String substringAfterLast(java.lang.String,java.lang.String,java.lang.String)
-    public static synthetic java.lang.String substringAfterLast$default(java.lang.String,java.lang.String,java.lang.String,int,java.lang.Object)
-    public static final java.lang.String substringBeforeLast(java.lang.String,char,java.lang.String)
-    public static final java.lang.String substringBeforeLast(java.lang.String,java.lang.String,java.lang.String)
-    public static synthetic java.lang.String substringBeforeLast$default(java.lang.String,char,java.lang.String,int,java.lang.Object)
-    public static synthetic java.lang.String substringBeforeLast$default(java.lang.String,java.lang.String,java.lang.String,int,java.lang.Object)
-    public static final boolean toBooleanStrict(java.lang.String)
-    public static final java.lang.Boolean toBooleanStrictOrNull(java.lang.String)
-    public static final java.lang.CharSequence trim(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    public static final varargs java.lang.CharSequence trim(java.lang.CharSequence,char[])
-    private static final java.lang.String trim(java.lang.String)
-    public static final java.lang.String trim(java.lang.String,kotlin.jvm.functions.Function1)
-    public static final varargs java.lang.String trim(java.lang.String,char[])
-    public static final java.lang.CharSequence trimEnd(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    public static final varargs java.lang.CharSequence trimEnd(java.lang.CharSequence,char[])
-    private static final java.lang.String trimEnd(java.lang.String)
-    public static final java.lang.String trimEnd(java.lang.String,kotlin.jvm.functions.Function1)
-    public static final varargs java.lang.String trimEnd(java.lang.String,char[])
-    public static final java.lang.CharSequence trimStart(java.lang.CharSequence)
-    public static final java.lang.CharSequence trimStart(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    public static final varargs java.lang.CharSequence trimStart(java.lang.CharSequence,char[])
-    private static final java.lang.String trimStart(java.lang.String)
-    public static final java.lang.String trimStart(java.lang.String,kotlin.jvm.functions.Function1)
-    public static final varargs java.lang.String trimStart(java.lang.String,char[])
-kotlin.text.StringsKt___StringsJvmKt:
-    public void <init>()
-    private static final char elementAt(java.lang.CharSequence,int)
-    private static final java.math.BigDecimal sumOfBigDecimal(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    private static final java.math.BigInteger sumOfBigInteger(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    public static final java.util.SortedSet toSortedSet(java.lang.CharSequence)
-kotlin.text.StringsKt___StringsKt$asIterable$$inlined$Iterable$1
-kotlin.text.StringsKt___StringsKt$asSequence$$inlined$Sequence$1
-kotlin.text.StringsKt___StringsKt$chunkedSequence$1
-kotlin.text.StringsKt___StringsKt$groupingBy$1
-kotlin.text.StringsKt___StringsKt$windowed$1
-kotlin.text.StringsKt___StringsKt$windowedSequence$1
-kotlin.text.StringsKt___StringsKt$windowedSequence$2
-kotlin.text.StringsKt___StringsKt$withIndex$1
-kotlin.text.StringsKt___StringsKt:
-    public void <init>()
-    public static final boolean all(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    public static final boolean any(java.lang.CharSequence)
-    public static final boolean any(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    public static final java.lang.Iterable asIterable(java.lang.CharSequence)
-    public static final kotlin.sequences.Sequence asSequence(java.lang.CharSequence)
-    public static final java.util.Map associate(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    public static final java.util.Map associateBy(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    public static final java.util.Map associateBy(java.lang.CharSequence,kotlin.jvm.functions.Function1,kotlin.jvm.functions.Function1)
-    public static final java.util.Map associateByTo(java.lang.CharSequence,java.util.Map,kotlin.jvm.functions.Function1)
-    public static final java.util.Map associateByTo(java.lang.CharSequence,java.util.Map,kotlin.jvm.functions.Function1,kotlin.jvm.functions.Function1)
-    public static final java.util.Map associateTo(java.lang.CharSequence,java.util.Map,kotlin.jvm.functions.Function1)
-    public static final java.util.Map associateWith(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    public static final java.util.Map associateWithTo(java.lang.CharSequence,java.util.Map,kotlin.jvm.functions.Function1)
-    public static final java.util.List chunked(java.lang.CharSequence,int)
-    public static final java.util.List chunked(java.lang.CharSequence,int,kotlin.jvm.functions.Function1)
-    public static final kotlin.sequences.Sequence chunkedSequence(java.lang.CharSequence,int)
-    public static final kotlin.sequences.Sequence chunkedSequence(java.lang.CharSequence,int,kotlin.jvm.functions.Function1)
-    private static final int count(java.lang.CharSequence)
-    public static final int count(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    public static final java.lang.CharSequence drop(java.lang.CharSequence,int)
-    public static final java.lang.CharSequence dropLast(java.lang.CharSequence,int)
-    public static final java.lang.String dropLast(java.lang.String,int)
-    public static final java.lang.CharSequence dropLastWhile(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    public static final java.lang.String dropLastWhile(java.lang.String,kotlin.jvm.functions.Function1)
-    public static final java.lang.CharSequence dropWhile(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    public static final java.lang.String dropWhile(java.lang.String,kotlin.jvm.functions.Function1)
-    private static final char elementAtOrElse(java.lang.CharSequence,int,kotlin.jvm.functions.Function1)
-    private static final java.lang.Character elementAtOrNull(java.lang.CharSequence,int)
-    public static final java.lang.CharSequence filter(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    public static final java.lang.String filter(java.lang.String,kotlin.jvm.functions.Function1)
-    public static final java.lang.CharSequence filterIndexed(java.lang.CharSequence,kotlin.jvm.functions.Function2)
-    public static final java.lang.String filterIndexed(java.lang.String,kotlin.jvm.functions.Function2)
-    public static final java.lang.Appendable filterIndexedTo(java.lang.CharSequence,java.lang.Appendable,kotlin.jvm.functions.Function2)
-    public static final java.lang.CharSequence filterNot(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    public static final java.lang.String filterNot(java.lang.String,kotlin.jvm.functions.Function1)
-    public static final java.lang.Appendable filterNotTo(java.lang.CharSequence,java.lang.Appendable,kotlin.jvm.functions.Function1)
-    public static final java.lang.Appendable filterTo(java.lang.CharSequence,java.lang.Appendable,kotlin.jvm.functions.Function1)
-    private static final java.lang.Character find(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    private static final java.lang.Character findLast(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    public static final char first(java.lang.CharSequence)
-    public static final char first(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    private static final java.lang.Object firstNotNullOf(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    private static final java.lang.Object firstNotNullOfOrNull(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    public static final java.lang.Character firstOrNull(java.lang.CharSequence)
-    public static final java.lang.Character firstOrNull(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    public static final java.util.List flatMap(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    private static final java.util.List flatMapIndexedIterable(java.lang.CharSequence,kotlin.jvm.functions.Function2)
-    private static final java.util.Collection flatMapIndexedIterableTo(java.lang.CharSequence,java.util.Collection,kotlin.jvm.functions.Function2)
-    public static final java.util.Collection flatMapTo(java.lang.CharSequence,java.util.Collection,kotlin.jvm.functions.Function1)
-    public static final java.lang.Object fold(java.lang.CharSequence,java.lang.Object,kotlin.jvm.functions.Function2)
-    public static final java.lang.Object foldIndexed(java.lang.CharSequence,java.lang.Object,kotlin.jvm.functions.Function3)
-    public static final java.lang.Object foldRight(java.lang.CharSequence,java.lang.Object,kotlin.jvm.functions.Function2)
-    public static final java.lang.Object foldRightIndexed(java.lang.CharSequence,java.lang.Object,kotlin.jvm.functions.Function3)
-    public static final void forEach(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    public static final void forEachIndexed(java.lang.CharSequence,kotlin.jvm.functions.Function2)
-    private static final char getOrElse(java.lang.CharSequence,int,kotlin.jvm.functions.Function1)
-    public static final java.lang.Character getOrNull(java.lang.CharSequence,int)
-    public static final java.util.Map groupBy(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    public static final java.util.Map groupBy(java.lang.CharSequence,kotlin.jvm.functions.Function1,kotlin.jvm.functions.Function1)
-    public static final java.util.Map groupByTo(java.lang.CharSequence,java.util.Map,kotlin.jvm.functions.Function1)
-    public static final java.util.Map groupByTo(java.lang.CharSequence,java.util.Map,kotlin.jvm.functions.Function1,kotlin.jvm.functions.Function1)
-    public static final kotlin.collections.Grouping groupingBy(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    public static final int indexOfFirst(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    public static final int indexOfLast(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    public static final char last(java.lang.CharSequence)
-    public static final char last(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    public static final java.lang.Character lastOrNull(java.lang.CharSequence)
-    public static final java.lang.Character lastOrNull(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    public static final java.util.List map(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    public static final java.util.List mapIndexed(java.lang.CharSequence,kotlin.jvm.functions.Function2)
-    public static final java.util.List mapIndexedNotNull(java.lang.CharSequence,kotlin.jvm.functions.Function2)
-    public static final java.util.Collection mapIndexedNotNullTo(java.lang.CharSequence,java.util.Collection,kotlin.jvm.functions.Function2)
-    public static final java.util.Collection mapIndexedTo(java.lang.CharSequence,java.util.Collection,kotlin.jvm.functions.Function2)
-    public static final java.util.List mapNotNull(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    public static final java.util.Collection mapNotNullTo(java.lang.CharSequence,java.util.Collection,kotlin.jvm.functions.Function1)
-    public static final java.util.Collection mapTo(java.lang.CharSequence,java.util.Collection,kotlin.jvm.functions.Function1)
-    public static final synthetic java.lang.Character max(java.lang.CharSequence)
-    public static final synthetic java.lang.Character maxBy(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    public static final java.lang.Character maxByOrNull(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    private static final double maxOf(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    private static final float maxOf(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    private static final java.lang.Comparable maxOf(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    private static final java.lang.Comparable maxOfOrNull(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    private static final java.lang.Double maxOfOrNull(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    private static final java.lang.Float maxOfOrNull(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    private static final java.lang.Object maxOfWith(java.lang.CharSequence,java.util.Comparator,kotlin.jvm.functions.Function1)
-    private static final java.lang.Object maxOfWithOrNull(java.lang.CharSequence,java.util.Comparator,kotlin.jvm.functions.Function1)
-    public static final java.lang.Character maxOrNull(java.lang.CharSequence)
-    public static final synthetic java.lang.Character maxWith(java.lang.CharSequence,java.util.Comparator)
-    public static final java.lang.Character maxWithOrNull(java.lang.CharSequence,java.util.Comparator)
-    public static final synthetic java.lang.Character min(java.lang.CharSequence)
-    public static final synthetic java.lang.Character minBy(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    public static final java.lang.Character minByOrNull(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    private static final double minOf(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    private static final float minOf(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    private static final java.lang.Comparable minOf(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    private static final java.lang.Comparable minOfOrNull(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    private static final java.lang.Double minOfOrNull(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    private static final java.lang.Float minOfOrNull(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    private static final java.lang.Object minOfWith(java.lang.CharSequence,java.util.Comparator,kotlin.jvm.functions.Function1)
-    private static final java.lang.Object minOfWithOrNull(java.lang.CharSequence,java.util.Comparator,kotlin.jvm.functions.Function1)
-    public static final java.lang.Character minOrNull(java.lang.CharSequence)
-    public static final synthetic java.lang.Character minWith(java.lang.CharSequence,java.util.Comparator)
-    public static final java.lang.Character minWithOrNull(java.lang.CharSequence,java.util.Comparator)
-    public static final boolean none(java.lang.CharSequence)
-    public static final boolean none(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    public static final java.lang.CharSequence onEach(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    public static final java.lang.CharSequence onEachIndexed(java.lang.CharSequence,kotlin.jvm.functions.Function2)
-    public static final kotlin.Pair partition(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    public static final kotlin.Pair partition(java.lang.String,kotlin.jvm.functions.Function1)
-    private static final char random(java.lang.CharSequence)
-    public static final char random(java.lang.CharSequence,kotlin.random.Random)
-    private static final java.lang.Character randomOrNull(java.lang.CharSequence)
-    public static final java.lang.Character randomOrNull(java.lang.CharSequence,kotlin.random.Random)
-    public static final char reduce(java.lang.CharSequence,kotlin.jvm.functions.Function2)
-    public static final char reduceIndexed(java.lang.CharSequence,kotlin.jvm.functions.Function3)
-    public static final java.lang.Character reduceIndexedOrNull(java.lang.CharSequence,kotlin.jvm.functions.Function3)
-    public static final java.lang.Character reduceOrNull(java.lang.CharSequence,kotlin.jvm.functions.Function2)
-    public static final char reduceRight(java.lang.CharSequence,kotlin.jvm.functions.Function2)
-    public static final char reduceRightIndexed(java.lang.CharSequence,kotlin.jvm.functions.Function3)
-    public static final java.lang.Character reduceRightIndexedOrNull(java.lang.CharSequence,kotlin.jvm.functions.Function3)
-    public static final java.lang.Character reduceRightOrNull(java.lang.CharSequence,kotlin.jvm.functions.Function2)
-    public static final java.lang.CharSequence reversed(java.lang.CharSequence)
-    private static final java.lang.String reversed(java.lang.String)
-    public static final java.util.List runningFold(java.lang.CharSequence,java.lang.Object,kotlin.jvm.functions.Function2)
-    public static final java.util.List runningFoldIndexed(java.lang.CharSequence,java.lang.Object,kotlin.jvm.functions.Function3)
-    public static final java.util.List runningReduce(java.lang.CharSequence,kotlin.jvm.functions.Function2)
-    public static final java.util.List runningReduceIndexed(java.lang.CharSequence,kotlin.jvm.functions.Function3)
-    public static final java.util.List scan(java.lang.CharSequence,java.lang.Object,kotlin.jvm.functions.Function2)
-    public static final java.util.List scanIndexed(java.lang.CharSequence,java.lang.Object,kotlin.jvm.functions.Function3)
-    public static final char single(java.lang.CharSequence)
-    public static final char single(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    public static final java.lang.Character singleOrNull(java.lang.CharSequence)
-    public static final java.lang.Character singleOrNull(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    public static final java.lang.CharSequence slice(java.lang.CharSequence,java.lang.Iterable)
-    public static final java.lang.CharSequence slice(java.lang.CharSequence,kotlin.ranges.IntRange)
-    private static final java.lang.String slice(java.lang.String,java.lang.Iterable)
-    public static final java.lang.String slice(java.lang.String,kotlin.ranges.IntRange)
-    public static final int sumBy(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    public static final double sumByDouble(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    private static final double sumOfDouble(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    private static final int sumOfInt(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    private static final long sumOfLong(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    private static final int sumOfUInt(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    private static final long sumOfULong(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    public static final java.lang.CharSequence take(java.lang.CharSequence,int)
-    public static final java.lang.CharSequence takeLast(java.lang.CharSequence,int)
-    public static final java.lang.String takeLast(java.lang.String,int)
-    public static final java.lang.CharSequence takeLastWhile(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    public static final java.lang.String takeLastWhile(java.lang.String,kotlin.jvm.functions.Function1)
-    public static final java.lang.CharSequence takeWhile(java.lang.CharSequence,kotlin.jvm.functions.Function1)
-    public static final java.lang.String takeWhile(java.lang.String,kotlin.jvm.functions.Function1)
-    public static final java.util.Collection toCollection(java.lang.CharSequence,java.util.Collection)
-    public static final java.util.HashSet toHashSet(java.lang.CharSequence)
-    public static final java.util.List toList(java.lang.CharSequence)
-    public static final java.util.List toMutableList(java.lang.CharSequence)
-    public static final java.util.Set toSet(java.lang.CharSequence)
-    public static final java.util.List windowed(java.lang.CharSequence,int,int,boolean)
-    public static final java.util.List windowed(java.lang.CharSequence,int,int,boolean,kotlin.jvm.functions.Function1)
-    public static synthetic java.util.List windowed$default(java.lang.CharSequence,int,int,boolean,int,java.lang.Object)
-    public static synthetic java.util.List windowed$default(java.lang.CharSequence,int,int,boolean,kotlin.jvm.functions.Function1,int,java.lang.Object)
-    public static final kotlin.sequences.Sequence windowedSequence(java.lang.CharSequence,int,int,boolean)
-    public static final kotlin.sequences.Sequence windowedSequence(java.lang.CharSequence,int,int,boolean,kotlin.jvm.functions.Function1)
-    public static synthetic kotlin.sequences.Sequence windowedSequence$default(java.lang.CharSequence,int,int,boolean,int,java.lang.Object)
-    public static synthetic kotlin.sequences.Sequence windowedSequence$default(java.lang.CharSequence,int,int,boolean,kotlin.jvm.functions.Function1,int,java.lang.Object)
-    public static final java.lang.Iterable withIndex(java.lang.CharSequence)
-    public static final java.util.List zip(java.lang.CharSequence,java.lang.CharSequence)
-    public static final java.util.List zip(java.lang.CharSequence,java.lang.CharSequence,kotlin.jvm.functions.Function2)
-    public static final java.util.List zipWithNext(java.lang.CharSequence)
-    public static final java.util.List zipWithNext(java.lang.CharSequence,kotlin.jvm.functions.Function2)
-kotlin.text.SystemProperties
+kotlin.text.RegexKt:
+    public static final synthetic kotlin.text.MatchResult access$matchEntire(java.util.regex.Matcher,java.lang.CharSequence)
+    private static final synthetic java.util.Set fromInt(int)
+    private static final kotlin.text.MatchResult matchEntire(java.util.regex.Matcher,java.lang.CharSequence)
+kotlin.text.RegexOption:
+    public int getMask()
 kotlin.text.TypeAliasesKt
 kotlin.text.Typography
 kotlin.text.UStringsKt
@@ -30704,12 +30288,16 @@ leakcanary.LeakCanary$Config:
     public final shark.MetadataExtractor component7()
     public final boolean component8()
     public final int component9()
+    public final leakcanary.LeakCanary$Config copy(boolean,boolean,int,java.util.List,java.util.List,leakcanary.OnHeapAnalyzedListener,shark.MetadataExtractor,boolean,int,boolean,shark.LeakingObjectFinder,leakcanary.HeapDumper,java.util.List,boolean)
+    public static synthetic leakcanary.LeakCanary$Config copy$default(leakcanary.LeakCanary$Config,boolean,boolean,int,java.util.List,java.util.List,leakcanary.OnHeapAnalyzedListener,shark.MetadataExtractor,boolean,int,boolean,shark.LeakingObjectFinder,leakcanary.HeapDumper,java.util.List,boolean,int,java.lang.Object)
     public static synthetic void getOnHeapAnalyzedListener$annotations()
     public final boolean getUseExperimentalLeakFinders()
     public static synthetic void getUseExperimentalLeakFinders$annotations()
     public final leakcanary.LeakCanary$Config$Builder newBuilder()
 leakcanary.LeakCanary:
     public static synthetic void getConfig$annotations()
+    private final void logConfigChange(leakcanary.LeakCanary$Config,leakcanary.LeakCanary$Config)
+    public static final void setConfig(leakcanary.LeakCanary$Config)
     public final void showLeakDisplayActivityLauncherIcon(boolean)
 leakcanary.ObjectWatcher$1
 leakcanary.ObjectWatcher:
@@ -30867,8 +30455,6 @@ leakcanary.internal.navigation.NavigatingActivity:
     public static final synthetic kotlin.jvm.functions.Function1 access$getNO_MENU$cp()
     public final kotlin.jvm.functions.Function1 getOnCreateOptionsMenu()
 leakcanary.internal.utils.TuplesKt
-made.dicoding.moviecatalogueapps.BaseApplication:
-    public final void setNetworkFlipperPlugin(com.facebook.flipper.plugins.network.NetworkFlipperPlugin)
 made.dicoding.moviecatalogueapps.BaseApplication_ComponentTreeDeps
 made.dicoding.moviecatalogueapps.BaseApplication_HiltComponents$ActivityC$Builder
 made.dicoding.moviecatalogueapps.BaseApplication_HiltComponents$ActivityCBuilderModule
@@ -30888,18 +30474,7 @@ made.dicoding.moviecatalogueapps.BaseApplication_HiltComponents$ViewWithFragment
 made.dicoding.moviecatalogueapps.BaseApplication_HiltComponents$ViewWithFragmentC
 made.dicoding.moviecatalogueapps.BaseApplication_HiltComponents$ViewWithFragmentCBuilderModule
 made.dicoding.moviecatalogueapps.BaseApplication_HiltComponents
-made.dicoding.moviecatalogueapps.BaseApplication_MembersInjector:
-    private final javax.inject.Provider networkFlipperPluginProvider
-    public void <init>(javax.inject.Provider)
-    public static dagger.MembersInjector create(javax.inject.Provider)
-    public synthetic bridge void injectMembers(java.lang.Object)
-    public void injectMembers(made.dicoding.moviecatalogueapps.BaseApplication)
-made.dicoding.moviecatalogueapps.BuildConfig:
-    public static final java.lang.String APPLICATION_ID
-    public static final java.lang.String BUILD_TYPE
-    public static final int VERSION_CODE
-    public static final java.lang.String VERSION_NAME
-    public void <init>()
+made.dicoding.moviecatalogueapps.BuildConfig
 made.dicoding.moviecatalogueapps.DaggerBaseApplication_HiltComponents_SingletonC$ActivityCImpl:
     public dagger.hilt.android.internal.builders.ViewModelComponentBuilder getViewModelComponentBuilder()
     public dagger.hilt.android.internal.builders.ViewComponentBuilder viewComponentBuilder()
@@ -30935,16 +30510,13 @@ made.dicoding.moviecatalogueapps.core.BuildConfig
 made.dicoding.moviecatalogueapps.core.R$attr
 made.dicoding.moviecatalogueapps.core.R$color
 made.dicoding.moviecatalogueapps.core.R$drawable:
-    private static synthetic transient boolean[] $jacocoData
     public static final int bg_glassmorph_primary_color
     public static final int bg_outline_textview
     public static final int bg_progress_bar
     public static final int ic_avatar
     public static final int ic_rotate_right
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 made.dicoding.moviecatalogueapps.core.R$font:
-    private static synthetic transient boolean[] $jacocoData
     public static final int roboto_black
     public static final int roboto_blackitalic
     public static final int roboto_bold
@@ -30953,21 +30525,14 @@ made.dicoding.moviecatalogueapps.core.R$font:
     public static final int roboto_light
     public static final int roboto_medium
     public static final int roboto_regular
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 made.dicoding.moviecatalogueapps.core.R$id:
-    private static synthetic transient boolean[] $jacocoData
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 made.dicoding.moviecatalogueapps.core.R$layout:
-    private static synthetic transient boolean[] $jacocoData
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 made.dicoding.moviecatalogueapps.core.R$string:
-    private static synthetic transient boolean[] $jacocoData
     public static final int empty_state
     public static final int user_score
-    private static synthetic boolean[] $jacocoInit()
     private void <init>()
 made.dicoding.moviecatalogueapps.core.R$style
 made.dicoding.moviecatalogueapps.core.R$styleable:
@@ -31205,6 +30770,8 @@ made.dicoding.moviecatalogueapps.core.di.DatabaseModule_FavoriteDaoFactory:
     public static made.dicoding.moviecatalogueapps.core.di.DatabaseModule_FavoriteDaoFactory create(javax.inject.Provider)
     public synthetic bridge java.lang.Object get()
     public made.dicoding.moviecatalogueapps.core.data.remote.local.dao.FavoriteDao get()
+made.dicoding.moviecatalogueapps.core.di.NetworkModule:
+    public final com.facebook.flipper.plugins.network.NetworkFlipperPlugin networkFlipperPlugin()
 made.dicoding.moviecatalogueapps.core.di.NetworkModule_DetailMoviesApiFactory:
     private final made.dicoding.moviecatalogueapps.core.di.NetworkModule module
     private final javax.inject.Provider retrofitProvider
@@ -31219,12 +30786,7 @@ made.dicoding.moviecatalogueapps.core.di.NetworkModule_MovieApiFactory:
     public static made.dicoding.moviecatalogueapps.core.di.NetworkModule_MovieApiFactory create(made.dicoding.moviecatalogueapps.core.di.NetworkModule,javax.inject.Provider)
     public synthetic bridge java.lang.Object get()
     public made.dicoding.moviecatalogueapps.core.data.remote.network.TrendingApi get()
-made.dicoding.moviecatalogueapps.core.di.NetworkModule_NetworkFlipperPluginFactory:
-    private final made.dicoding.moviecatalogueapps.core.di.NetworkModule module
-    public void <init>(made.dicoding.moviecatalogueapps.core.di.NetworkModule)
-    public static made.dicoding.moviecatalogueapps.core.di.NetworkModule_NetworkFlipperPluginFactory create(made.dicoding.moviecatalogueapps.core.di.NetworkModule)
-    public com.facebook.flipper.plugins.network.NetworkFlipperPlugin get()
-    public synthetic bridge java.lang.Object get()
+made.dicoding.moviecatalogueapps.core.di.NetworkModule_NetworkFlipperPluginFactory
 made.dicoding.moviecatalogueapps.core.di.NetworkModule_RetrofitFactory:
     private final made.dicoding.moviecatalogueapps.core.di.NetworkModule module
     public void <init>(made.dicoding.moviecatalogueapps.core.di.NetworkModule)
@@ -34042,6 +33604,8 @@ android.support.v4.os.IResultReceiver:
 android.support.v4.os.ResultReceiver$MyRunnable
 android.support.v4.os.ResultReceiver:
     public final boolean mLocal
+androidx.activity.ImmLeaksCleaner:
+    public void <init>(android.app.Activity)
 androidx.activity.result.contract.ActivityResultContracts$StartActivityForResult:
     public static final androidx.activity.result.contract.ActivityResultContracts$StartActivityForResult$Companion Companion
 androidx.appcompat.R$attr
@@ -34338,6 +33902,7 @@ androidx.appcompat.app.AppCompatDelegateImpl:
 androidx.appcompat.app.LayoutIncludeDetector
 androidx.appcompat.app.ResourcesFlusher:
     public static void flushLollipops(android.content.res.Resources)
+    public static void flushMarshmallows(android.content.res.Resources)
 androidx.appcompat.app.ToolbarActionBar
 androidx.appcompat.app.TwilightManager$TwilightState:
     public long todaySunrise
@@ -34350,25 +33915,26 @@ androidx.appcompat.app.WindowDecorActionBar:
     public int mSavedTabPosition
     public androidx.appcompat.widget.ScrollingTabContainerView mTabScrollView
     public java.util.ArrayList mTabs
-androidx.appcompat.graphics.drawable.AnimatedStateListDrawableCompat:
-    public static final java.lang.String LOGTAG
+androidx.appcompat.graphics.drawable.AnimatedStateListDrawableCompat$1
+androidx.appcompat.graphics.drawable.AnimatedStateListDrawableCompat$AnimatableTransition
+androidx.appcompat.graphics.drawable.AnimatedStateListDrawableCompat$AnimatedStateListState
+androidx.appcompat.graphics.drawable.AnimatedStateListDrawableCompat$AnimatedVectorDrawableTransition
+androidx.appcompat.graphics.drawable.AnimatedStateListDrawableCompat$AnimationDrawableTransition
+androidx.appcompat.graphics.drawable.AnimatedStateListDrawableCompat$FrameInterpolator
+androidx.appcompat.graphics.drawable.AnimatedStateListDrawableCompat$Transition
+androidx.appcompat.graphics.drawable.AnimatedStateListDrawableCompat
+androidx.appcompat.graphics.drawable.DrawableContainer$1
+androidx.appcompat.graphics.drawable.DrawableContainer$Api21Impl
+androidx.appcompat.graphics.drawable.DrawableContainer$BlockInvalidateCallback
+androidx.appcompat.graphics.drawable.DrawableContainer$DrawableContainerState
+androidx.appcompat.graphics.drawable.DrawableContainer
+androidx.appcompat.graphics.drawable.StateListDrawable$StateListState
+androidx.appcompat.graphics.drawable.StateListDrawable
 androidx.appcompat.resources.Compatibility$Api15Impl
+androidx.appcompat.resources.Compatibility$Api18Impl
+androidx.appcompat.resources.Compatibility$Api21Impl
 androidx.appcompat.resources.R$drawable
-androidx.appcompat.resources.R$styleable:
-    public static final int AnimatedStateListDrawableCompat_android_constantSize
-    public static final int AnimatedStateListDrawableCompat_android_dither
-    public static final int AnimatedStateListDrawableCompat_android_enterFadeDuration
-    public static final int AnimatedStateListDrawableCompat_android_exitFadeDuration
-    public static final int AnimatedStateListDrawableCompat_android_variablePadding
-    public static final int AnimatedStateListDrawableCompat_android_visible
-    public static final int AnimatedStateListDrawableItem_android_drawable
-    public static final int AnimatedStateListDrawableItem_android_id
-    public static final int AnimatedStateListDrawableTransition_android_drawable
-    public static final int AnimatedStateListDrawableTransition_android_fromId
-    public static final int AnimatedStateListDrawableTransition_android_reversible
-    public static final int AnimatedStateListDrawableTransition_android_toId
-    public static final int[] StateListDrawable
-    public static final int[] StateListDrawableItem
+androidx.appcompat.resources.R$styleable
 androidx.appcompat.view.StandaloneActionMode:
     public boolean mFocusable
 androidx.appcompat.view.menu.ActionMenuItem:
@@ -34435,13 +34001,19 @@ androidx.appcompat.widget.ListPopupWindow:
     public android.widget.AdapterView$OnItemSelectedListener mItemSelectedListener
     public android.view.View mPromptView
     public java.lang.Runnable mShowDropDownRunnable
+    public static java.lang.reflect.Method sGetMaxAvailableHeightMethod
+androidx.appcompat.widget.ResourceManagerInternal$AsldcInflateDelegate
+androidx.appcompat.widget.ResourceManagerInternal$AvdcInflateDelegate
+androidx.appcompat.widget.ResourceManagerInternal$DrawableDelegate
 androidx.appcompat.widget.ResourceManagerInternal$ResourceManagerHooks:
     public abstract android.graphics.drawable.Drawable createDrawableFor(androidx.appcompat.widget.ResourceManagerInternal,android.content.Context,int)
     public abstract android.content.res.ColorStateList getTintListForDrawableRes(android.content.Context,int)
     public abstract android.graphics.PorterDuff$Mode getTintModeForDrawableRes(int)
     public abstract boolean tintDrawable(android.content.Context,int,android.graphics.drawable.Drawable)
     public abstract boolean tintDrawableUsingColorFilter(android.content.Context,int,android.graphics.drawable.Drawable)
+androidx.appcompat.widget.ResourceManagerInternal$VdcInflateDelegate
 androidx.appcompat.widget.ResourceManagerInternal:
+    public final void addDelegate(java.lang.String,androidx.appcompat.widget.ResourceManagerInternal$InflateDelegate)
     public synchronized android.graphics.drawable.Drawable onDrawableLoadedFromResources(android.content.Context,androidx.appcompat.widget.VectorEnabledTintResources,int)
 androidx.appcompat.widget.ResourcesWrapper:
     public final android.content.res.Resources mResources
@@ -34615,6 +34187,8 @@ androidx.cardview.widget.RoundRectDrawableWithShadow:
     public void setShadowSize(float)
     public final void setShadowSize(float,float)
     public final int toEven(float)
+androidx.collection.LongSparseArray:
+    public void append(long,java.lang.Object)
 androidx.constraintlayout.core.ArrayRow:
     public boolean used
     public void updateFromSynonymVariable(androidx.constraintlayout.core.LinearSystem,androidx.constraintlayout.core.SolverVariable,boolean)
@@ -35468,6 +35042,7 @@ androidx.core.R$styleable:
     public static final int GradientColor_android_tileMode
     public static final int GradientColor_android_type
 androidx.core.app.ActivityCompat$1
+androidx.core.app.ActivityCompat$2
 androidx.core.app.ActivityCompat$OnRequestPermissionsResultCallback
 androidx.core.app.ActivityCompat$PermissionCompatDelegate
 androidx.core.app.ActivityCompat$SharedElementCallback21Impl$1:
@@ -35486,12 +35061,25 @@ androidx.core.content.res.CamColor:
     public final float mM
     public final float mQ
     public final float mS
+androidx.core.content.res.ColorStateListInflaterCompat:
+    public static android.content.res.ColorStateList inflate(android.content.res.Resources,int,android.content.res.Resources$Theme)
+androidx.core.content.res.ComplexColorCompat
+androidx.core.content.res.GradientColorInflaterCompat$ColorStops
+androidx.core.content.res.GradientColorInflaterCompat
 androidx.core.content.res.ResourcesCompat:
     public static android.graphics.drawable.Drawable getDrawableForDensity(android.content.res.Resources,int,int,android.content.res.Resources$Theme)
+androidx.core.content.res.TypedArrayUtils
 androidx.core.graphics.Insets:
     public static androidx.core.graphics.Insets max(androidx.core.graphics.Insets,androidx.core.graphics.Insets)
 androidx.core.graphics.PaintCompat:
     public static androidx.core.util.Pair obtainEmptyRects()
+androidx.core.graphics.PathParser$PathDataNode:
+    public void <init>(androidx.core.graphics.PathParser$PathDataNode)
+    public void interpolatePathDataNode(androidx.core.graphics.PathParser$PathDataNode,androidx.core.graphics.PathParser$PathDataNode,float)
+androidx.core.graphics.PathParser:
+    public static boolean canMorph(androidx.core.graphics.PathParser$PathDataNode[],androidx.core.graphics.PathParser$PathDataNode[])
+    public static androidx.core.graphics.PathParser$PathDataNode[] deepCopyNodes(androidx.core.graphics.PathParser$PathDataNode[])
+    public static void updateNodes(androidx.core.graphics.PathParser$PathDataNode[],androidx.core.graphics.PathParser$PathDataNode[])
 androidx.core.graphics.TypefaceCompat:
     public static android.graphics.Typeface getBestFontFromFamily(android.content.Context,android.graphics.Typeface,int)
 androidx.core.graphics.TypefaceCompatBaseImpl$1:
@@ -35507,6 +35095,12 @@ androidx.core.graphics.drawable.DrawableCompat:
     public static boolean sGetLayoutDirectionMethodFetched
     public static java.lang.reflect.Method sSetLayoutDirectionMethod
     public static boolean sSetLayoutDirectionMethodFetched
+    public static void applyTheme(android.graphics.drawable.Drawable,android.content.res.Resources$Theme)
+    public static boolean canApplyTheme(android.graphics.drawable.Drawable)
+    public static int getAlpha(android.graphics.drawable.Drawable)
+    public static android.graphics.ColorFilter getColorFilter(android.graphics.drawable.Drawable)
+    public static void inflate(android.graphics.drawable.Drawable,android.content.res.Resources,org.xmlpull.v1.XmlPullParser,android.util.AttributeSet,android.content.res.Resources$Theme)
+    public static void jumpToCurrentState(android.graphics.drawable.Drawable)
 androidx.core.graphics.drawable.TintAwareDrawable
 androidx.core.graphics.drawable.WrappedDrawableApi14
 androidx.core.graphics.drawable.WrappedDrawableApi21
@@ -35672,6 +35266,7 @@ androidx.core.widget.TextViewCompat:
 androidx.core.widget.TextViewOnReceiveContentListener$ApiImpl
 androidx.core.widget.TintableCheckedTextView
 androidx.core.widget.TintableCompoundButton
+androidx.core.widget.TintableCompoundDrawablesView
 androidx.core.widget.TintableImageSourceView
 androidx.cursoradapter.widget.CursorFilter$CursorFilterClient:
     public abstract void changeCursor(android.database.Cursor)
@@ -35839,7 +35434,6 @@ androidx.fragment.app.strictmode.WrongFragmentContainerViolation:
     public final android.view.ViewGroup container
 androidx.lifecycle.CoroutineLiveDataKt$addDisposableSource$2:
     public int label
-androidx.lifecycle.DefaultLifecycleObserver
 androidx.lifecycle.EmittedSource$dispose$1:
     public int label
 androidx.lifecycle.EmittedSource$disposeNow$2:
@@ -35853,6 +35447,8 @@ androidx.lifecycle.LifecycleController:
 androidx.lifecycle.LifecycleCoroutineScopeImpl$register$1:
     public int label
 androidx.lifecycle.LifecycleDestroyedException
+androidx.lifecycle.LifecycleRegistryOwner:
+    public synthetic bridge androidx.lifecycle.Lifecycle getLifecycle()
 androidx.lifecycle.Lifecycling$1:
     public final synthetic androidx.lifecycle.LifecycleEventObserver val$observer
 androidx.lifecycle.LiveData$AlwaysActiveObserver:
@@ -36315,16 +35911,95 @@ androidx.transition.ViewUtilsBase:
     public static java.lang.reflect.Method sSetFrameMethod
     public final void fetchSetFrame()
 androidx.transition.WindowIdApi14
+androidx.vectordrawable.graphics.drawable.AndroidResources
 androidx.vectordrawable.graphics.drawable.Animatable2Compat$AnimationCallback
-androidx.vectordrawable.graphics.drawable.AnimatedVectorDrawableCompat:
-    public java.util.ArrayList mAnimationCallbacks
-    public android.animation.Animator$AnimatorListener mAnimatorListener
-    public final void setupColorAnimator(android.animation.Animator)
-androidx.vectordrawable.graphics.drawable.AnimationUtilsCompat:
-    public static android.view.animation.Interpolator createInterpolatorFromXml(android.content.Context,org.xmlpull.v1.XmlPullParser)
+androidx.vectordrawable.graphics.drawable.AnimatedVectorDrawableCompat$1
+androidx.vectordrawable.graphics.drawable.AnimatedVectorDrawableCompat$AnimatedVectorDrawableCompatState
+androidx.vectordrawable.graphics.drawable.AnimatedVectorDrawableCompat$AnimatedVectorDrawableDelegateState
+androidx.vectordrawable.graphics.drawable.AnimatedVectorDrawableCompat
+androidx.vectordrawable.graphics.drawable.AnimationUtilsCompat
+androidx.vectordrawable.graphics.drawable.AnimatorInflaterCompat$PathDataEvaluator
+androidx.vectordrawable.graphics.drawable.AnimatorInflaterCompat
+androidx.vectordrawable.graphics.drawable.ArgbEvaluator
 androidx.vectordrawable.graphics.drawable.PathInterpolatorCompat
+androidx.vectordrawable.graphics.drawable.VectorDrawableCommon:
+    public android.graphics.drawable.Drawable mDelegateDrawable
+    public void <init>()
+    public void applyTheme(android.content.res.Resources$Theme)
+    public void clearColorFilter()
+    public android.graphics.drawable.Drawable getCurrent()
+    public int getMinimumHeight()
+    public int getMinimumWidth()
+    public boolean getPadding(android.graphics.Rect)
+    public int[] getState()
+    public android.graphics.Region getTransparentRegion()
+    public void jumpToCurrentState()
+    public boolean onLevelChange(int)
+    public void setChangingConfigurations(int)
+    public void setColorFilter(int,android.graphics.PorterDuff$Mode)
+    public void setFilterBitmap(boolean)
+    public void setHotspot(float,float)
+    public void setHotspotBounds(int,int,int,int)
+    public boolean setState(int[])
+androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$1
+androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VClipPath
+androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VFullPath
+androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VGroup
+androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VObject
+androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VPath
+androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VPathRenderer
+androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VectorDrawableCompatState
+androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VectorDrawableDelegateState
 androidx.vectordrawable.graphics.drawable.VectorDrawableCompat:
+    public static final android.graphics.PorterDuff$Mode DEFAULT_TINT_MODE
+    public boolean mAllowCaching
     public android.graphics.drawable.Drawable$ConstantState mCachedConstantStateDelegate
+    public android.graphics.ColorFilter mColorFilter
+    public boolean mMutated
+    public android.graphics.PorterDuffColorFilter mTintFilter
+    public final android.graphics.Rect mTmpBounds
+    public final float[] mTmpFloats
+    public final android.graphics.Matrix mTmpMatrix
+    public androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VectorDrawableCompatState mVectorState
+    public static void <clinit>()
+    public void <init>()
+    public void <init>(androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$VectorDrawableCompatState)
+    public static int applyAlpha(int,float)
+    public boolean canApplyTheme()
+    public static androidx.vectordrawable.graphics.drawable.VectorDrawableCompat create(android.content.res.Resources,int,android.content.res.Resources$Theme)
+    public static androidx.vectordrawable.graphics.drawable.VectorDrawableCompat createFromXmlInner(android.content.res.Resources,org.xmlpull.v1.XmlPullParser,android.util.AttributeSet,android.content.res.Resources$Theme)
+    public void draw(android.graphics.Canvas)
+    public int getAlpha()
+    public int getChangingConfigurations()
+    public android.graphics.ColorFilter getColorFilter()
+    public android.graphics.drawable.Drawable$ConstantState getConstantState()
+    public int getIntrinsicHeight()
+    public int getIntrinsicWidth()
+    public int getOpacity()
+    public java.lang.Object getTargetByName(java.lang.String)
+    public void inflate(android.content.res.Resources,org.xmlpull.v1.XmlPullParser,android.util.AttributeSet)
+    public void inflate(android.content.res.Resources,org.xmlpull.v1.XmlPullParser,android.util.AttributeSet,android.content.res.Resources$Theme)
+    public final void inflateInternal(android.content.res.Resources,org.xmlpull.v1.XmlPullParser,android.util.AttributeSet,android.content.res.Resources$Theme)
+    public void invalidateSelf()
+    public boolean isAutoMirrored()
+    public boolean isStateful()
+    public android.graphics.drawable.Drawable mutate()
+    public final boolean needMirroring()
+    public void onBoundsChange(android.graphics.Rect)
+    public boolean onStateChange(int[])
+    public static android.graphics.PorterDuff$Mode parseTintModeCompat(int,android.graphics.PorterDuff$Mode)
+    public void scheduleSelf(java.lang.Runnable,long)
+    public void setAllowCaching(boolean)
+    public void setAlpha(int)
+    public void setAutoMirrored(boolean)
+    public void setColorFilter(android.graphics.ColorFilter)
+    public void setTint(int)
+    public void setTintList(android.content.res.ColorStateList)
+    public void setTintMode(android.graphics.PorterDuff$Mode)
+    public boolean setVisible(boolean,boolean)
+    public void unscheduleSelf(java.lang.Runnable)
+    public final void updateStateFromTypedArray(android.content.res.TypedArray,org.xmlpull.v1.XmlPullParser,android.content.res.Resources$Theme)
+    public android.graphics.PorterDuffColorFilter updateTintFilter(android.content.res.ColorStateList,android.graphics.PorterDuff$Mode)
 androidx.viewpager.widget.PagerAdapter:
     public abstract void destroyItem(android.view.ViewGroup,int,java.lang.Object)
     public abstract void finishUpdate(android.view.ViewGroup)
@@ -36418,6 +36093,8 @@ androidx.viewpager2.widget.ViewPager2$AccessibilityProvider:
     public boolean onLmPerformAccessibilityAction(int)
     public java.lang.CharSequence onRvGetAccessibilityClassName()
 androidx.viewpager2.widget.ViewPager2$BasicAccessibilityProvider
+androidx.viewpager2.widget.ViewPager2$SavedState:
+    public void <init>(android.os.Parcel)
 com.airbnb.lottie.FontAssetDelegate:
     public android.graphics.Typeface fetchFont(java.lang.String)
     public java.lang.String getFontPath(java.lang.String)
@@ -36750,35 +36427,22 @@ com.bumptech.glide.request.transition.TransitionFactory:
     public abstract com.bumptech.glide.request.transition.Transition build(com.bumptech.glide.load.DataSource,boolean)
 com.bumptech.glide.util.LruCache:
     public final long initialMaxSize
-com.facebook.soloader.ExoSoSource$ExoUnpacker:
-    public final synthetic com.facebook.soloader.ExoSoSource this$0
-com.facebook.soloader.NativeDeps:
-    public static byte[] sEncodedDeps
-    public static java.util.Map sPrecomputedDeps
-    public static java.util.List sPrecomputedLibs
-    public static java.lang.String[] getDepsForLibAtOffset(int,int)
-    public static java.lang.String getLibString(int)
-    public static int getOffsetForLib(java.lang.String)
-    public static int hashLib(java.lang.String)
-    public static boolean libIsAtOffset(java.lang.String,int)
-    public static java.lang.String[] tryGetDepsFromPrecomputedDeps(java.lang.String)
-com.facebook.soloader.SoFileLoader:
-    public abstract void load(java.lang.String,int)
-    public abstract void loadBytes(java.lang.String,com.facebook.soloader.ElfByteChannel,int)
-com.facebook.soloader.SysUtil$LollipopSysdeps:
-    public static java.lang.String[] getSupportedAbis()
-    public static boolean is64Bit()
+com.facebook.soloader.ApplicationSoSource
+com.facebook.soloader.DirectorySoSource
+com.facebook.soloader.SoLoader:
+    public static final java.lang.String[] DEFAULT_DENY_LIST
+    public static com.facebook.soloader.ApplicationSoSource sApplicationSoSource
+    public static com.facebook.soloader.UnpackingSoSource[] sBackupSoSources
+com.facebook.soloader.SoSource:
+    public abstract int loadLibrary(java.lang.String,int,android.os.StrictMode$ThreadPolicy)
+    public abstract java.lang.String toString()
+com.facebook.soloader.SysUtil$LollipopSysdeps
 com.facebook.soloader.SystemLoadLibraryWrapper:
     public abstract void loadLibrary(java.lang.String)
-com.facebook.soloader.UnpackingSoSource$InputDso:
-    public abstract int available()
-    public abstract com.facebook.soloader.UnpackingSoSource$Dso getDso()
-    public abstract java.lang.String getFileName()
-    public abstract void write(java.io.DataOutput,byte[])
-com.facebook.soloader.UnpackingSoSource:
-    public java.lang.String[] mAbis
-com.facebook.soloader.nativeloader.NativeLoaderDelegate:
-    public abstract boolean loadLibrary(java.lang.String,int)
+com.facebook.soloader.UnpackingSoSource
+com.facebook.soloader.nativeloader.NativeLoader:
+    public static com.facebook.soloader.nativeloader.NativeLoaderDelegate sDelegate
+com.facebook.soloader.nativeloader.NativeLoaderDelegate
 com.google.android.datatransport.Transformer:
     public abstract java.lang.Object apply(java.lang.Object)
 com.google.android.datatransport.Transport:
@@ -37610,6 +37274,9 @@ com.google.android.material.datepicker.MaterialCalendarGridView$1:
     public final synthetic com.google.android.material.datepicker.MaterialCalendarGridView this$0
 com.google.android.material.datepicker.SmoothCalendarLayoutManager$1:
     public final synthetic com.google.android.material.datepicker.SmoothCalendarLayoutManager this$0
+com.google.android.material.datepicker.UtcDates:
+    public static java.text.DateFormat getFormat(int,java.util.Locale)
+    public static java.text.DateFormat getFullFormat(java.util.Locale)
 com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton$3:
     public final synthetic com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton this$0
     public final synthetic com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton$OnChangedCallback val$callback
@@ -38020,6 +37687,12 @@ kotlin.LazyKt__LazyKt
 kotlin.SafePublicationLazyImpl:
     public static final kotlin.SafePublicationLazyImpl$Companion Companion
     public final java.lang.Object final
+kotlin.UInt:
+    public static final kotlin.UInt$Companion Companion
+    public final int data
+kotlin.ULong:
+    public static final kotlin.ULong$Companion Companion
+    public final long data
 kotlin.collections.ArraysKt
 kotlin.collections.ArraysKt___ArraysKt:
     public static final java.lang.Object[] sortedArrayWith(java.lang.Object[],java.util.Comparator)
@@ -38027,6 +37700,10 @@ kotlin.collections.ArraysKt___ArraysKt:
 kotlin.collections.CollectionSystemProperties:
     public static final kotlin.collections.CollectionSystemProperties INSTANCE
 kotlin.collections.CollectionsKt
+kotlin.collections.CollectionsKt__MutableCollectionsKt:
+    public static final boolean filterInPlace$CollectionsKt__MutableCollectionsKt(java.lang.Iterable,kotlin.jvm.functions.Function1,boolean)
+    public static final boolean filterInPlace$CollectionsKt__MutableCollectionsKt(java.util.List,kotlin.jvm.functions.Function1,boolean)
+    public static final boolean removeAll(java.util.List,kotlin.jvm.functions.Function1)
 kotlin.collections.MapsKt
 kotlin.collections.MapsKt___MapsKt
 kotlin.collections.SetsKt
@@ -38050,9 +37727,13 @@ kotlin.random.AbstractPlatformRandom:
     public int nextBits(int)
 kotlin.random.Random$Default:
     public int nextBits(int)
+    public int nextInt(int,int)
 kotlin.random.Random:
     public abstract int nextBits(int)
+    public int nextInt(int,int)
 kotlin.random.RandomKt
+kotlin.random.jdk8.PlatformThreadLocalRandom:
+    public int nextInt(int,int)
 kotlin.ranges.RangesKt
 kotlin.sequences.SequencesKt
 kotlin.text.CharsKt
@@ -38061,16 +37742,17 @@ kotlin.text.Charsets:
     public static final java.nio.charset.Charset US_ASCII
     public static final java.nio.charset.Charset UTF_16
     public static final java.nio.charset.Charset UTF_16LE
-kotlin.text.Regex:
-    public static final kotlin.text.Regex$Companion Companion
-kotlin.text.StringsKt
-kotlin.text.StringsKt__StringsKt:
-    public static final java.lang.String substringAfter(java.lang.String,java.lang.String,java.lang.String)
-    public static synthetic java.lang.String substringAfter$default(java.lang.String,java.lang.String,java.lang.String,int)
-    public static final java.lang.String substringBefore(java.lang.String,char,java.lang.String)
-    public static final java.lang.String substringBefore(java.lang.String,java.lang.String,java.lang.String)
-    public static synthetic java.lang.String substringBefore$default(java.lang.String,char,java.lang.String,int)
-    public static synthetic java.lang.String substringBefore$default(java.lang.String,java.lang.String,java.lang.String,int)
+kotlin.text.MatchGroupCollection
+kotlin.text.MatcherMatchResult:
+    public final kotlin.text.MatchGroupCollection groups
+kotlin.text.RegexOption:
+    public final int mask
+kotlin.text.StringsKt:
+    public static synthetic bridge java.lang.String substringAfter$default(java.lang.String,java.lang.String,java.lang.String,int,java.lang.Object)
+    public static synthetic bridge java.lang.String substringBefore$default(java.lang.String,char,java.lang.String,int,java.lang.Object)
+    public static synthetic bridge java.lang.String substringBefore$default(java.lang.String,java.lang.String,java.lang.String,int,java.lang.Object)
+kotlin.text.SystemProperties:
+    public static final kotlin.text.SystemProperties INSTANCE
 kotlinx.coroutines.AbstractTimeSource
 kotlinx.coroutines.AbstractTimeSourceKt:
     public static kotlinx.coroutines.AbstractTimeSource timeSource
@@ -38080,7 +37762,6 @@ kotlinx.coroutines.CancellableContinuationImpl:
 kotlinx.coroutines.CommonPool:
     public static boolean usePrivatePool
 kotlinx.coroutines.CopyableThrowable
-kotlinx.coroutines.CoroutineId$$InternalSyntheticBackport$0$2d56af953134922fe64484e4d4be353ba8cd75a9b58b3a99f537d5eec0900243$0
 kotlinx.coroutines.CoroutineId$Key
 kotlinx.coroutines.CoroutineId
 kotlinx.coroutines.CoroutineName$Key
@@ -38190,9 +37871,21 @@ leakcanary.AndroidLeakFixes$ACTIVITY_MANAGER$apply$1$3
 leakcanary.AndroidLeakFixes$ACTIVITY_MANAGER$apply$1
 leakcanary.AndroidLeakFixes$BUBBLE_POPUP$apply$1$2
 leakcanary.AndroidLeakFixes$BUBBLE_POPUP$apply$1
+leakcanary.AndroidLeakFixes$Companion$WindowDelegateCallback$onContentChanged$1
+leakcanary.AndroidLeakFixes$Companion$WindowDelegateCallback
+leakcanary.AndroidLeakFixes$Companion$onDecorViewReady$1
+leakcanary.AndroidLeakFixes$Companion:
+    public static final synthetic void access$onDecorViewReady(leakcanary.AndroidLeakFixes$Companion,android.view.Window,kotlin.jvm.functions.Function0)
+    public final void onContentChanged(android.view.Window,kotlin.jvm.functions.Function0)
+    public final void onDecorViewReady(android.view.Window,kotlin.jvm.functions.Function0)
+    public final leakcanary.AndroidLeakFixes$Companion$WindowDelegateCallback wrapCallback(android.view.Window)
+leakcanary.AndroidLeakFixes$IMM_FOCUSED_VIEW$apply$2$onActivityCreated$1
+leakcanary.AndroidLeakFixes$IMM_FOCUSED_VIEW$apply$2
 leakcanary.AndroidLeakFixes$LAST_HOVERED_VIEW$apply$1$2
 leakcanary.AndroidLeakFixes$LAST_HOVERED_VIEW$apply$1
 leakcanary.AndroidLeakFixes$MEDIA_SESSION_LEGACY_HELPER$apply$1
+leakcanary.AndroidLeakFixes$SPELL_CHECKER$apply$noOpListener$1
+leakcanary.AndroidLeakFixes$SPELL_CHECKER$apply$proxyService$1
 leakcanary.AndroidLeakFixes:
     public static final enum leakcanary.AndroidLeakFixes ACCESSIBILITY_NODE_INFO
     public static final enum leakcanary.AndroidLeakFixes ACTIVITY_MANAGER
@@ -38224,6 +37917,7 @@ leakcanary.internal.DisplayLeakConnectorView:
 leakcanary.internal.HeapDumpTrigger:
     public static final leakcanary.internal.HeapDumpTrigger$Companion Companion
 leakcanary.internal.InternalLeakCanary$WhenMappings
+leakcanary.internal.ReferenceCleaner
 leakcanary.internal.RowElementLayout:
     public final int moreMarginTop
 leakcanary.internal.activity.db.LeaksDbHelper:

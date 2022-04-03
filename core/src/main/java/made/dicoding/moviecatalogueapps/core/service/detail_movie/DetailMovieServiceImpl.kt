@@ -6,6 +6,7 @@ import kotlinx.coroutines.flow.flow
 import made.dicoding.moviecatalogueapps.core.common.ConstanNameHelper
 import made.dicoding.moviecatalogueapps.core.data.remote.network.DetailMoviesApi
 import made.dicoding.moviecatalogueapps.core.model.Movies
+import made.dicoding.moviecatalogueapps.core.utils.EspressoIdling
 import javax.inject.Inject
 
 class DetailMovieServiceImpl @Inject constructor(
@@ -13,40 +14,29 @@ class DetailMovieServiceImpl @Inject constructor(
 ): IDetailMovieService {
     override fun fetchDetailMovies(id:Int): Flow<Result<Movies>> {
         return flow {
-//            EspressoIdling.increment()
             val detail = detailMoviesApi.getDetailMovie(
                 id,
                 ConstanNameHelper.API_KEY,
                 ConstanNameHelper.LANGUAGE
             )
-//            if(!EspressoIdling.getEspressoIdlingResource.isIdleNow){
-//                EspressoIdling.decrement()
-//            }
             emit(Result.success(detail.toMovies()))
         }.catch {
-//            if(!EspressoIdling.getEspressoIdlingResource.isIdleNow){
-//                EspressoIdling.decrement()
-//            }
             emit(Result.failure(RuntimeException("Something went wrong")))
         }
     }
 
     override fun fetchDetailTV(id:Int): Flow<Result<Movies>> {
         return flow {
-//            EspressoIdling.increment()
             val detail = detailMoviesApi.getDetailTv(
                 id,
                 ConstanNameHelper.API_KEY,
                 ConstanNameHelper.LANGUAGE
             )
-//            if(!EspressoIdling.getEspressoIdlingResource.isIdleNow){
-//                EspressoIdling.decrement()
-//            }
+            if(!EspressoIdling.getEspressoIdlingResource.isIdleNow){
+                EspressoIdling.decrement()
+            }
             emit(Result.success(detail.toMovies()))
         }.catch {
-//            if(!EspressoIdling.getEspressoIdlingResource.isIdleNow){
-//                EspressoIdling.decrement()
-//            }
             emit(Result.failure(RuntimeException("Something went wrong")))
         }
     }
