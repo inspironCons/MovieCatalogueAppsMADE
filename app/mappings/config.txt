@@ -175,10 +175,17 @@
 -keepclassmembernames class androidx.appcompat.view.WindowCallbackWrapper {
     android.view.Window$Callback mWrapped;
 }
-
-
 # End of content from D:\Ramdhon\DICODING\MADE\Submission\MovieCatalogueAppsMADE\app\proguard-rules.pro
-# The proguard configuration file for the following section is D:\Ramdhon\DICODING\MADE\Submission\MovieCatalogueAppsMADE\app\build\intermediates\merged_aapt_proguard_file\release\merged_aapt_rules.txt
+# The proguard configuration file for the following section is D:\Ramdhon\DICODING\MADE\Submission\MovieCatalogueAppsMADE\app\proguard-rules-debug.pro
+-keep class kotlin.text.StringsKt** { <methods>; }
+
+-keep class com.sun.source.tree.Tree**
+-keepclassmembers class com.sun.source.tree.Tree** {*;}
+
+-keep class javax.lang.model.element.Element**
+-keepclassmembers class javax.lang.model.element.Element** {*;}
+# End of content from D:\Ramdhon\DICODING\MADE\Submission\MovieCatalogueAppsMADE\app\proguard-rules-debug.pro
+# The proguard configuration file for the following section is D:\Ramdhon\DICODING\MADE\Submission\MovieCatalogueAppsMADE\app\build\intermediates\merged_aapt_proguard_file\debug\merged_aapt_rules.txt
 -keep class androidx.core.app.CoreComponentFactory { <init>(); }
 -keep class androidx.room.MultiInstanceInvalidationService { <init>(); }
 -keep class androidx.startup.InitializationProvider { <init>(); }
@@ -319,8 +326,8 @@
 
 
 
-# End of content from D:\Ramdhon\DICODING\MADE\Submission\MovieCatalogueAppsMADE\app\build\intermediates\merged_aapt_proguard_file\release\merged_aapt_rules.txt
-# The proguard configuration file for the following section is D:\Ramdhon\DICODING\MADE\Submission\MovieCatalogueAppsMADE\core\build\intermediates\consumer_proguard_dir\release\lib0\proguard.txt
+# End of content from D:\Ramdhon\DICODING\MADE\Submission\MovieCatalogueAppsMADE\app\build\intermediates\merged_aapt_proguard_file\debug\merged_aapt_rules.txt
+# The proguard configuration file for the following section is D:\Ramdhon\DICODING\MADE\Submission\MovieCatalogueAppsMADE\core\build\intermediates\consumer_proguard_dir\debug\lib0\proguard.txt
 #SQL Chiper proguard rules
 -keep,includedescriptorclasses class net.sqlcipher.** { *; }
 -keep,includedescriptorclasses interface net.sqlcipher.** { *; }
@@ -402,7 +409,7 @@
 -keepclassmembers,allowobfuscation class * {
   @com.google.gson.annotations.SerializedName <fields>;
 }
-# End of content from D:\Ramdhon\DICODING\MADE\Submission\MovieCatalogueAppsMADE\core\build\intermediates\consumer_proguard_dir\release\lib0\proguard.txt
+# End of content from D:\Ramdhon\DICODING\MADE\Submission\MovieCatalogueAppsMADE\core\build\intermediates\consumer_proguard_dir\debug\lib0\proguard.txt
 # The proguard configuration file for the following section is C:\Users\RMS-PI4\.gradle\caches\transforms-3\b753f79c6b2be1acc5c17af9004c9f9b\transformed\rules\lib\META-INF\com.android.tools\r8-from-1.6.0\coroutines.pro
 # Allow R8 to optimize away the FastServiceLoader.
 # Together with ServiceLoader optimization in R8

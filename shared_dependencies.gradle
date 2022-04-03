@@ -89,7 +89,6 @@ dependencies {
     testImplementation project(':core')
     androidTestImplementation project(":core")
 
-    androidTestImplementation 'com.squareup.leakcanary:leakcanary-android-instrumentation:2.8.1'
     androidTestImplementation 'androidx.test:rules:1.4.0'
     androidTestImplementation 'androidx.test:runner:1.4.0'
     androidTestImplementation 'androidx.test.ext:junit-ktx:1.1.3'
