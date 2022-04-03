@@ -32,9 +32,6 @@ class DetailMovieServiceImpl @Inject constructor(
                 ConstanNameHelper.API_KEY,
                 ConstanNameHelper.LANGUAGE
             )
-            if(!EspressoIdling.getEspressoIdlingResource.isIdleNow){
-                EspressoIdling.decrement()
-            }
             emit(Result.success(detail.toMovies()))
         }.catch {
             emit(Result.failure(RuntimeException("Something went wrong")))
